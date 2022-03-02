@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .transisi1 {
     height: 100vh;
     position: relative;
@@ -48,52 +52,52 @@
 }
 
 .box-1 {
-    top: 115vh;
+    top: 10vh;
 }
 
 .box-2 {
-    top: 102vh;
+    top: 2vh;
     left: 650px;
 }
 
 .box-3 {
-    top: 110vh;
+    top: 15vh;
     right: 100px;
 }
 
 .box-4 {
     right: 398px;
-    top: 120vh;
+    top: 20vh;
 }
 
 .box-5 {
-    top: 178vh;
+    top: 75vh;
 }
 
 .box-6 {
-    top: 186vh;
+    top: 86vh;
     right: 350px;
 }
 
 .box-7 {
-    top: 170vh;
+    top: 68vh;
     right: 100px;
 }
 
 .box-8 {
-    top: 186.5vh;
+    top: 87vh;
     right: 100px;
 }
 
 .hr-box {
     width: 200px;
-    top: 130vh;
+    top: 30vh;
     right: 340px;
 }
 
 .hr {
     width: 300px;
-    top: 111.5vh;
+    top: 11.5vh;
     right: 293px;
 }
 
@@ -110,13 +114,13 @@
 
 .can-box {
     width: 130px;
-    top: 137vh;
+    top: 37vh;
     left: 540px;
 }
 
 .can {
     width: 300px;
-    top: 121vh;
+    top: 21vh;
     right: 500px;
 }
 
@@ -128,13 +132,13 @@
 
 .staff-box {
     width: 130px;
-    top: 137vh;
+    top: 37vh;
     right: 170px;
 }
 
 .staff {
     width: 200px;
-    top: 119.5vh;
+    top: 19.5vh;
     right: 130px;
 }
 
