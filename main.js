@@ -62,22 +62,22 @@ var timedelay = 1;
 
 function delayCheck() {
     if(timedelay == 30) {
-        gsap.timeline().fromTo('.box-1', {y: 0, ease: Linear.easeNone}, {y: 100, ease: Linear.easeNone}, 'first')
-        .fromTo('.box-1', {y: 100, ease: Linear.easeNone}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second')
-        .fromTo('.box-2', {y: 0, ease: Linear.easeNone}, {y: 180, ease: Linear.easeNone}, 'first')
-        .fromTo('.box-2', {y: 180, ease: Linear.easeNone}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second')
-        .fromTo('.box-3', {y: 0, ease: Linear.easeNone}, {y: 150, ease: Linear.easeNone}, 'first')
-        .fromTo('.box-3', {y: 150, ease: Linear.easeNone}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second')
-        .fromTo('.box-4', {y: 0, ease: Linear.easeNone}, {y: 100, ease: Linear.easeNone}, 'first')
-        .fromTo('.box-4', {y: 100, ease: Linear.easeNone}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second')
-        .fromTo('.box-5', {y: 0, ease: Linear.easeNone}, {y: 100, ease: Linear.easeNone}, 'first')
-        .fromTo('.box-5', {y: 100, ease: Linear.easeNone}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second')
-        .fromTo('.box-6', {y: 0, ease: Linear.easeNone}, {y: 180, ease: Linear.easeNone}, 'first')
-        .fromTo('.box-6', {y: 180, ease: Linear.easeNone}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second')
-        .fromTo('.box-7', {y: 0, ease: Linear.easeNone}, {y: 120, ease: Linear.easeNone}, 'first')
-        .fromTo('.box-7', {y: 120, ease: Linear.easeNone}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second')
-        .fromTo('.box-8', {y: 0, ease: Linear.easeNone}, {y: 180, ease: Linear.easeNone}, 'first')
-        .fromTo('.box-8', {y: 180, ease: Linear.easeNone}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second');
+        gsap.timeline().fromTo('.box-1', {y: 0}, {y: 100, ease: Linear.easeNone}, 'first')
+        .fromTo('.box-1', {y: 100}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second')
+        .fromTo('.box-2', {y: 0}, {y: 180, ease: Linear.easeNone}, 'first')
+        .fromTo('.box-2', {y: 180}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second')
+        .fromTo('.box-3', {y: 0}, {y: 150, ease: Linear.easeNone}, 'first')
+        .fromTo('.box-3', {y: 150}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second')
+        .fromTo('.box-4', {y: 0}, {y: 100, ease: Linear.easeNone}, 'first')
+        .fromTo('.box-4', {y: 100}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second')
+        .fromTo('.box-5', {y: 0}, {y: 100, ease: Linear.easeNone}, 'first')
+        .fromTo('.box-5', {y: 100}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second')
+        .fromTo('.box-6', {y: 0}, {y: 180, ease: Linear.easeNone}, 'first')
+        .fromTo('.box-6', {y: 180}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second')
+        .fromTo('.box-7', {y: 0}, {y: 120, ease: Linear.easeNone}, 'first')
+        .fromTo('.box-7', {y: 120}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second')
+        .fromTo('.box-8', {y: 0}, {y: 180, ease: Linear.easeNone}, 'first')
+        .fromTo('.box-8', {y: 180}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second');
         timedelay = 28;
     } 
     timedelay = timedelay+1;
