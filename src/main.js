@@ -12,18 +12,31 @@ const header = gsap.timeline({
     }
 });
 
-header.fromTo('.section1', {display: 'none', opacity: 0}, {display: 'block', opacity: 1})
-.fromTo('.desc h1', {x: -500, opacity: 0}, {x: 0, opacity: 1, duration: 1, delay: 0.2})
-.fromTo('.desc p', {x: -500, opacity: 0}, {x: 0, opacity: 1, duration: 1, delay: 0.2})
-.fromTo('.box img', {y: 100, display: 'none'}, {y: 0, display: 'block', duration: 1, delay: 0.2}, 'second')
-.from('.circle-1', {x: -100, duration: 1, delay: 0.2}, 'second')
-.from('.circle-2', {x: 200, duration: 1, delay: 0.2}, 'second')
-.from('.circle-3', {y: 100, duration: 1, delay: 0.2}, 'second')
-.fromTo('.hr', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1}, 'third')
-.fromTo('.staff', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1}, 'four')
-.fromTo('.can', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1}, 'fifth')
-.fromTo('.desc a', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1}, 'sixth')
-.fromTo('nav', {autoAlpha: 0}, {autoAlpha: 1, duration: 1}, 'sixth');
+// header.fromTo('.section1', {autoAlpha: 0, opacity: 0}, {autoAlpha: 1, opacity: 1})
+// .fromTo('.desc h1', {x: -500, opacity: 0}, {x: 0, opacity: 1, duration: 1, delay: 0.2})
+// .fromTo('.desc p', {x: -500, opacity: 0}, {x: 0, opacity: 1, duration: 1, delay: 0.2})
+// .fromTo('.box img', {y: 100, autoAlpha: 0}, {y: 0, autoAlpha: 1, duration: 1, delay: 0.2}, 'second')
+// .from('.circle-1', {x: -100, duration: 1, delay: 0.2}, 'second')
+// .from('.circle-2', {x: 200, duration: 1, delay: 0.2}, 'second')
+// .from('.circle-3', {y: 100, duration: 1, delay: 0.2}, 'second')
+// .fromTo('.hr', {autoAlpha: 0, opacity: 0}, {autoAlpha: 1, opacity: 1, duration: 1}, 'third')
+// .fromTo('.staff', {autoAlpha: 0, opacity: 0}, {autoAlpha: 1, opacity: 1, duration: 1}, 'fourth')
+// .fromTo('.can', {autoAlpha: 0, opacity: 0}, {autoAlpha: 1, opacity: 1, duration: 1}, 'fifth')
+// .fromTo('.desc a', {autoAlpha: 0, opacity: 0}, {autoAlpha: 1, opacity: 1, duration: 1}, 'sixth')
+// .fromTo('nav', {autoAlpha: 0}, {autoAlpha: 1, duration: 1}, 'sixth');
+
+header.fromTo('.section1', {autoAlpha: 0, opacity: 0}, {autoAlpha: 1, opacity: 1})
+.fromTo('.desc h1', {x: -500, opacity: 0}, {x: 0, opacity: 1})
+.fromTo('.desc p', {x: -500, opacity: 0}, {x: 0, opacity: 1})
+.fromTo('.box img', {y: 100, autoAlpha: 0}, {y: 0, autoAlpha: 1}, 'second')
+.from('.circle-1', {x: -100}, 'second')
+.from('.circle-2', {x: 200}, 'second')
+.from('.circle-3', {y: 100}, 'second')
+.fromTo('.hr', {autoAlpha: 0, opacity: 0}, {autoAlpha: 1, opacity: 1}, 'third')
+.fromTo('.staff', {autoAlpha: 0, opacity: 0}, {autoAlpha: 1, opacity: 1}, 'fourth')
+.fromTo('.can', {autoAlpha: 0, opacity: 0}, {autoAlpha: 1, opacity: 1}, 'fifth')
+.fromTo('.desc a', {autoAlpha: 0, opacity: 0}, {autoAlpha: 1, opacity: 1}, 'sixth')
+.fromTo('nav', {autoAlpha: 0}, {autoAlpha: 1}, 'sixth');
 
 // gsap.utils.toArray("section").forEach((section, i) => {
 //     ScrollTrigger.create({

@@ -12,8 +12,9 @@ nav a {
 nav a.btn {
     background-color: #FFCF54 !important;
     border-radius: 8px !important;
+    font-weight: bold;
     font-size: small;
-    color: rgb(61, 61, 61) !important;
+    color: rgb(66, 66, 66) !important;
 }
 
 .dropdown-toggle::after {
@@ -28,7 +29,6 @@ nav a.btn {
     position: absolute;
     top: 0%;
     left: 0%;
-    overflow: hidden;
 }
 
 .desc {
@@ -61,7 +61,7 @@ nav a.btn {
 }
 
 .box-1 {
-    top: 20vh;
+    top: 18vh;
 }
 
 .box-2 {
@@ -70,7 +70,7 @@ nav a.btn {
 }
 
 .box-3 {
-    top: 18vh;
+    top: 17vh;
     right: 90px;
 }
 
@@ -80,12 +80,12 @@ nav a.btn {
 
 .box-5 {
     top: 90vh;
-    right: 370px;
+    right: 350px;
 }
 
 .box-6 {
     top: 60vh;
-    right: 50px;
+    right: 40px;
 }
 
 .box-7 {
@@ -95,14 +95,14 @@ nav a.btn {
 
 .hr-box {
     width: 200px;
-    top: 30vh;
+    top: 25vh;
     right: 340px;
 }
 
 .hr-img {
     width: 280px;
     top: 16vh;
-    right: 296px;
+    right: 297px;
 }
 
 .section1 h2 {
@@ -136,14 +136,14 @@ nav a.btn {
 
 .staff-box {
     width: 140px;
-    top: 35vh;
+    top: 34.5vh;
     right: 160px;
 }
 
 .staff-img {
     width: 200px;
     top: 27.5vh;
-    right: 105px;
+    right: 108px;
 }
 
 .staff-text {
