@@ -42,7 +42,7 @@ nav a.btn {
 }
 
 .desc .btn {
-   background-color:#edf2f7;
+   background-color: white !important;
    font-weight: 500;
    /* box-shadow: -7px -7px 10px #ffeac1, 5px 5px 10px grey; */
    width: 70%;
@@ -61,7 +61,7 @@ nav a.btn {
 }
 
 .box-1 {
-    top: 20vh;
+    top: 18vh;
 }
 
 .box-2 {
@@ -95,14 +95,15 @@ nav a.btn {
 
 .hr-box {
     width: 200px;
-    top: 30vh;
-    right: 340px;
+    height: 320px;
+    top: 24.5vh;
+    right: 345px;
 }
 
 .hr-img {
     width: 280px;
     top: 16vh;
-    right: 296px;
+    right: 302px;
 }
 
 .section1 h2 {
@@ -117,9 +118,9 @@ nav a.btn {
 }
 
 .can-box {
-    width: 130px;
-    top: 37vh;
-    left: 555px;
+    width: 140px;
+    top: 34.5vh;
+    left: 545px;
 }
 
 .can-img {
@@ -131,7 +132,7 @@ nav a.btn {
 .can-text {
     font-size: 16px;
     margin-top: 430px;
-    margin-left: 95px;
+    margin-left: 85px;
 }
 
 .staff-box {
