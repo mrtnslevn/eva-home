@@ -152,3 +152,165 @@ nav a.btn {
     margin-top: 430px;
     margin-left: 518px;
 }
+
+@media screen and (min-width: 1024px) {
+    .desc .btn {
+        font-size: 16px !important;
+    }
+    .can-img {
+        top: 23vh;
+        right: 370px;
+    }
+    .can-box {
+        top: 35.2vh;
+        left: 420px;
+    }
+    .can-text {
+        margin-top: 500px;
+        margin-left: 65px;
+    }
+    .hr-img {
+        top: 17vh;
+        right: 180px;
+    }
+    .hr-box {
+        right: 223px;
+    }
+    .hr-text {
+        margin-top: 510px;
+        margin-left: 240px;
+    }
+    .staff-img {
+        right: 20px;
+    }
+    .staff-box {
+        right: 70px;
+        top: 34vh;
+    }
+    .staff-text {
+        margin-top: 490px;
+        margin-left: 465px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .desc .btn {
+        font-size: 16px !important;
+    }
+    .can-img {
+        top: 23vh;
+        right: 430px;
+    }
+    .can-box {
+        top: 32.5vh;
+        left: 420px;
+    }
+    .can-text {
+        margin-top: 500px;
+        margin-left: 30px;
+    }
+    .hr-img {
+        top: 18.5vh;
+        right: 240px;
+    }
+    .hr-box {
+        right: 280px;
+    }
+    .hr-text {
+        margin-top: 540px;
+        margin-left: 210px;
+    }
+    .staff-img {
+        right: 45px;
+    }
+    .staff-box {
+        right: 100px;
+        top: 32.5vh;
+    }
+    .staff-text {
+        margin-top: 490px;
+        margin-left: 450px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .desc .btn {
+        font-size: 20px !important;
+    }
+    .hr-box {
+        top: 24.5vh;
+        right: 345px;
+    }
+    .hr-img {
+        top: 16vh;
+        right: 302px;
+    }
+    .hr-text {
+        margin-top: 460px;
+        margin-left: 280px;
+    }
+    .can-box {
+        top: 34.5vh;
+        left: 545px;
+    }
+    .can-img {
+        top: 21vh;
+        right: 500px;
+    }
+    .can-text {
+        margin-top: 430px;
+        margin-left: 85px;
+    }
+    .staff-box {
+        top: 35vh;
+        right: 160px;
+    }
+    .staff-img {
+        top: 27.5vh;
+        right: 105px;
+    }
+    .staff-text {
+        margin-top: 430px;
+        margin-left: 518px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .desc .btn {
+        font-size: 20px !important;
+    }
+    .can-img {
+        top: 23vh;
+        left: 580px;
+    }
+    .can-box {
+        top: 35vh;
+        left: 650px;
+    }
+    .can-text {
+        top: 4vh;
+        left: 570px;
+    }
+    .hr-img {
+        top: 17vh;
+        left: 865px;
+    }
+    .hr-box {
+        left: 900px;
+    }
+    .hr-text {
+        left: 630px;
+        top: 3vh;
+    }
+    .staff-img {
+        right: 45px;
+    }
+    .staff-box {
+        right: 100px;
+        top: 34.5vh;
+    }
+    .staff-text {
+        top: 3vh;
+        right: 165px;
+    }
+}

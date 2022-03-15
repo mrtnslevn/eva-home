@@ -16,9 +16,6 @@ header.fromTo('.section1', {display: 'none', opacity: 0}, {display: 'block', opa
 .fromTo('.desc h1', {x: -500, opacity: 0}, {x: 0, opacity: 1, duration: 1, delay: 0.2})
 .fromTo('.desc p', {x: -500, opacity: 0}, {x: 0, opacity: 1, duration: 1, delay: 0.2})
 .fromTo('.box img', {y: 100, display: 'none'}, {y: 0, display: 'block', duration: 1, delay: 0.2}, 'second')
-.from('.circle-1', {x: -100, duration: 1, delay: 0.2}, 'second')
-.from('.circle-2', {x: 200, duration: 1, delay: 0.2}, 'second')
-.from('.circle-3', {y: 100, duration: 1, delay: 0.2}, 'second')
 .fromTo('.hr', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1}, 'third')
 .fromTo('.staff', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1}, 'four')
 .fromTo('.can', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1}, 'fifth')
@@ -81,9 +78,7 @@ function delayCheck() {
         .fromTo('.box-6', {y: 0}, {y: 180, ease: Linear.easeNone}, 'first')
         .fromTo('.box-6', {y: 180}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second')
         .fromTo('.box-7', {y: 0}, {y: 120, ease: Linear.easeNone}, 'first')
-        .fromTo('.box-7', {y: 120}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second')
-        .fromTo('.box-8', {y: 0}, {y: 180, ease: Linear.easeNone}, 'first')
-        .fromTo('.box-8', {y: 180}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second');
+        .fromTo('.box-7', {y: 120}, {y: 0, ease: Linear.easeNone, delay: 0.2}, 'second');
         timedelay = 28;
     } 
     timedelay = timedelay+1;
