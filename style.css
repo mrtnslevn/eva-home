@@ -61,36 +61,36 @@ nav a.btn {
 }
 
 .box-1 {
-    top: 18vh;
+    margin-top: 110px;
 }
 
 .box-2 {
-    top: 12vh;
-    left: 650px;
+    margin-top: 80px;
+    margin-left: 150px;
 }
 
 .box-3 {
-    top: 18vh;
-    right: 90px;
+    margin-top: 110px;
+    margin-left: 680px;
 }
 
 .box-4 {
-    top: 75vh;
+    margin-top: 470px;
 }
 
 .box-5 {
-    top: 90vh;
-    right: 370px;
+    margin-top: 560px;
+    margin-left: 400px;
 }
 
 .box-6 {
-    top: 60vh;
-    right: 50px;
+    margin-top: 380px;
+    margin-left: 710px;
 }
 
 .box-7 {
-    top: 78vh;
-    right: 160px;
+    margin-top: 480px;
+    margin-left: 600px;
 }
 
 .hr-box {
@@ -154,6 +154,20 @@ nav a.btn {
 }
 
 @media screen and (min-width: 1024px) {
+    .box-3 {
+        margin-left: 580px;
+    }
+    .box-5 {
+        margin-top: 620px;
+        margin-left: 330px;
+    }
+    .box-6 {
+        margin-left: 640px;
+    }
+    .box-7{
+        margin-top: 520px;
+        margin-left: 530px;
+    }
     .desc .btn {
         font-size: 16px !important;
     }
@@ -196,6 +210,23 @@ nav a.btn {
 }
 
 @media screen and (min-width: 1080px) {
+    .box-3 {
+        margin-left: 580px;
+    }
+    .box-4 {
+        margin-top: 530px;
+    }
+    .box-5 {
+        margin-top: 620px;
+        margin-left: 330px;
+    }
+    .box-6 {
+        margin-left: 640px;
+    }
+    .box-7{
+        margin-top: 520px;
+        margin-left: 530px;
+    }
     .desc .btn {
         font-size: 16px !important;
     }
@@ -237,6 +268,32 @@ nav a.btn {
 }
 
 @media screen and (min-width: 1280px) {
+    .box-1 {
+        margin-top: 110px;
+    }
+    .box-2 {
+        margin-top: 80px;
+        margin-left: 150px;
+    }
+    .box-3 {
+        margin-top: 110px;
+        margin-left: 680px;
+    }
+    .box-4 {
+        margin-top: 470px;
+    }
+    .box-5 {
+        margin-top: 560px;
+        margin-left: 400px;
+    }
+    .box-6 {
+        margin-top: 380px;
+        margin-left: 710px;
+    }
+    .box-7 {
+        margin-top: 480px;
+        margin-left: 600px;
+    }
     .desc .btn {
         font-size: 20px !important;
     }
@@ -279,6 +336,23 @@ nav a.btn {
 }
 
 @media screen and (min-width: 1440px) {
+    .box-2 {
+        margin-left: 250px;
+    }
+    .box-3 {
+        margin-left: 780px;
+    }
+    .box-5 {
+        margin-top: 620px;
+        margin-left: 450px;
+    }
+    .box-6 {
+        margin-left: 840px;
+    }
+    .box-7{
+        margin-top: 550px;
+        margin-left: 720px;
+    }
     .desc .btn {
         font-size: 20px !important;
     }
