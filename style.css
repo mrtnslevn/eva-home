@@ -158,22 +158,23 @@ nav a.btn {
         font-size: 16px !important;
     }
     .can-img {
-        top: 23vh;
+        top: 19vh;
         right: 370px;
     }
     .can-box {
-        top: 35.2vh;
+        top: 27vh;
         left: 420px;
     }
     .can-text {
         margin-top: 500px;
-        margin-left: 65px;
+        margin-left: 60px;
     }
     .hr-img {
-        top: 17vh;
+        top: 15vh;
         right: 180px;
     }
     .hr-box {
+        top: 20vh;
         right: 223px;
     }
     .hr-text {
@@ -181,11 +182,12 @@ nav a.btn {
         margin-left: 240px;
     }
     .staff-img {
-        right: 20px;
+        top: 22vh;
+        right: 9px;
     }
     .staff-box {
-        right: 70px;
-        top: 34vh;
+        right: 60px;
+        top: 26.5vh;
     }
     .staff-text {
         margin-top: 490px;
@@ -198,11 +200,11 @@ nav a.btn {
         font-size: 16px !important;
     }
     .can-img {
-        top: 23vh;
+        top: 19vh;
         right: 430px;
     }
     .can-box {
-        top: 32.5vh;
+        top: 27vh;
         left: 420px;
     }
     .can-text {
@@ -210,22 +212,23 @@ nav a.btn {
         margin-left: 30px;
     }
     .hr-img {
-        top: 18.5vh;
+        top: 15vh;
         right: 240px;
     }
     .hr-box {
         right: 280px;
     }
     .hr-text {
-        margin-top: 540px;
+        margin-top: 520px;
         margin-left: 210px;
     }
     .staff-img {
+        top: 22.5vh;
         right: 45px;
     }
     .staff-box {
         right: 100px;
-        top: 32.5vh;
+        top: 27vh;
     }
     .staff-text {
         margin-top: 490px;
@@ -280,37 +283,39 @@ nav a.btn {
         font-size: 20px !important;
     }
     .can-img {
-        top: 23vh;
-        left: 580px;
+        top: 19vh;
+        left: 530px;
     }
     .can-box {
-        top: 35vh;
-        left: 650px;
+        top: 27vh;
+        left: 600px;
     }
     .can-text {
-        top: 4vh;
-        left: 570px;
+        top: 7vh;
+        left: 515px;
     }
     .hr-img {
-        top: 17vh;
-        left: 865px;
+        top: 15vh;
+        left: 812px;
     }
     .hr-box {
-        left: 900px;
+        top: 20vh;
+        left: 850px;
     }
     .hr-text {
-        left: 630px;
-        top: 3vh;
+        top: 5vh;
+        left: 570px;
     }
     .staff-img {
-        right: 45px;
+        top: 22.5vh;
+        right: 95px;
     }
     .staff-box {
-        right: 100px;
-        top: 34.5vh;
+        top: 27vh;
+        right: 150px;
     }
     .staff-text {
-        top: 3vh;
-        right: 165px;
+        top: 6vh;
+        right: 215px;
     }
 }
