@@ -41,15 +41,22 @@ nav a.btn {
     letter-spacing: 20px;
 }
 
+.desc p {
+    font-weight: 350;
+    font-size: 15px;
+}
+
 .desc .btn {
-   background-color: white !important;
+   background-color: #2B2B29 !important;
    font-weight: 500;
+   color: white;
    /* box-shadow: -7px -7px 10px #ffeac1, 5px 5px 10px grey; */
    width: 70%;
 }
 
 .desc .btn i {
-    color: #FFA600;
+    color: white;
+    font-weight: normal;
 }
 
 .section1 img {
@@ -65,8 +72,8 @@ nav a.btn {
 }
 
 .box-2 {
-    margin-top: 80px;
-    margin-left: 150px;
+    margin-top: 60px;
+    margin-left: 180px;
 }
 
 .box-3 {
@@ -272,8 +279,8 @@ nav a.btn {
         margin-top: 110px;
     }
     .box-2 {
-        margin-top: 80px;
-        margin-left: 150px;
+        margin-top: 60px;
+        margin-left: 180px;
     }
     .box-3 {
         margin-top: 110px;
