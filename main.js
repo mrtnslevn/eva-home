@@ -1,65 +1,16 @@
 gsap.registerPlugin(ScrollTrigger);
 
-const header = gsap.timeline({
-    scrollTrigger: {
-        trigger: '.section1',
-        // markers: true,
-        start: 'top top',
-        end: 'bottom center',
-        scrub: 5,
-        pin: true,
-        pinSpacing: false
-    }
-});
+const header = gsap.timeline({});
 
-header.fromTo('.section1', {display: 'none', opacity: 0}, {display: 'block', opacity: 1})
-.fromTo('.desc h1', {x: -500, opacity: 0}, {x: 0, opacity: 1, duration: 1, delay: 0.2})
-.fromTo('.desc p', {x: -500, opacity: 0}, {x: 0, opacity: 1, duration: 1, delay: 0.2})
-.fromTo('.box img', {y: 100, display: 'none'}, {y: 0, display: 'block', duration: 1, delay: 0.2}, 'second')
-.fromTo('.hr', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1}, 'third')
-.fromTo('.staff', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1}, 'four')
-.fromTo('.can', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1}, 'fifth')
-.fromTo('.desc a', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1}, 'sixth')
-.fromTo('nav', {autoAlpha: 0}, {autoAlpha: 1, duration: 1}, 'sixth');
-
-// gsap.utils.toArray("section").forEach((section, i) => {
-//     ScrollTrigger.create({
-//         trigger: section,
-//         start: "top top", 
-//         pin: true, 
-//         pinSpacing: false 
-//     });
-// });
-
-// gsap.timeline({
-//     scrollTrigger: {
-//         trigger: '.section1',
-//         // markers: true,
-//         start: '10% 100%',
-//         end: '100% 100%',
-//         scrub: true
-//     }
-// }).fromTo('nav', {autoAlpha: 0}, {autoAlpha: 1})
-
-// gsap.timeline({
-//     scrollTrigger: {
-//         trigger: '.desc',
-//         // markers: true,
-//         start: '0% 100%',
-//         end: '100% 100%',
-//         scrub: 4
-//     }
-// }).fromTo('.desc', {x: 500, opacity: 0}, {x: 0, opacity: 1}, 'first')
-// .fromTo('.box img', {y: 100, opacity: 0}, {y: 0, opacity: 1}, 'second')
-// .fromTo('.hr-box', {y: 100, opacity: 0}, {y: 0, opacity: 1}, 'third')
-// .fromTo('.hr', {y: 100, opacity: 0}, {y: 0, opacity: 1}, 'third')
-// .fromTo('.hr-text', {y: 100, opacity: 0}, {y: 0, opacity: 1}, 'third')
-// .fromTo('.can-box', {y: 100, opacity: 0}, {y: 0, opacity: 1}, 'four')
-// .fromTo('.can', {y: 100, opacity: 0}, {y: 0, opacity: 1}, 'four')
-// .fromTo('.can-text', {y: 100, opacity: 0}, {y: 0, opacity: 1}, 'four')
-// .fromTo('.staff-box', {y: 100, opacity: 0}, {y: 0, opacity: 1}, 'four')
-// .fromTo('.staff', {y: 100, opacity: 0}, {y: 0, opacity: 1}, 'four')
-// .fromTo('.staff-text', {y: 100, opacity: 0}, {y: 0, opacity: 1}, 'four');
+header.fromTo('.desc h3', {x: -500, opacity: 0}, {x: 0, opacity: 1, duration: 1, delay: 0.2}, 'first')
+.fromTo('.desc h1', {x: -500, opacity: 0}, {x: 0, opacity: 1, duration: 1, delay: 0.2}, 'first')
+.fromTo('.desc p', {x: -500, opacity: 0}, {x: 0, opacity: 1, duration: 1, delay: 0.2}, 'first')
+.fromTo('.hr', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1.5}, 'second')
+.fromTo('.staff', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1.5}, 'second')
+.fromTo('.can', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1.5}, 'second')
+.fromTo('.box img', {y: 100, display: 'none'}, {y: 0, display: 'block', duration: 1}, 'third')
+.fromTo('.desc a', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1}, 'third')
+.fromTo('nav', {autoAlpha: 0}, {autoAlpha: 1, duration: 1}, 'third');
 
 var timedelay = 1;
 
@@ -91,3 +42,10 @@ $(window).mousemove(function() {
 });
 
 _delay = setInterval(delayCheck, 1000);
+
+$(function () {
+    $(document).scroll(function () {
+        var $nav = $(".navbar");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+});
