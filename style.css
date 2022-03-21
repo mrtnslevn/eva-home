@@ -1,7 +1,3 @@
-body {
-    overflow-x: hidden;
-}
-
 nav a {
     color: black !important;
     font-weight: 500;
@@ -252,7 +248,7 @@ nav a.btn {
 @media screen and (min-width: 1280px) {
     .box-1 {
         margin-top: 110px;
-        margin-left: 15px;
+        margin-left: 25px;
     }
     .box-2 {
         margin-top: 60px;
@@ -264,7 +260,7 @@ nav a.btn {
     }
     .box-4 {
         margin-top: 470px;
-        margin-left: 15px;
+        margin-left: 25px;
     }
     .box-5 {
         margin-top: 560px;
@@ -272,7 +268,7 @@ nav a.btn {
     }
     .box-6 {
         margin-top: 380px;
-        margin-left: 710px;
+        margin-left: 720px;
     }
     .box-7 {
         margin-top: 480px;
@@ -282,28 +278,28 @@ nav a.btn {
         font-size: 20px !important;
     }
     .hr-img {
-        top: 16vh;
+        top: 10vh;
         right: 330px;
     }
     .hr-text {
         margin-top: 460px;
-        margin-left: 280px;
+        margin-left: 285px;
     }
     .can-img {
-        top: 21vh;
+        top: 14vh;
         right: 545px;
     }
     .can-text {
-        margin-top: 430px;
-        margin-left: 85px;
+        margin-top: 450px;
+        margin-left: 90px;
     }
     .staff-img {
-        top: 27.5vh;
+        top: 18vh;
         right: 100px;
     }
     .staff-text {
-        margin-top: 430px;
-        margin-left: 518px;
+        margin-top: 445px;
+        margin-left: 525px;
     }
 }
 
@@ -354,5 +350,59 @@ nav a.btn {
     .staff-text {
         top: -0.5vh;
         right: 215px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .box-1 {
+        margin-left: 140px;
+    }
+    .box-2 {
+        margin-left: 310px;
+    }
+    .box-3 {
+        margin-left: 840px;
+    }
+    .box-4 {
+        margin-top: 460px;
+        margin-left: 140px;
+    }
+    .box-5 {
+        margin-top: 560px;
+        margin-left: 520px;
+    }
+    .box-6 {
+        margin-left: 870px;
+    }
+    .box-7{
+        margin-top: 490px;
+        margin-left: 760px;
+    }
+    .desc .btn {
+        font-size: 20px !important;
+    }
+    .can-img {
+        top: 12vh;
+        left: 930px;
+    }
+    .can-text {
+        top: -2vh;
+        left: 865px;
+    }
+    .hr-img {
+        top: 10vh;
+        left: 1150px;
+    }
+    .hr-text {
+        top: 0.5vh;
+        left: 870px;
+    }
+    .staff-img {
+        top: 15.5vh;
+        right: 300px;
+    }
+    .staff-text {
+        top: -2vh;
+        right: 415px;
     }
 }
