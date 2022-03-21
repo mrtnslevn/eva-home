@@ -1,7 +1,6 @@
 const header = gsap.timeline({});
 
-header.fromTo('.desc h3', {x: -500, opacity: 0}, {x: 0, opacity: 1, duration: 1, delay: 0.2}, 'first')
-.fromTo('.desc h1', {x: -500, opacity: 0}, {x: 0, opacity: 1, duration: 1, delay: 0.2}, 'first')
+header.fromTo('.desc h1', {x: -500, opacity: 0}, {x: 0, opacity: 1, duration: 1, delay: 0.2}, 'first')
 .fromTo('.desc p', {x: -500, opacity: 0}, {x: 0, opacity: 1, duration: 1, delay: 0.2}, 'first')
 .fromTo('.hr', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1.5}, 'second')
 .fromTo('.staff', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1.5}, 'second')

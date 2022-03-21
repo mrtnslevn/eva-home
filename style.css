@@ -83,11 +83,12 @@ nav a.btn {
 
 .box-1 {
     margin-top: 110px;
+    margin-left: 15px;
 }
 
 .box-2 {
     margin-top: 60px;
-    margin-left: 180px;
+    margin-left: 190px;
 }
 
 .box-3 {
@@ -97,6 +98,7 @@ nav a.btn {
 
 .box-4 {
     margin-top: 470px;
+    margin-left: 15px;
 }
 
 .box-5 {
@@ -250,10 +252,11 @@ nav a.btn {
 @media screen and (min-width: 1280px) {
     .box-1 {
         margin-top: 110px;
+        margin-left: 15px;
     }
     .box-2 {
         margin-top: 60px;
-        margin-left: 180px;
+        margin-left: 190px;
     }
     .box-3 {
         margin-top: 110px;
@@ -261,6 +264,7 @@ nav a.btn {
     }
     .box-4 {
         margin-top: 470px;
+        margin-left: 15px;
     }
     .box-5 {
         margin-top: 560px;
