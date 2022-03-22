@@ -102,7 +102,8 @@ const headerChoose = document.querySelector(".header-choose");
 const bodyChoose = document.querySelector(".body-choose");
 const imageFormPoint = document.querySelector(".imageforForm");
 const imageForm = document.querySelector(".image-form");
-const cardForm = document.querySelector(".cardforForm");
+const cardFormPoint = document.querySelector(".cardforForm");
+const cardForm = document.querySelector(".card-form");
 
 const animateOnScroll = (elementAnimate, animateIn, animateOut, marginView) => {
   return new IntersectionObserver(
@@ -132,4 +133,4 @@ const observer4 = animateOnScroll(cardForm, "translateX(0%)", "translateX(100%)"
 observer1.observe(headerChoose);
 observer2.observe(bodyChoose);
 observer3.observe(imageFormPoint);
-observer4.observe(cardForm);
+observer4.observe(cardFormPoint);
