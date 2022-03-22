@@ -11,10 +11,13 @@ nav a.btn {
     color: rgb(61, 61, 61) !important;
 }
 
-.navbar.scrolled {
-    background-color: #EDF2F7 !important;
+.navbar {
     margin-left: 80px;
     margin-right: 80px;
+}
+
+.navbar.scrolled {
+    background-color: #EDF2F7 !important;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     transition: background-color 400ms linear;
@@ -69,6 +72,11 @@ nav a.btn {
     background-color: #FFA600 !important;
 }
 
+.section1 {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
 .section1 img {
     position: absolute;
 }
@@ -78,38 +86,52 @@ nav a.btn {
 }
 
 .box-1 {
-    margin-top: 110px;
-    margin-left: 15px;
+    /* margin-top: 110px;
+    margin-left: 15px; */
+    top: 15%;
+    left: 37%;
 }
 
 .box-2 {
-    margin-top: 60px;
-    margin-left: 190px;
+    /* margin-top: 60px;
+    margin-left: 190px; */
+    top: 10%;
+    left: 51%;
 }
 
 .box-3 {
-    margin-top: 110px;
-    margin-left: 680px;
+    /* margin-top: 110px;
+    margin-left: 680px; */
+    top: 18%;
+    left: 88%;
 }
 
 .box-4 {
-    margin-top: 470px;
-    margin-left: 15px;
+    /* margin-top: 470px;
+    margin-left: 15px; */
+    top: 77%;
+    left: 37%;
 }
 
 .box-5 {
-    margin-top: 560px;
-    margin-left: 400px;
+    /* margin-top: 560px;
+    margin-left: 400px; */
+    top: 91%;
+    left: 67%;
 }
 
 .box-6 {
-    margin-top: 380px;
-    margin-left: 710px;
+    /* margin-top: 380px;
+    margin-left: 710px; */
+    top: 62%;
+    left: 92%;
 }
 
 .box-7 {
-    margin-top: 480px;
-    margin-left: 600px;
+    /* margin-top: 480px;
+    margin-left: 600px; */
+    top: 78%;
+    left: 48%;
 }
 
 .hr-img {
@@ -155,254 +177,320 @@ nav a.btn {
 }
 
 @media screen and (min-width: 1024px) {
-    .box-3 {
-        margin-left: 580px;
+    .desc h1 {
+        font-size: 72px;
     }
-    .box-5 {
-        margin-top: 560px;
-        margin-left: 330px;
-    }
-    .box-6 {
-        margin-left: 610px;
-    }
-    .box-7{
-        margin-top: 480px;
-        margin-left: 530px;
+    .desc p {
+        font-size: 11px;
     }
     .desc .btn {
-        font-size: 16px !important;
+        width: 80%;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+    .box-1 {
+        top: 13%;
+    }
+    .box-2 {
+        top: 9%;
+    }
+    .box-3 {
+        top: 13%;
+        left: 93%;
+    }
+    .box-4 {
+        top: 66%;
+    }
+    .box-5 {
+        top: 80%;
+    }
+    .box-6 {
+        top: 52%;
+        left: 95%;
+    }
+    .box-7 {
+        top: 70%;
+        left: 87%;
     }
     .can-img {
-        top: 12vh;
-        right: 450px;
+        top: 18%;
+        left: 37%;
     }
     .can-text {
-        margin-top: 425px;
-        margin-left: 30px;
+        top: 0%;
+        left: 31%;
     }
     .hr-img {
-        top: 10vh;
-        right: 250px;
+        top: 18%;
+        left: 56%;
     }
     .hr-text {
-        margin-top: 465px;
-        margin-left: 210px;
+        top: 3%;
+        left: 29%;
     }
     .staff-img {
-        top: 15vh;
-        right: 35px;
+        top: 23%;
+        left: 78%;
     }
     .staff-text {
-        margin-top: 420px;
-        margin-left: 435px;
+        top: 0%;
+        left: 28.5%;
     }
 }
 
 @media screen and (min-width: 1080px) {
+    .desc h1 {
+        font-size: 78px;
+    }
+    .desc p {
+        font-size: 12px;
+    }
+    .box-1 {
+        top: 15%;
+    }
+    .box-2 {
+        top: 10%;
+    }
     .box-3 {
-        margin-left: 590px;
+        top: 16%;
     }
     .box-4 {
-        margin-top: 460px;
+        top: 73%;
     }
     .box-5 {
-        margin-top: 560px;
-        margin-left: 330px;
+        top: 90%;
     }
     .box-6 {
-        margin-left: 635px;
+        top: 60%;
     }
-    .box-7{
-        margin-top: 470px;
-        margin-left: 530px;
-    }
-    .desc .btn {
-        font-size: 16px !important;
+    .box-7 {
+        top: 75%;
     }
     .can-img {
-        top: 12vh;
-        right: 480px;
+        top: 20%;
     }
     .can-text {
-        margin-top: 425px;
-        margin-left: 30px;
+        top: 0%;
     }
     .hr-img {
-        top: 10vh;
-        right: 280px;
+        top: 18%;
     }
     .hr-text {
-        margin-top: 465px;
-        margin-left: 210px;
+        top: 2%;
+        left: 30%;
     }
     .staff-img {
-        top: 15.5vh;
-        right: 50px;
+        top: 27%;
     }
     .staff-text {
-        margin-top: 420px;
-        margin-left: 450px;
+        top: 0%;
+        left: 31%;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .box-1 {
-        margin-top: 110px;
-        margin-left: 25px;
+    .desc h1 {
+        font-size: 100px;
     }
-    .box-2 {
-        margin-top: 60px;
-        margin-left: 190px;
-    }
-    .box-3 {
-        margin-top: 110px;
-        margin-left: 680px;
-    }
-    .box-4 {
-        margin-top: 470px;
-        margin-left: 25px;
-    }
-    .box-5 {
-        margin-top: 560px;
-        margin-left: 400px;
-    }
-    .box-6 {
-        margin-top: 380px;
-        margin-left: 720px;
-    }
-    .box-7 {
-        margin-top: 480px;
-        margin-left: 600px;
+    .desc p {
+        font-size: 15px;
     }
     .desc .btn {
-        font-size: 20px !important;
+        width: 80%;
+        font-size: 24px;
+        border-radius: 10px;
     }
-    .hr-img {
-        top: 10vh;
-        right: 330px;
+    .box img {
+        width: 60px;
     }
-    .hr-text {
-        margin-top: 460px;
-        margin-left: 285px;
+    .box-1 {
+        top: 15%;
+    }
+    .box-2 {
+        top: 9%;
+    }
+    .box-3 {
+        top: 17%;
+    }
+    .box-4 {
+        top: 72%;
+    }
+    .box-5 {
+        top: 88%;
+    }
+    .box-6 {
+        top: 58%;
+    }
+    .box-7 {
+        top: 72%;
     }
     .can-img {
-        top: 14vh;
-        right: 545px;
+        width: 230px;
+        top: 20%;
     }
     .can-text {
-        margin-top: 450px;
-        margin-left: 90px;
+        font-size: 18px;
+        top: 9%;
+        left: 32%;
+    }
+    .hr-img {
+        width: 230px;
+        top: 18%;
+    }
+    .hr-text {
+        font-size: 72px;
+        top: 12%;
+        left: 34%;
     }
     .staff-img {
-        top: 18vh;
-        right: 100px;
+        width: 230px;
+        top: 26%;
     }
     .staff-text {
-        margin-top: 445px;
-        margin-left: 525px;
+        font-size: 32px;
+        top: 9%;
+        left: 39%;
     }
 }
 
 @media screen and (min-width: 1440px) {
-    .box-2 {
-        margin-left: 250px;
+    nav a, nav a.btn {
+        font-size: medium;
     }
-    .box-3 {
-        margin-left: 800px;
+    .desc h1 {
+        font-size: 120px;
     }
-    .box-4 {
-        margin-top: 460px;
-    }
-    .box-5 {
-        margin-top: 560px;
-        margin-left: 450px;
-    }
-    .box-6 {
-        margin-left: 840px;
-    }
-    .box-7{
-        margin-top: 490px;
-        margin-left: 720px;
+    .desc p {
+        font-size: 18px;
     }
     .desc .btn {
-        font-size: 20px !important;
+        font-size: 26px;
+        width: 78%;
+        border-radius: 10px;
+    }
+    .box img {
+        width: 65px;
+    }
+    .box-1 {
+        top: 13%;
+    }
+    .box-2 {
+        top: 8%;
+    }
+    .box-3 {
+        top: 17%;
+    }
+    .box-4 {
+        top: 72%;
+    }
+    .box-5 {
+        top: 88%;
+        left: 71%;
+    }
+    .box-6 {
+        top: 57%;
+    }
+    .box-7 {
+        top: 72%;
+        left: 88%;
     }
     .can-img {
-        top: 12vh;
-        left: 580px;
+        width: 250px;
+        top: 20%;
+        left: 40%;
     }
     .can-text {
-        top: 0vh;
-        left: 515px;
+        font-size: 20px;
+        top: 14%;
+        left: 36%;
     }
     .hr-img {
-        top: 10vh;
-        left: 850px;
+        width: 250px;
+        top: 18%;
+        left: 60%;
     }
     .hr-text {
-        top: 0.5vh;
-        left: 570px;
+        font-size: 90px;
+        top: 16%;
+        left: 41%;
     }
     .staff-img {
-        top: 15.5vh;
-        right: 95px;
+        width: 250px;
+        top: 26%;
+        left: 80%;
     }
     .staff-text {
-        top: -0.5vh;
-        right: 215px;
+        font-size: 36px;
+        top: 13%;
+        left: 45%;
     }
 }
 
 @media screen and (min-width: 1920px) {
-    .box-1 {
-        margin-left: 140px;
+    nav a, nav a.btn {
+        font-size: large;
     }
-    .box-2 {
-        margin-left: 310px;
+    .nav-item {
+        margin-right: 80px !important;
     }
-    .box-3 {
-        margin-left: 840px;
+    .desc h1 {
+        font-size: 148px;
+        margin-top: 40px;
     }
-    .box-4 {
-        margin-top: 460px;
-        margin-left: 140px;
-    }
-    .box-5 {
-        margin-top: 560px;
-        margin-left: 520px;
-    }
-    .box-6 {
-        margin-left: 870px;
-    }
-    .box-7{
-        margin-top: 490px;
-        margin-left: 760px;
+    .desc p {
+        font-size: 24px;
     }
     .desc .btn {
-        font-size: 20px !important;
+        width: 80%;
+        font-size: 36px;
+        border-radius: 15px;
     }
-    .can-img {
-        top: 12vh;
-        left: 930px;
+    .box img {
+        width: 70px;
+    }
+    .box-1 {
+        top: 13%;
+        left: 39%;
+    }
+    .box-2 {
+        top: 7%;
+        left: 52%;
+    }
+    .box-3 {
+        left: 92%;
+    }
+    .box-4 {
+        top: 65%;
+        left: 39%;
+    }
+    .box-5 {
+        top: 78%;
+        left: 70%;
+    }
+    .box-6 {
+        top: 52%;
+        left: 96%;
+    }
+    .box-7 {
+        top: 67%;
+        left: 88%;
+    }
+    .can-img, .hr-img, .staff-img {
+        width: 300px;
     }
     .can-text {
-        top: -2vh;
-        left: 865px;
-    }
-    .hr-img {
-        top: 10vh;
-        left: 1150px;
+        font-size: 26px;
+        top: 22%;
+        left: 37%;
     }
     .hr-text {
-        top: 0.5vh;
-        left: 870px;
-    }
-    .staff-img {
-        top: 15.5vh;
-        right: 300px;
+        font-size: 96px;
+        top: 25%;
+        left: 46%;
     }
     .staff-text {
-        top: -2vh;
-        right: 415px;
+        font-size: 40px;
+        top: 23%;
+        left: 54%;
     }
 }
