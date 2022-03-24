@@ -30,6 +30,8 @@ nav a.btn {
 .section1 {
     background-color: #E2E8F0;
     height: 100vh;
+    padding-left: 80px;
+    padding-right: 80px;
     overflow-x: hidden;
 }
 
@@ -70,11 +72,6 @@ nav a.btn {
 
 .desc .btn:hover {
     background-color: #FFA600 !important;
-}
-
-.section1 {
-    padding-left: 80px;
-    padding-right: 80px;
 }
 
 .section1 img {
@@ -162,16 +159,16 @@ nav a.btn {
     margin-left: 518px;
 }
 
-@media screen and (min-width: 1024px) {
+@media (min-width: 992px) {
     .desc h1 {
         font-size: 72px;
     }
     .desc p {
-        font-size: 11px;
+        font-size: 15px;
     }
     .desc .btn {
         width: 80%;
-        font-size: 18px;
+        font-size: 14px !important;
         border-radius: 10px;
     }
     .box-1 {
@@ -224,57 +221,7 @@ nav a.btn {
     }
 }
 
-@media screen and (min-width: 1080px) {
-    .desc h1 {
-        font-size: 78px;
-    }
-    .desc p {
-        font-size: 12px;
-    }
-    .box-1 {
-        top: 15%;
-    }
-    .box-2 {
-        top: 10%;
-    }
-    .box-3 {
-        top: 16%;
-    }
-    .box-4 {
-        top: 73%;
-    }
-    .box-5 {
-        top: 90%;
-    }
-    .box-6 {
-        top: 60%;
-    }
-    .box-7 {
-        top: 75%;
-    }
-    .can-img {
-        top: 20%;
-    }
-    .can-text {
-        top: 0%;
-    }
-    .hr-img {
-        top: 18%;
-    }
-    .hr-text {
-        top: 2%;
-        left: 30%;
-    }
-    .staff-img {
-        top: 27%;
-    }
-    .staff-text {
-        top: 0%;
-        left: 31%;
-    }
-}
-
-@media screen and (min-width: 1280px) {
+@media (min-width: 1200px) {
     .desc h1 {
         font-size: 100px;
     }
@@ -283,7 +230,7 @@ nav a.btn {
     }
     .desc .btn {
         width: 80%;
-        font-size: 24px;
+        font-size: 24px !important;
         border-radius: 10px;
     }
     .box img {
@@ -335,11 +282,11 @@ nav a.btn {
     .staff-text {
         font-size: 32px;
         top: 9%;
-        left: 39%;
+        left: 38.5%;
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media (min-width: 1400px) {
     nav a, nav a.btn {
         font-size: medium;
     }
@@ -350,7 +297,7 @@ nav a.btn {
         font-size: 18px;
     }
     .desc .btn {
-        font-size: 26px;
+        font-size: 26px !important;
         width: 78%;
         border-radius: 10px;
     }
@@ -412,7 +359,7 @@ nav a.btn {
     }
 }
 
-@media screen and (min-width: 1920px) {
+@media (min-width: 1900px) {
     nav a, nav a.btn {
         font-size: large;
     }
@@ -428,7 +375,7 @@ nav a.btn {
     }
     .desc .btn {
         width: 80%;
-        font-size: 36px;
+        font-size: 36px !important;
         border-radius: 15px;
     }
     .box img {
