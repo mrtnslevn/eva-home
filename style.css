@@ -1,31 +1,81 @@
-nav a {
-    color: black !important;
-    font-weight: 500;
-    font-size: small;
+:root {
+    --warna1: #edf2f7;
+    --warna2: #ffcf54;
+    --warna3: #ffdf99;
+    --warna4: #2b2b29;
+    --warna5: #e2e8f0;
+    --warna6: #2d3748;
 }
 
-nav a.btn {
-    background-color: #FFCF54 !important;
-    border-radius: 8px !important;
-    font-size: small;
-    color: rgb(61, 61, 61) !important;
+#nav .container {
+    background-color: var(--warna5);
+    padding: 10px;
+    margin-top: 0;
+    transition: 1s;
 }
-
 .navbar {
-    margin-left: 80px;
-    margin-right: 80px;
+    padding-top: 0 !important;
+}
+.navbar-brand {
+    color: var(--warna6) !important ;
+}
+.nav-item {
+    margin: 0px 35px;
+}
+.nav-link {
+    color: var(--warna6) !important ;
+    font-weight: 550;
+}
+.nav-link:hover {
+    color: var(--warna2) !important;
+}
+#nav .btn-demo {
+    background-color: var(--warna2);
+    border-radius: 8px;
+    font-weight: 600;
+    color: #4a5568;
+    transition: 0.5s;
 }
 
-.navbar.scrolled {
-    background-color: #EDF2F7 !important;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    transition: background-color 400ms linear;
+#nav .btn-demo:hover {
+    background-color: var(--warna4);
+    color: #fff;
 }
 
-.dropdown-toggle::after {
-    display: none !important;
+#nav .scrolltop {
+    background-color: #edf2f7 !important;
+    padding: 20px !important;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.1);
 }
+
+.scrolled-down {
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+}
+.scrolled-up {
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 991.98px) {
+    .navbar {
+      background-color: var(--warna4);
+    }
+    #nav .container {
+      background-color: var(--warna4);
+    }
+    .navbar-collapse {
+      background-color: var(--warna4);
+    }
+    .navbar-brand {
+      color: white !important ;
+    }
+    .nav-link {
+      color: white !important ;
+      font-weight: 550;
+    }
+}  
 
 .section1 {
     background-color: #E2E8F0;
@@ -114,7 +164,7 @@ nav a.btn {
 
 .box-7 {
     top: 78%;
-    left: 48%;
+    left: 84%;
 }
 
 .hr-img {
@@ -263,7 +313,7 @@ nav a.btn {
     }
     .can-text {
         font-size: 18px;
-        top: 9%;
+        top: 10%;
         left: 32%;
     }
     .hr-img {
@@ -281,7 +331,7 @@ nav a.btn {
     }
     .staff-text {
         font-size: 32px;
-        top: 9%;
+        top: 10%;
         left: 38.5%;
     }
 }
@@ -427,3 +477,4 @@ nav a.btn {
         left: 54%;
     }
 }
+  
