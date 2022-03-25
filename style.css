@@ -216,7 +216,7 @@
     }
     .desc .btn {
         width: 80%;
-        font-size: 14px !important;
+        font-size: 20px !important;
         border-radius: 10px;
     }
     .box-1 {
@@ -335,9 +335,6 @@
 }
 
 @media (min-width: 1400px) {
-    nav a, nav a.btn {
-        font-size: medium;
-    }
     .desc h1 {
         font-size: 120px;
     }
@@ -408,9 +405,6 @@
 }
 
 @media (min-width: 1900px) {
-    nav a, nav a.btn {
-        font-size: large;
-    }
     .nav-item {
         margin-right: 80px !important;
     }
@@ -423,7 +417,7 @@
     }
     .desc .btn {
         width: 80%;
-        font-size: 36px !important;
+        font-size: 30px !important;
         border-radius: 15px;
     }
     .box img {
