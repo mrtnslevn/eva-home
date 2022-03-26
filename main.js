@@ -34,7 +34,6 @@ $(document).ready(function () {
     // if
   });
   // DOMContentLoaded  end
-  
 
 const header = gsap.timeline({});
 
@@ -43,7 +42,7 @@ header.fromTo('.desc h1', {x: -500, opacity: 0}, {x: 0, opacity: 1, duration: 1,
 .fromTo('.hr', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1.5}, 'second')
 .fromTo('.staff', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1.5}, 'second')
 .fromTo('.can', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1.5}, 'second')
-.fromTo('.box img', {y: 100, display: 'none'}, {y: 0, display: 'block', duration: 1}, 'third')
+.fromTo('.rect', {y: 100, display: 'none'}, {y: 0, display: 'block', duration: 1}, 'third')
 .fromTo('.desc a', {display: 'none', opacity: 0}, {display: 'block', opacity: 1, duration: 1}, 'third')
 .fromTo('nav', {autoAlpha: 0}, {autoAlpha: 1, duration: 1}, 'third');
 

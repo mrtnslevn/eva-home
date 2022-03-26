@@ -80,7 +80,8 @@
 .section1 {
     background-color: #E2E8F0;
     height: 100vh;
-    overflow-x: hidden;
+    position: relative;
+    overflow: hidden;
 }
 
 .desc {
@@ -126,7 +127,14 @@
     position: absolute;
 }
 
-.box img {
+.box, .employee {
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.rect {
     width: 50px;
 }
 
@@ -208,265 +216,142 @@
 }
 
 @media (min-width: 992px) {
-    .desc h1 {
-        font-size: 72px;
-    }
-    .desc p {
-        font-size: 15px;
-    }
     .desc .btn {
-        width: 80%;
-        font-size: 20px !important;
-        border-radius: 10px;
+        font-size: 16px;
     }
-    .box-1 {
-        top: 13%;
-    }
-    .box-2 {
-        top: 9%;
-    }
-    .box-3 {
-        top: 13%;
-        left: 93%;
-    }
-    .box-4 {
-        top: 66%;
-    }
-    .box-5 {
-        top: 80%;
-    }
-    .box-6 {
-        top: 52%;
-        left: 95%;
-    }
-    .box-7 {
-        top: 70%;
-        left: 87%;
-    }
-    .can-img {
-        top: 18%;
-        left: 37%;
-    }
-    .can-text {
-        top: 0%;
-        left: 31%;
+    .employee img {
+        width: 180px;
+        margin-top: 10px;
+        margin-right: -60px;
     }
     .hr-img {
-        top: 18%;
-        left: 56%;
+        margin-top: 30px !important;
     }
-    .hr-text {
-        top: 3%;
+    .employee h2 {
+        top: 1%;
         left: 29%;
-    }
-    .staff-img {
-        top: 23%;
-        left: 78%;
-    }
-    .staff-text {
-        top: 0%;
-        left: 28.5%;
     }
 }
 
 @media (min-width: 1200px) {
-    .desc h1 {
-        font-size: 100px;
-    }
-    .desc p {
-        font-size: 15px;
-    }
     .desc .btn {
-        width: 80%;
-        font-size: 24px !important;
-        border-radius: 10px;
+        font-size: 20px;
     }
-    .box img {
-        width: 60px;
-    }
-    .box-1 {
-        top: 15%;
-    }
-    .box-2 {
-        top: 9%;
-    }
-    .box-3 {
-        top: 17%;
-    }
-    .box-4 {
-        top: 72%;
-    }
-    .box-5 {
-        top: 88%;
-    }
-    .box-6 {
-        top: 58%;
-    }
-    .box-7 {
-        top: 72%;
+    .employee img {
+        width: 200px;
+        margin-top: 0px;
+        margin-right: 0px;
     }
     .can-img {
-        width: 230px;
-        top: 20%;
-    }
-    .can-text {
-        font-size: 18px;
-        top: 10%;
-        left: 32%;
+        left: 40%;
     }
     .hr-img {
-        width: 230px;
-        top: 18%;
-    }
-    .hr-text {
-        font-size: 72px;
-        top: 12%;
-        left: 34%;
+        margin-top: 15px !important;
+        left: 58%;
     }
     .staff-img {
-        width: 230px;
-        top: 26%;
+        margin-top: -10px !important;
     }
-    .staff-text {
-        font-size: 32px;
-        top: 10%;
-        left: 38.5%;
+    .employee h2 {
+        top: 6%;
+        left: 37%;
+    }
+    .can-text {
+        margin-left: 5%;
     }
 }
 
 @media (min-width: 1400px) {
     .desc h1 {
-        font-size: 120px;
+        font-size: 100px;
     }
     .desc p {
-        font-size: 18px;
+        font-size: 20px;
     }
     .desc .btn {
-        font-size: 26px !important;
-        width: 78%;
-        border-radius: 10px;
+        font-size: 24px;
     }
-    .box img {
-        width: 65px;
+    .rect {
+        width: 70px;
     }
-    .box-1 {
-        top: 13%;
-    }
-    .box-2 {
-        top: 8%;
-    }
-    .box-3 {
-        top: 17%;
-    }
-    .box-4 {
-        top: 72%;
-    }
-    .box-5 {
-        top: 88%;
-        left: 71%;
-    }
-    .box-6 {
-        top: 57%;
-    }
-    .box-7 {
-        top: 72%;
-        left: 88%;
+    .employee img {
+        width: 250px;
+        margin-top: 0px;
+        margin-right: 0px;
     }
     .can-img {
-        width: 250px;
-        top: 20%;
-        left: 40%;
+        left: 38%;
+    }
+    .hr-img {
+        margin-top: 0px !important;
+        left: 55%;
+    }
+    .staff-img {
+        margin-top: -10px !important;
+        left: 75%;
+    }
+    .employee h2 {
+        top: 15%;
     }
     .can-text {
         font-size: 20px;
-        top: 14%;
-        left: 36%;
-    }
-    .hr-img {
-        width: 250px;
-        top: 18%;
-        left: 60%;
+        margin-left: 3%;
     }
     .hr-text {
-        font-size: 90px;
-        top: 16%;
-        left: 41%;
-    }
-    .staff-img {
-        width: 250px;
-        top: 26%;
-        left: 80%;
+        font-size: 84px;
+        margin-left: 18%;
     }
     .staff-text {
         font-size: 36px;
-        top: 13%;
-        left: 45%;
+        margin-left: 39%;
     }
 }
 
 @media (min-width: 1900px) {
-    .nav-item {
-        margin-right: 80px !important;
+    .desc {
+        margin-left: -100px;
     }
     .desc h1 {
-        font-size: 148px;
-        margin-top: 40px;
+        font-size: 110px;
     }
     .desc p {
         font-size: 24px;
     }
     .desc .btn {
-        width: 80%;
-        font-size: 30px !important;
-        border-radius: 15px;
+        font-size: 26px;
     }
-    .box img {
+    .rect {
         width: 70px;
     }
-    .box-1 {
-        top: 13%;
-        left: 39%;
-    }
-    .box-2 {
-        top: 7%;
-        left: 52%;
-    }
-    .box-3 {
-        left: 92%;
-    }
-    .box-4 {
-        top: 65%;
-        left: 39%;
-    }
-    .box-5 {
-        top: 78%;
-        left: 70%;
-    }
-    .box-6 {
-        top: 52%;
-        left: 96%;
-    }
-    .box-7 {
-        top: 67%;
-        left: 88%;
-    }
-    .can-img, .hr-img, .staff-img {
+    .employee img {
         width: 300px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .can-img {
+        left: 38%;
+    }
+    .hr-img {
+        margin-top: 0px !important;
+        left: 55%;
+    }
+    .staff-img {
+        margin-top: -10px !important;
+        left: 75%;
+    }
+    .employee h2 {
+        top: 23%;
     }
     .can-text {
-        font-size: 26px;
-        top: 22%;
-        left: 37%;
+        font-size: 24px;
+        margin-left: 3%;
     }
     .hr-text {
-        font-size: 96px;
-        top: 25%;
-        left: 46%;
+        font-size: 110px;
+        margin-left: 18%;
     }
     .staff-text {
-        font-size: 40px;
-        top: 23%;
-        left: 54%;
+        font-size: 48px;
+        margin-left: 39%;
     }
 }
-  
