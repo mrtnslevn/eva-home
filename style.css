@@ -1191,6 +1191,10 @@ footer .copyright .d-flex {
   border-radius: 10px;
 }
 
+.back-content .btn:hover {
+  background-color: #ffa600 !important;
+}
+
 #section4 .col:hover .wrap {
   transform: rotateY(180deg);
 }
