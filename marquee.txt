@@ -1,401 +1,401 @@
 // HTML
 <section id="section3-4">
-    <div class="pt-5 pb-5">
-        <div class="row justify-content-center">
-            <div class="pb-5">
-                <h1 class="text-center pb-2 judul">JADI BAGIAN DARI EVA HRM SEKARANG!</h1>
-                <div class="transisi4-title"></div>
-                <p class="text-center pb-2">350+ Klien Telah Mempercayakan Human Resource Bisnisnya Kepada Kami</p>
-                <div class="transisi4-desc"></div>
-            </div>
-            <div class="slider pb-5" id="slider1">
-                <div class="slide-track">
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
-                    </div>
-                </div>
-                <div class="slide-track1">
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
-                    </div>
-                </div>
-                <div class="slide-track2">
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
-                    </div>
-                </div>
-                <div class="slide-track1">
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
-                    </div>
-                </div>
-                <div class="slide-track2">
-                <div class="slide">
-                    <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
-                </div>
-            </div>
-            </div>
-            <div class="rectangle"></div>
+    <div class="row justify-content-center">
+    <div class="pb-5">
+        <h1 class="text-center pb-3 judul">JADI BAGIAN DARI EVA HRM SEKARANG!</h1>
+        <div class="transisi4-title"></div>
+        <p class="text-center pb-3">350+ Klien Telah Mempercayakan Human Resource Bisnisnya Kepada Kami</p>
+        <div class="transisi4-desc"></div>
+    </div>
+    <div class="slider pb-5" id="slider1">
+        <div class="slide-track">
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
         </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
+        </div>
+        </div>
+        <div class="slide-track1">
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
+        </div>
+        </div>
+        <div class="slide-track2">
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
+        </div>
+        </div>
+        <div class="slide-track1">
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
+        </div>
+        </div>
+        <div class="slide-track2">
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0003_transcorp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/danone-color.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0007_pp-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0006_sim-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/logo_0015_changi-hover.webp" height="150" width="100" alt="" />
+        </div>
+        <div class="slide">
+            <img src="https://www.hashmicro.com/assets/images/Logo/tatalogohover.webp" height="150" width="100" alt="" />
+        </div>
+        </div>
+    </div>
+    <div class="rectangle"></div>
     </div>
 </section>
 
 // CSS
 #section3-4 {
-    height: 100vh;
-    overflow: hidden;
-    background-color: var(--warna1);
+  position: relative;
+  height: 100vh;
+  padding-top: 80px;
+  overflow: hidden;
+  background-color: var(--warna1);
 }
 
-.transisi4-title {
-    margin-top: -90px;
-    display: block;
-    width: 100%;
-    left: 0;
-    position: absolute;
-    background-color: var(--warna1);
+#section3-4 .transisi4-title {
+  margin-top: -90px;
+  display: block;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  background-color: var(--warna1);
 }
 
-.transisi4-desc {
-    margin-top: -50px;
-    display: block;
-    width: 100%;
-    left: 0;
-    position: absolute;
-    background-color: var(--warna1);
+#section3-4 .transisi4-desc {
+  margin-top: -50px;
+  display: block;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  background-color: var(--warna1);
 }
 
 #section3-4 .slider {
-    overflow: hidden;
-    position: relative;
-    width: 100vw;
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
 }
 
 #section3-4 .slider .slide img {
-    margin: 20px 30px;
-    padding: 10px;
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    background-color: white;
-    transform: rotate(-45deg);
-    -webkit-backdrop-filter: blur(42px);
-    backdrop-filter: blur(42px);
+  margin: 20px 30px;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: white;
+  transform: rotate(-45deg);
+  -webkit-backdrop-filter: blur(42px);
+  backdrop-filter: blur(42px);
 }
 
 #section3-4 .slider .slide-track {
-    -webkit-animation: marquee3 12s linear infinite;
-            animation: marquee3 12s linear infinite;
-    display: flex;
-    width: calc(300px * 12);
+  -webkit-animation: marquee3 12s linear infinite;
+          animation: marquee3 12s linear infinite;
+  display: flex;
+  width: calc(300px * 12);
 }
 
 #section3-4 .slider .slide-track1 {
-    margin-left: -96px;
-    margin-top: -70px;
-    -webkit-animation: marquee3 12s linear infinite;
-            animation: marquee3 12s linear infinite;
-    display: flex;
-    width: calc(300px * 12);
+  margin-left: -96px;
+  margin-top: -70px;
+  -webkit-animation: marquee3 12s linear infinite;
+          animation: marquee3 12s linear infinite;
+  display: flex;
+  width: calc(300px * 12);
 }
 
 #section3-4 .slider .slide-track2 {
-    margin-top: -70px;
-    -webkit-animation: marquee3 12s linear infinite;
-            animation: marquee3 12s linear infinite;
-    display: flex;
-    width: calc(300px * 12);
+  margin-top: -70px;
+  -webkit-animation: marquee3 12s linear infinite;
+          animation: marquee3 12s linear infinite;
+  display: flex;
+  width: calc(300px * 12);
 }
 
 #section3-4 .slider .slide {
-    height: 150px;
-    width: 185px;
+  height: 150px;
+  width: 185px;
 }
-  
+
 @keyframes marquee3 {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-50%);
-    }
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-50%);
+  }
 }
 
 #section3-4 .rectangle {
-    position: absolute;
-    width: 100vw;
-    height: 100px;
-    margin-top: 430px;
-    background: linear-gradient(180deg, rgba(237, 242, 247, 0) 0%, #E2E8F0 100%);
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 100px;
+  margin-top: 430px;
+  background: linear-gradient(180deg, rgba(237, 242, 247, 0) 0%, #E2E8F0 100%);
 }
 
 // JS
 const tl3 = gsap.timeline();
-tl3.fromTo('.transisi4-title', { height: 80 }, { height: 0 })
-   .fromTo('.transisi4-desc', { height: 40 }, { height: 0 })
-   .fromTo('#slider1', { x: 1300 }, { x: 0 })
+tl3.fromTo(".transisi4-title", { height: 80 }, { height: 0 })
+   .fromTo(".transisi4-desc", { height: 40 }, { height: 0 })
 
 ScrollTrigger.create({
-    animation: tl3,
-    trigger: "#section3-4",
-    start: "10% center",
-    end: "10% center",
-    toggleActions: "restart none reverse none",
-    scrub: 1,
-    // markers: true
+  animation: tl3,
+  trigger: "#section3-4",
+  start: "top center",
+  end: "top center",
+  toggleActions: "restart none reverse none",
+  scrub: 1,
+  // markers: true
 });

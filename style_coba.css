@@ -1,0 +1,21 @@
+.box {
+  background-color: coral;
+  display: table-cell;
+  border-radius: 5px;
+}
+.text {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.wrapper {
+  display: table;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  width: 10%;
+}

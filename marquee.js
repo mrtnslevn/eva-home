@@ -12,4 +12,4 @@ ScrollTrigger.create({
   // toggleActions: "restart none reverse none",
   scrub: 1,
   // markers: true,
-});
+}); 
