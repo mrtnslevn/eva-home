@@ -1176,7 +1176,8 @@ footer .copyright .d-flex {
   top: 40%;
 }
 
-.back-paragraph {
+.back-paragraph,
+.back-paragraph-ess {
   position: absolute;
   top: 60%;
   font-size: 14px;
