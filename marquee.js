@@ -13,7 +13,7 @@ ScrollTrigger.create({
   trigger: "#section3-4",
   start: "-6% center",
   end: "90% center",
-  // toggleActions: "restart none reverse none",
+  toggleActions: "restart none reverse none",
   // scrub: 1,
   // markers: true,
 }); 
@@ -22,6 +22,7 @@ ScrollTrigger.create({
 const tl4 = gsap.timeline();
 tl4
   .from(".anim5", {opacity:0, duration:1.2, y:250, ease: 'power2.out'})
+  .from(".anim6", {opacity:0, duration:0.8, x:-50, ease: 'power3.out' } )
 
 
 ScrollTrigger.create({
@@ -29,4 +30,6 @@ ScrollTrigger.create({
   trigger: "#section4",
   start:"-6% center",
   end: "90% center",
+  toggleActions: "restart none reverse none",
+
 });
