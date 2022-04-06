@@ -1,102 +1,27 @@
-gsap.registerPlugin(ScrollTrigger);
+const scrollBar = document.querySelector(".choose .body-choose");
+const cardChoose = document.querySelector(".choose .body-choose .card-choose:nth-child(3)");
+// console.log(scrollBar);
+const posisiCard = cardChoose.getBoundingClientRect();
+const posisiRightCard = Math.floor(posisiCard.right);
+// console.log(posisiCard);
+let i = 1;
 
-// Kalo cuman sekali ajah ngasihnya
-// gsap.from(".transisiChoose", {
-//   scrollTrigger: {
-//     start: "top 20%",
-//     end: "bottom bottom",
-//     trigger: ".transisiChoose",
-//     scrub: 1,
-//     toggleActions: "restart none none none",
-//     markers: true,
-//     onEnter() {
-//       document.querySelector(".transisiChoose").classList.add("geserTransisi");
-//     },
-//     onLeave() {
-//       document.querySelector(".transisiChoose").classList.add("geserTransisi");
-//     },
-//   },
-// });
+// scrollBar.addEventListener("scroll", function () {
+//   const posisiY = window.scrollY;
+//   const posisiRightUpdate = Math.floor(cardChoose.getBoundingClientRect().right);
+//   // console.log(posisiRightUpdate);
 
-// Kalo misal bulak balik
-// gsap.to(".transisiChoose", 1, {
-//   zIndex: -1,
-//   delay: 4,
-//   scrollTrigger: {
-//     start: "top 20%",
-//     end: false,
-//     trigger: ".transisiChoose",
-//     scrub: 1,
-//     toggleActions: "restart none none none",
-//     markers: true,
-//     toggleClass: "geserTransisi",
-//   },
+//   window.scroll(0, posisiY + (posisiRightCard - 500 - posisiRightUpdate));
+//   console.log(posisiY + (posisiRightCard - 500 - posisiRightUpdate));
+//   // console.log(i++);
+//   // console.log(posisiLeft.right);
+//   // window.scrollTo(0, posisiY + i);
 // });
-
-// Kalo misal bulak balik
-// gsap.from(".body-choose", 1, {
-//   x: 200,
-//   scrollTrigger: {
-//     start: "top 20%",
-//     end: false,
-//     trigger: ".contentChoose",
-//     scrub: 1,
-//     toggleActions: "restart none none none",
-//     markers: true,
-//   },
+// document.addEventListener("scroll", function () {
+//   const posisiY = window.scrollY;
+//   // console.log(posisiY);
+//   // window.scrollTo(0);
 // });
-
-// gsap.from(".body-choose", 1, {
-//   x: 200,
-//   scrollTrigger: {
-//     start: "top 20%",
-//     end: false,
-//     trigger: ".contentChoose",
-//     toggleActions: "restart none none none",
-//     markers: true,
-//     // toggleClass: "geserContent",
-//   },
-// });
-//Kalo misal bulak balik
-// gsap.from(".transisiChoose", {
-//   scrollTrigger: {
-//     start: "top 20%",
-//     end: false,
-//     trigger: ".transisiChoose",
-//     scrub: 1,
-//     toggleActions: "restart none none none",
-//     markers: true,
-//     toggleClass: "geserTransisi",
-//   },
-// });
-
-//Sedikit revisi
-// const tlTransisiChose = gsap.timeline({
-//   scrollTrigger: {
-//     trigger: ".transisiChoose",
-//     start: "top 20%",
-//     end: false,
-//     toggleActions: "restart none none none",
-//     markers: true,
-//     scrub: 1,
-//     toggleClass: "geserTransisi",
-//   },
-// });
-// tlTransisiChose.to(".transisiChoose", { duration: 1, zIndex: -1 });
-
-// const tlTransisiChose = gsap.timeline({
-//   scrollTrigger: {
-//     trigger: ".contentChoose",
-//     start: "top 20%",
-//     end: "top 0",
-//     toggleActions: "restart none none none",
-//     markers: true,
-//     scrub: 1,
-//     markers: true,
-//   },
-// });
-
-// tlTransisiChose.to(".transisiChoose", { duration: 2, opacity: 0, x: -200, zIndex: 5 }).from(".contentChoose .body-choose", { duration: 3, x: 400 }).to(".transisiChoose", { duration: 1, opacity: 0, x: -200, zIndex: -999 });
 
 const headerChoose = document.querySelector(".header-choose");
 const bodyChoose = document.querySelector(".body-choose");
@@ -110,10 +35,10 @@ const animateOnScroll = (elementAnimate, animateIn, animateOut, marginView) => {
     (entries, observer) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          console.log("masuk nih");
+          // console.log("masuk nih");
           elementAnimate.style.transform = `${animateIn}`;
         } else {
-          console.log("yah keluar");
+          // console.log("yah keluar");
           elementAnimate.style.transform = `${animateOut}`;
         }
       });
