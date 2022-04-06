@@ -1601,16 +1601,17 @@ footer .copyright .d-flex {
 
 #section3-4 .back-circle {
   width: 100%;
-
   border-radius: 0 0 100% 100%;
   background-color: #e2e8f0;
-  padding-top: 9rem;
+  padding-top: 3rem;
+  
 }
 
 #section4 {
   background-color: #e2e8f0;
-  height: 150vh;
+  height: 120vh;
   overflow-x: hidden;
+  
 }
 
 #section4 .judul {
@@ -1715,6 +1716,9 @@ footer .copyright .d-flex {
 }
 
 @media (min-width: 992px) {
+  #section4 {
+    height: 120vh;
+  }
   .text2 {
     font-size: 82px;
     left: 25px;
@@ -1747,6 +1751,9 @@ footer .copyright .d-flex {
 }
 
 @media (min-width: 1200px) {
+  #section4 {
+    height: 120vh;
+  }
   .text2 {
     font-size: 90px;
     left: 40px;
