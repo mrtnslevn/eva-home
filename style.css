@@ -1610,7 +1610,7 @@ footer .copyright .d-flex {
 #section4 {
   background-color: #e2e8f0;
   height: 120vh;
-  overflow-x: hidden;
+  overflow: hidden;
   
 }
 
