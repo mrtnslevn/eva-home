@@ -1752,15 +1752,17 @@ footer .copyright span {
 
 #section3-4 {
   position: relative;
-  height: 130vh;
+  height: 700px;
   overflow: hidden;
   background-color: #edf2f7;
   z-index: 1;
 }
 
-/* #section3-4 .judul {
-  background-image: url("/img/ellipse.png");
-} */
+#section3-4 .judul {
+  font-weight: 800;
+  letter-spacing: 10px;
+  font-size: 56px;
+}
 
 /* .transisi4-title {
   margin-top: -90px;
@@ -1870,13 +1872,15 @@ footer .copyright span {
 #section4 {
   position: relative;
   background-color: #e2e8f0;
-  height: 120vh;
+  height: 800px;
   overflow: hidden;
   z-index: 1;
 }
 
 #section4 .judul {
-  letter-spacing: 2px;
+  font-weight: 900;
+  font-size: 56px;
+  letter-spacing: 10px;
 }
 #section4 .gap {
   gap: 5rem;
@@ -1887,8 +1891,11 @@ footer .copyright span {
   -webkit-text-stroke-color: #94762b;
   -webkit-text-stroke-width: 1px;
   position: absolute;
-  font-size: 90px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 158.45spx;
   top: 0px;
+  line-height: 216px;
+  letter-spacing: 0px;
   left: 40px;
 }
 
@@ -1979,9 +1986,18 @@ footer .copyright span {
   transform: rotateY(180deg);
 }
 
+@media (min-width: 320px) {
+  #section3-4 .judul {
+    letter-spacing: 0px;
+  }
+}
+
 @media (min-width: 992px) {
+  #section3-4 .judul {
+    letter-spacing: 10px;
+  }
   #section4 {
-    height: 120vh;
+    height: 800px;
   }
   .text2 {
     font-size: 82px;
@@ -2016,7 +2032,7 @@ footer .copyright span {
 
 @media (min-width: 1200px) {
   #section4 {
-    height: 120vh;
+    height: 900px;
   }
   .text2 {
     font-size: 90px;
@@ -2052,7 +2068,7 @@ footer .copyright span {
 
 @media (min-width: 1400px) {
   #section3-4 {
-    height: 100vh;
+    height: 700px;
   }
   #section3-4 .slider .slide img {
     margin: 20px 30px;
@@ -2073,43 +2089,57 @@ footer .copyright span {
       transform: translateX(-30%);
     }
   }
-  #section4 {
-    height: 110vh;
+  .anim1 {
+    font-size: 56px;
   }
-
+  .anim2 {
+    font-size: 18px;
+  }
+  .anim3 .btn {
+    width: 303px;
+    height: 66px;
+    font-size: 18px;
+  }
+  #section4 {
+    height: 1000px;
+  }
+  #section4 .judul {
+    font-size: 56px;
+  }
   .text2 {
     color: #ffcf54;
     -webkit-text-stroke-color: #94762b;
     -webkit-text-stroke-width: 1px;
     position: absolute;
-    font-size: 102px;
-    top: 0px;
-    left: 54px;
+    font-size: 150px;
+    font-weight: 800;
+    top: -30px;
+    left: 1px;
   }
 
   .text1-ess {
-    font-size: 22px !important;
+    font-size: 30px !important;
     color: #2b2b29;
     top: 58px;
-    left: 90px;
+    left: 55px;
     position: absolute;
     font-style: italic;
   }
 
   .text1-rec {
-    font-size: 22px !important;
+    font-size: 30px !important;
     color: #2b2b29;
     top: 58px;
-    left: 70px;
+    left: 55px;
     position: absolute;
     font-style: italic;
   }
 
   .text1-tm {
-    font-size: 22px !important;
+    font-size: 30px !important;
     color: #2b2b29;
     top: 40px;
-    left: 70px;
+    left: 35px;
     position: absolute;
     font-style: italic;
   }
@@ -2124,13 +2154,13 @@ footer .copyright span {
     position: absolute;
     font-size: 1.75rem;
     top: 40%;
+    padding: 0 10px 0 10px;
   }
 
   .back-paragraph, .back-paragraph-ess {
     position: absolute;
     font-size: 16px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0 10px 0 10px;
   }
 
   .back-content .btn {
