@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 :root {
@@ -816,7 +816,7 @@ transform: rotate(-135deg);
     font-size: 19px;
     line-height: 30.6px;
   }
-  .desc .btn, .anim3 .btn {
+  .desc .btn {
     font-size: 24px;
     width: 295.18px;
   }
