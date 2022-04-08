@@ -233,7 +233,7 @@ transform: rotate(-135deg);
   padding-right: 0px;
 }
 
-.desc .btn {
+.desc .btn, .anim3 .btn {
   background-color: #2B2B29 !important;
   font-weight: 500;
   color: white;
@@ -445,7 +445,7 @@ transform: rotate(-135deg);
     margin-left: 20px;
     margin-right: 20px;
   }
-  .desc .btn {
+  .desc .btn, .anim3 .btn {
     font-size: 16px;
     border-radius: 20px;
     margin-top: 0rem !important;
@@ -476,7 +476,7 @@ transform: rotate(-135deg);
     padding-left: 10px;
     padding-right: 10px;
   }
-  .desc .btn {
+  .desc .btn, .anim3 .btn {
     font-size: 18px;
     border-radius: 15px;
     margin-bottom: 1rem;
@@ -512,7 +512,7 @@ transform: rotate(-135deg);
     padding-right: 40px;
     margin-bottom: 1rem;
   }
-  .desc .btn {
+  .desc .btn, .anim3 .btn {
     font-size: 20px;
     border-radius: 12px;
     width: 46%;
@@ -602,7 +602,7 @@ transform: rotate(-135deg);
     padding-left: 80px;
     padding-right: 80px;
   }
-  .desc .btn {
+  .desc .btn, .anim3 .btn {
     font-size: 22px;
     width: 38%;
   }
@@ -682,7 +682,7 @@ transform: rotate(-135deg);
     margin-left: 0px;
     margin-right: 0px;
   }
-  .desc .btn {
+  .desc .btn, .anim3 .btn {
     font-size: 19px;
     width: 224.95px;
     margin-top: 2rem !important;
@@ -750,7 +750,7 @@ transform: rotate(-135deg);
     font-size: 16px;
     line-height: 30.6px;
   }
-  .desc .btn {
+  .desc .btn, .anim3 .btn {
     font-size: 26px;
     width: 309.26px;
   }
@@ -816,7 +816,7 @@ transform: rotate(-135deg);
     font-size: 19px;
     line-height: 30.6px;
   }
-  .desc .btn {
+  .desc .btn, .anim3 .btn {
     font-size: 24px;
     width: 295.18px;
   }
