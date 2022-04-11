@@ -144,64 +144,63 @@ body {
 /* Icon 1 */
 
 .animated-icon1 {
-width: 30px;
-height: 20px;
-position: relative;
-margin: 0px;
--webkit-transform: rotate(0deg);
-transform: rotate(0deg);
--webkit-transition: .5s ease-in-out;
-transition: .5s ease-in-out;
-cursor: pointer;
+  width: 30px;
+  height: 20px;
+  position: relative;
+  margin: 0px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
 }
 
 .animated-icon1 span {
-display: block;
-position: absolute;
-height: 3px;
-width: 100%;
-border-radius: 9px;
-opacity: 1;
-left: 0;
--webkit-transform: rotate(0deg);
-transform: rotate(0deg);
--webkit-transition: .25s ease-in-out;
-transition: .25s ease-in-out;
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
 }
 
 .animated-icon1 span {
-background: #323232;
-height: 4px;
+  background: #323232;
+  height: 4px;
 }
 
 .animated-icon1 span:nth-child(1) {
-
-top: 0px;
+  top: 0px;
 }
 
 .animated-icon1 span:nth-child(2) {
-top: 10px;
+  top: 10px;
 }
 
 .animated-icon1 span:nth-child(3) {
-top: 20px;
+  top: 20px;
 }
 
 .animated-icon1.open span:nth-child(1) {
-top: 11px;
--webkit-transform: rotate(135deg);
-transform: rotate(135deg);
+  top: 11px;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 .animated-icon1.open span:nth-child(2) {
-opacity: 0;
-left: -60px;
+  opacity: 0;
+  left: -60px;
 }
 
 .animated-icon1.open span:nth-child(3) {
-top: 11px;
--webkit-transform: rotate(-135deg);
-transform: rotate(-135deg);
+  top: 11px;
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
 }
 
 .section1 {
@@ -261,7 +260,7 @@ transform: rotate(-135deg);
   display: none;
   position: absolute;
   width: 50px;
-  animation: slide-up-opacity 1s cubic-bezier(0.4, 0, 0.2, 1) 500ms forwards, floating 3s infinite ease-in-out;
+  animation: slide-up 1s cubic-bezier(0.4, 0, 0.2, 1) 500ms forwards, floating 3s infinite ease-in-out;
   animation-delay: 1000ms;
 }
 
@@ -301,14 +300,12 @@ transform: rotate(-135deg);
   }
 }
 
-@keyframes slide-up-opacity {
+@keyframes slide-up {
   0% {
     transform: translateY(100%);
-    opacity: 0;
   }
   100% {
     transform: translateY(0);
-    opacity: 1;
   }
 }
 
@@ -446,8 +443,9 @@ transform: rotate(-135deg);
     margin-right: 20px;
   }
   .desc .btn, .anim3 .btn {
-    font-size: 16px;
-    border-radius: 20px;
+    font-size: 14px;
+    border-radius: 14.69px;
+    padding: 0.5rem !important;
     margin-top: 0rem !important;
     margin-bottom: 0.5rem;
     margin-left: auto;
@@ -477,8 +475,10 @@ transform: rotate(-135deg);
     padding-right: 10px;
   }
   .desc .btn, .anim3 .btn {
-    font-size: 18px;
-    border-radius: 15px;
+    font-size: 14px;
+    width: 229px;
+    border-radius: 14.69px;
+    padding: 0.5rem !important;
     margin-bottom: 1rem;
   }
   .rect2 {
@@ -513,9 +513,10 @@ transform: rotate(-135deg);
     margin-bottom: 1rem;
   }
   .desc .btn, .anim3 .btn {
-    font-size: 20px;
+    font-size: 14px;
     border-radius: 12px;
-    width: 46%;
+    width: 181.71px;
+    padding: 0.5rem !important;
     margin-bottom: 0.5rem;
   }
   .rect {
@@ -603,8 +604,9 @@ transform: rotate(-135deg);
     padding-right: 80px;
   }
   .desc .btn, .anim3 .btn {
-    font-size: 22px;
-    width: 38%;
+    font-size: 18px;
+    width: 32%;
+    padding: 0.8rem !important;
   }
   .rect {
     width: 50px;
@@ -683,11 +685,11 @@ transform: rotate(-135deg);
     margin-right: 0px;
   }
   .desc .btn, .anim3 .btn {
-    font-size: 19px;
-    width: 224.95px;
-    margin-top: 2rem !important;
+    font-size: 18px;
+    width: 235px;
     margin-left: 0px;
     margin-right: 0px;
+    border-radius: 12px;
   }
   .box-1 {
     top: 140px;
@@ -751,8 +753,8 @@ transform: rotate(-135deg);
     line-height: 30.6px;
   }
   .desc .btn, .anim3 .btn {
-    font-size: 26px;
-    width: 309.26px;
+    font-size: 18px;
+    width: 280px;
   }
   .box-1 {
     top: 100px;
@@ -816,7 +818,7 @@ transform: rotate(-135deg);
     font-size: 19px;
     line-height: 30.6px;
   }
-  .desc .btn {
+  .desc .btn, .anim3 .btn {
     font-size: 18px;
     width: 295.18px;
   }
@@ -1892,11 +1894,13 @@ footer .copyright span {
   -webkit-text-stroke-width: 1px;
   position: absolute;
   font-family: "Open Sans", sans-serif;
-  font-size: 158.45spx;
-  top: 0px;
+  font-size: 140px;
+  font-weight: 800 !important;
+  top: -40px;
   line-height: 216px;
   letter-spacing: 0px;
   left: 40px;
+  margin-left: 15px;
 }
 
 .text1-ess {
@@ -1905,7 +1909,7 @@ footer .copyright span {
   left: 65px;
   position: absolute;
   font-style: italic;
-  font-weight: 800;
+  font-weight: 800 !important;
 }
 
 .text1-rec {
@@ -1914,7 +1918,7 @@ footer .copyright span {
   left: 50px;
   position: absolute;
   font-style: italic;
-  font-weight: 800;
+  font-weight: 800 !important;
 }
 
 .text1-tm {
@@ -1923,7 +1927,8 @@ footer .copyright span {
   left: 50px;
   position: absolute;
   font-style: italic;
-  font-weight: 800;
+  font-weight: 800 !important;
+  line-height: 30px;
 }
 
 #section4 .col {
@@ -1988,35 +1993,79 @@ footer .copyright span {
 
 @media (min-width: 320px) {
   #section3-4 .judul {
-    letter-spacing: 0px;
+    font-size: 32px;
+    font-weight: 800 !important;
+    margin: 0 15px 0 15px;
+    line-height: 38.13px;
+    letter-spacing: 0.05em;
+  }
+  .anim2 {
+    margin: 0 15px 0 15px;
+  }
+  #section4 .judul {
+    font-size: 28px !important;
+    line-height: 35px;
+    letter-spacing: normal;
+  }
+}
+
+@media (min-width: 375px) {
+  #section4 .judul {
+    margin: 0 20px 0 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .anim2 {
+    margin: 0 70px 0 70px;
+  }
+  #section4 .judul {
+    font-size: 32px !important;
+    line-height: 40px;
+    margin: 0 50px 0 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .anim2 {
+    margin: 12px 0 12px 0;
+  }
+  #section4 .judul {
+    margin: 0 20px 0 20px;
   }
 }
 
 @media (min-width: 992px) {
   #section3-4 .judul {
+    font-size: 38px;
     letter-spacing: 10px;
   }
   #section4 {
     height: 800px;
   }
+  #section4 .judul {
+    font-size: 38px !important;
+    letter-spacing: 10px;
+  }
   .text2 {
-    font-size: 82px;
-    left: 25px;
+    font-size: 90px !important;
+    left: 0px;
   }
   .text1-rec {
     font-size: 18px !important;
-    top: 50px;
+    top: 55px;
     left: 35px;
   }
   .text1-ess {
     font-size: 18px !important;
-    top: 50px;
+    top: 55px;
     left: 50px;
   }
   .text1-tm {
     font-size: 18px !important;
-    top: 36px;
+    top: 45px;
     left: 35px;
+    line-height: 20px;
   }
   .back-judul {
     font-size: 20px;
@@ -2031,12 +2080,22 @@ footer .copyright span {
 }
 
 @media (min-width: 1200px) {
+  #section3-4 .judul {
+    font-size: 48px;
+  }
+  .anim2 {
+    font-size: 18px;
+    margin: 32px 0 32px 0;
+  }
   #section4 {
     height: 900px;
   }
+  #section4 .judul {
+    font-size: 48px !important;
+  }
   .text2 {
-    font-size: 90px;
-    left: 40px;
+    font-size: 102px !important;
+    left: 15px;
   }
   .text1-rec {
     font-size: 20px !important;
@@ -2050,8 +2109,9 @@ footer .copyright span {
   }
   .text1-tm {
     font-size: 20px !important;
-    top: 40px;
+    top: 50px;
     left: 50px;
+    line-height: 20px;
   }
   .back-judul {
     font-size: 1.5rem;
@@ -2069,6 +2129,9 @@ footer .copyright span {
 @media (min-width: 1400px) {
   #section3-4 {
     height: 700px;
+  }
+  #section3-4 .judul {
+    font-size: 56px;
   }
   #section3-4 .slider .slide img {
     margin: 20px 30px;
@@ -2095,24 +2158,18 @@ footer .copyright span {
   .anim2 {
     font-size: 18px;
   }
-  .anim3 .btn {
-    width: 303px;
-    height: 66px;
-    font-size: 18px;
-  }
   #section4 {
     height: 1000px;
   }
   #section4 .judul {
-    font-size: 56px;
+    font-size: 56px !important;
   }
   .text2 {
     color: #ffcf54;
     -webkit-text-stroke-color: #94762b;
     -webkit-text-stroke-width: 1px;
     position: absolute;
-    font-size: 150px;
-    font-weight: 800;
+    font-size: 140px !important;
     top: -30px;
     left: 1px;
   }
@@ -2130,7 +2187,7 @@ footer .copyright span {
     font-size: 30px !important;
     color: #2b2b29;
     top: 58px;
-    left: 55px;
+    left: 40px;
     position: absolute;
     font-style: italic;
   }
@@ -2139,9 +2196,10 @@ footer .copyright span {
     font-size: 30px !important;
     color: #2b2b29;
     top: 40px;
-    left: 35px;
+    left: 40px;
     position: absolute;
     font-style: italic;
+    line-height: 30px;
   }
   .ic1 {
     position: absolute;
