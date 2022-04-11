@@ -917,7 +917,7 @@ body {
 .choose {
   padding: 80px 0px;
   font-family: "Opensans", sans-serif;
-  background-color: #edf2f7;
+  background-color: #e2e8f0;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -1230,7 +1230,7 @@ body {
 }
 @media (min-width: 992px) {
   .choose .slider {
-    height: 330px;
+    height: 370px;
   }
   .choose .slider .board-slider .slider-items .image {
     min-height: 70px;
@@ -1309,6 +1309,14 @@ body {
   background-color: #edf2f7;
   width: 100%;
 }
+.formSection .back-button {
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  right: 0;
+  z-index: 8;
+}
 .formSection .formContent {
   padding: 65px 0px;
 }
@@ -1374,11 +1382,15 @@ body {
   transition: 2s;
   background-color: white;
   border-radius: 20px;
-  padding: 30px;
+  padding: 35px 30px;
   color: #2d3748;
 }
 .formSection .card-form h3:nth-child(1) {
   font-weight: 800;
+  font-family: "Inter", sans-serif;
+}
+.formSection .card-form h3:nth-child(1) span {
+  color: #ffc42f;
 }
 
 .formSection input,
@@ -1432,6 +1444,13 @@ body {
 @media (min-width: 992px) {
   .formSection {
     margin-bottom: 140vh;
+  }
+  .formSection .card-form h3:nth-child(1) {
+    font-weight: 900;
+    font-size: 24px;
+  }
+  .formSection .back-button {
+    bottom: -85px;
   }
   .formSection label {
     font-size: 13px;
