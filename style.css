@@ -1891,7 +1891,7 @@ footer .copyright span {
 .text2 {
   color: #ffcf54;
   -webkit-text-stroke-color: #94762b;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 0.5px;
   position: absolute;
   font-family: "Open Sans", sans-serif;
   font-size: 140px;
