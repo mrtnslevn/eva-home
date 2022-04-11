@@ -427,6 +427,43 @@ body {
     0px 7.56817px 6.05454px rgba(0, 0, 0, 0.035), 0px 4.76408px 3.81126px rgba(0, 0, 0, 0.0300374), 0px 2.73726px 2.18981px rgba(0, 0, 0, 0.0243888), 0px 1.20474px 0.963791px rgba(0, 0, 0, 0.0167767);
 }
 
+.icon-scroll {
+  display: none;
+  background-color: #2B2B29;
+  color: white;
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  top: 90%;
+}
+
+.icon-scroll-inside {
+  color: white;
+  padding: 10px;
+  padding-left: 13px;
+  animation: scrolldown 1.5s infinite;
+}
+
+@keyframes scrolldown {
+  0% {
+    transform: translate3d(0,-50%,0) rotateX(90deg);
+  }
+  30% {
+    transform: translate3d(0,0,0) rotateX(0deg);
+  }
+  70% {
+    transform: translate3d(0,0,0) rotateX(0deg);
+  }
+  95% {
+    transform: translate3d(0,50%,0) rotateX(-90deg);
+  }
+  100% {
+    transform: translate3d(0,50%,0) rotateX(-90deg);
+  }
+}
+
 @media (min-width: 320px) {
   .section1 {
     height: 800px;
@@ -749,6 +786,9 @@ body {
     top: 480px;
     left: 445px;
   }
+  .icon-scroll {
+    display: block;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -815,6 +855,14 @@ body {
     font-size: 22px;
     top: 450px;
     left: 495px;
+  }
+  .icon-scroll {
+    width: 40px;
+    height: 40px;
+    font-size: 1.25em;
+  }
+  .icon-scroll-inside {
+    padding-left: 14px;
   }
 }
 
@@ -887,6 +935,15 @@ body {
     top: 610px;
     left: 620px;
   }
+  .icon-scroll {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5em;
+  }
+  .icon-scroll-inside {
+    padding: 14px;
+    padding-left: 18px;
+  }
 }
 
 /* section2  */
@@ -916,7 +973,6 @@ body {
 
 .choose {
   padding: 80px 0px;
-  font-family: "Opensans", sans-serif;
   background-color: #e2e8f0;
   position: relative;
   z-index: 1;
@@ -1293,7 +1349,6 @@ body {
 /* ----------------------------------------------------------------------------------------------------------- */
 
 .formSection {
-  font-family: "Open Sans", sans-serif;
   position: relative;
   background-color: #edf2f7;
   z-index: 1;
@@ -1310,7 +1365,6 @@ body {
   width: 100%;
 }
 .formSection .back-button {
-  font-family: "Inter", sans-serif;
   position: absolute;
   bottom: -25px;
   left: 0;
@@ -1387,7 +1441,6 @@ body {
 }
 .formSection .card-form h3:nth-child(1) {
   font-weight: 800;
-  font-family: "Inter", sans-serif;
 }
 .formSection .card-form h3:nth-child(1) span {
   color: #ffc42f;
@@ -1531,7 +1584,6 @@ body {
 /* ----------------------------------------------------------------------------------------------------------- */
 
 footer {
-  font-family: "Open Sans", sans-serif;
   position: relative;
   background-color: #2b2b29;
   color: white;

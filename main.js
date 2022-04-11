@@ -149,7 +149,8 @@ if(window.matchMedia("(min-width: 992px)").matches) {
       { display: "block", opacity: 1, duration: 1 },
       "third"
     )
-    .fromTo("nav", { autoAlpha: 0 }, { autoAlpha: 1, duration: 1 }, "third");
+    .fromTo("nav", { autoAlpha: 0 }, { autoAlpha: 1, duration: 1 }, "third")
+    .fromTo(".icon-scroll", {autoAlpha: 0}, {autoAlpha: 1, duration: 1}, "third");
 }
 
 $(window).on("resize", resize);
