@@ -165,6 +165,7 @@ function resize() {
     $('.rect').css('display', 'none');
     $('.employee-img').css('display', 'none');
     header.kill();
+    $('#section3-4 .judul').css('letter-spacing', '0.05em');
   } else {
     loopImage.pause();
     $('.rect').css('display', 'block');
