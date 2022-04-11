@@ -26,7 +26,7 @@ if(window.matchMedia("(min-width: 992px)").matches) {
   const tl4 = gsap.timeline();
   tl4
     .fromTo(".anim5 .judul", {opacity: 0}, {opacity: 1, letterSpacing: 0, duration: 1})
-    .fromTo(".anim5", {y: 350}, {y: 0, duration: 1})
+    .fromTo(".anim5", {y: 300}, {y: 0, duration: 1})
     .fromTo(".anim6", {opacity:0, x:-50}, {opacity: 1, x: 0, duration: 1, ease: 'Power3.easeOut'} )
   
   

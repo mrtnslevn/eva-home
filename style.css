@@ -2039,13 +2039,15 @@ footer .copyright span {
   #section3-4 .judul {
     font-size: 38px;
     letter-spacing: 10px;
+    white-space: nowrap;
   }
   #section4 {
-    height: 800px;
+    height: 700px;
   }
   #section4 .judul {
     font-size: 38px !important;
     letter-spacing: 10px;
+    white-space: nowrap;
   }
   .text2 {
     font-size: 90px !important;
@@ -2088,7 +2090,7 @@ footer .copyright span {
     margin: 32px 0 32px 0;
   }
   #section4 {
-    height: 900px;
+    height: 800px;
   }
   #section4 .judul {
     font-size: 48px !important;
@@ -2159,7 +2161,7 @@ footer .copyright span {
     font-size: 18px;
   }
   #section4 {
-    height: 1000px;
+    height: 900px;
   }
   #section4 .judul {
     font-size: 56px !important;
