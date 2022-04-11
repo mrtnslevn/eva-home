@@ -439,6 +439,10 @@ body {
   top: 90%;
 }
 
+.icon-scroll:hover {
+  cursor: pointer;
+}
+
 .icon-scroll-inside {
   color: white;
   padding: 10px;

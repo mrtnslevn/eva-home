@@ -170,3 +170,12 @@ function resize() {
     $('.rect').css('display', 'block');
   }
 }
+
+$('.scroll-down-icon').click(function() {
+  $('html, body').animate({ scrollTop: $('#section3-4').offset().top});
+})
+
+$('.back-button button').click(function () {
+  $("html, body").animate({ scrollTop: 0 });
+  return false;
+});
