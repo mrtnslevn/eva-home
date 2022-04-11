@@ -168,6 +168,8 @@ function resize() {
   } else {
     loopImage.pause();
     $('.rect').css('display', 'block');
+    $('#section3-4 .judul').css('letter-spacing', '0px');
+    $('#section4 .judul').css('letter-spacing', '0px');
   }
 }
 

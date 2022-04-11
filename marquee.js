@@ -6,7 +6,7 @@ if(window.matchMedia("(min-width: 992px)").matches) {
   //   .fromTo(".transisi4-desc", { height: 40 }, { height: 0 })
   //   .fromTo("#slider1", { x: 1300 }, { x: 0 });
   
-          .fromTo("#anim1", {opacity: 0}, {opacity: 1, letterSpacing: 0, duration: 1, ease: 'Power2.out'})
+          .fromTo("#anim1", {opacity: 0, letterSpacing: 10}, {opacity: 1, letterSpacing: 0, duration: 1, ease: 'Power2.out'})
           .fromTo("#anim1", {y: 350}, {y: 0, duration: 1})
           .from(".anim2", {opacity: 0, duration: 0.5, y: -5, ease: 'power2.easeIn', })
           .from(".anim3", {opacity: 0, duration:0.4, y: 30, ease: 'power2.easeIn', })
@@ -25,7 +25,7 @@ if(window.matchMedia("(min-width: 992px)").matches) {
   
   const tl4 = gsap.timeline();
   tl4
-    .fromTo(".anim5 .judul", {opacity: 0}, {opacity: 1, letterSpacing: 0, duration: 1})
+    .fromTo(".anim5 .judul", {opacity: 0, letterSpacing: 10}, {opacity: 1, letterSpacing: 0, duration: 1})
     .fromTo(".anim5", {y: 300}, {y: 0, duration: 1})
     .fromTo(".anim6", {opacity:0, x:-50}, {opacity: 1, x: 0, duration: 1, ease: 'Power3.easeOut'} )
   

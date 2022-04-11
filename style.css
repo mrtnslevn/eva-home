@@ -2074,7 +2074,6 @@ footer .copyright span {
 
 #section3-4 .judul {
   font-weight: 800;
-  letter-spacing: 10px;
   font-size: 56px;
 }
 
@@ -2193,7 +2192,6 @@ footer .copyright span {
 #section4 .judul {
   font-weight: 900;
   font-size: 56px;
-  letter-spacing: 10px;
 }
 #section4 .gap {
   gap: 5rem;
@@ -2316,7 +2314,6 @@ footer .copyright span {
   #section4 .judul {
     font-size: 28px !important;
     line-height: 35px;
-    letter-spacing: normal;
   }
 }
 
@@ -2349,7 +2346,6 @@ footer .copyright span {
 @media (min-width: 992px) {
   #section3-4 .judul {
     font-size: 38px;
-    letter-spacing: 10px;
     white-space: nowrap;
   }
   #section4 {
@@ -2357,7 +2353,6 @@ footer .copyright span {
   }
   #section4 .judul {
     font-size: 38px !important;
-    letter-spacing: 10px;
     white-space: nowrap;
   }
   .text2 {
