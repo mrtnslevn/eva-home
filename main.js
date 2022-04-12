@@ -178,7 +178,14 @@ $('.scroll-down-icon').click(function() {
   $('html, body').animate({ scrollTop: $('#section3-4').offset().top});
 })
 
+$('.section1 .desc .btn').click(function() {
+  $('html, body').animate({ scrollTop: $('.formSection').offset().top})
+})
+
+$('#section3-4 .anim3 .btn').click(function() {
+  $('html, body').animate({ scrollTop: $('.formSection').offset().top})
+})
+
 $('.back-button button').click(function () {
-  $("html, body").animate({ scrollTop: 0 });
-  return false;
+  $("html, body").animate({ scrollTop: $('#section4').offset().top });
 });

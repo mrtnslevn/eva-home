@@ -239,7 +239,7 @@ body {
   color: white;
   width: 70%;
   font-size: 26px;
-  border-radius: 12px;
+  border-radius: 8px;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -490,7 +490,6 @@ body {
   .desc .btn,
   .anim3 .btn {
     font-size: 14px;
-    border-radius: 14.69px;
     padding: 0.5rem !important;
     margin-top: 0rem !important;
     margin-bottom: 0.5rem;
@@ -525,7 +524,6 @@ body {
   .anim3 .btn {
     font-size: 14px;
     width: 229px;
-    border-radius: 14.69px;
     padding: 0.5rem !important;
     margin-bottom: 1rem;
   }
@@ -563,7 +561,6 @@ body {
   .desc .btn,
   .anim3 .btn {
     font-size: 14px;
-    border-radius: 12px;
     width: 181.71px;
     padding: 0.5rem !important;
     margin-bottom: 0.5rem;
@@ -2197,46 +2194,131 @@ footer .copyright span {
   gap: 5rem;
 }
 
+#section4 .row {
+  display: none;
+}
+
+#section4 .card768 {
+  display: none;
+}
+
 .text2 {
   color: #ffcf54;
   -webkit-text-stroke-color: #94762b;
   -webkit-text-stroke-width: 0.5px;
   position: absolute;
   font-family: "Open Sans", sans-serif;
-  font-size: 140px;
+  font-size: 90px;
   font-weight: 800 !important;
   top: -40px;
   line-height: 216px;
   letter-spacing: 0px;
-  left: 40px;
+  left: 0px;
   margin-left: 15px;
 }
 
 .text1-ess {
   color: #2b2b29;
-  top: 54px;
-  left: 65px;
+  top: 55px;
+  left: 50px;
   position: absolute;
+  font-size: 18px;
   font-style: italic;
-  font-weight: 800 !important;
+  font-weight: 800;
 }
 
 .text1-rec {
   color: #2b2b29;
-  top: 54px;
-  left: 50px;
+  top: 55px;
+  left: 35px;
   position: absolute;
+  font-size: 18px;
   font-style: italic;
-  font-weight: 800 !important;
+  font-weight: 800;
 }
 
 .text1-tm {
   color: #2b2b29;
-  top: 40px;
-  left: 50px;
+  top: 45px;
+  left: 35px;
   position: absolute;
+  font-size: 18px;
   font-style: italic;
-  font-weight: 800 !important;
+  font-weight: 800;
+  line-height: 20px;
+}
+
+.text2-rec768 {
+  color: #ffcf54;
+  -webkit-text-stroke-color: #94762b;
+  -webkit-text-stroke-width: 0.5px;
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  font-size: 125px;
+  font-weight: 800;
+  top: 230px;
+  line-height: 216px;
+  letter-spacing: 0px;
+  right: 130px;
+}
+
+.text2-ess768 {
+  color: #ffcf54;
+  -webkit-text-stroke-color: #94762b;
+  -webkit-text-stroke-width: 0.5px;
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  font-size: 125px;
+  font-weight: 800;
+  top: 450px;
+  line-height: 216px;
+  letter-spacing: 0px;
+  left: 40px;
+}
+
+.text2-tm768 {
+  color: #ffcf54;
+  -webkit-text-stroke-color: #94762b;
+  -webkit-text-stroke-width: 0.5px;
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  font-size: 125px;
+  font-weight: 800;
+  top: 660px;
+  line-height: 216px;
+  letter-spacing: 0px;
+  right: 130px;
+}
+
+.text1-ess768 {
+  color: #2b2b29;
+  top: 545px;
+  left: 75px;
+  position: absolute;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.text1-rec768 {
+  color: #2b2b29;
+  top: 320px;
+  right: 170px;
+  position: absolute;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.text1-tm768 {
+  color: #2b2b29;
+  top: 740px;
+  right: 170px;
+  position: absolute;
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 900;
   line-height: 30px;
 }
 
@@ -2259,32 +2341,25 @@ footer .copyright span {
   transform: rotateY(180deg);
 }
 
-.ic1 {
-  position: absolute;
-  left: 25%;
-  top: 50px;
-  width: 50%;
-}
-
 .back-judul {
   position: absolute;
-  top: 40%;
+  font-size: 20px;
+  top: 20%;
 }
 
 .back-paragraph,
 .back-paragraph-ess {
   position: absolute;
-  top: 60%;
-  font-size: 14px;
-  padding-left: 10px;
-  padding-right: 10px;
+  top: 42%;
+  font-size: 12px;
+  padding: 0 10px 0 10px;
 }
 
 .back-content .btn {
   position: absolute;
-  top: 80%;
-  font-size: 16px;
-  left: 23%;
+  top: 70%;
+  font-size: 14px;
+  left: 19%;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   background-color: #2b2b29;
@@ -2332,11 +2407,17 @@ footer .copyright span {
     line-height: 40px;
     margin: 0 50px 0 50px;
   }
+  #section4 .card768 {
+    display: block;
+  }
 }
 
 @media (min-width: 768px) {
   .anim2 {
     margin: 12px 0 12px 0;
+  }
+  #section4 {
+    height: 900px;
   }
   #section4 .judul {
     margin: 0 20px 0 20px;
@@ -2355,36 +2436,11 @@ footer .copyright span {
     font-size: 38px !important;
     white-space: nowrap;
   }
-  .text2 {
-    font-size: 90px !important;
-    left: 0px;
+  #section4 .row {
+    display: flex;
   }
-  .text1-rec {
-    font-size: 18px !important;
-    top: 55px;
-    left: 35px;
-  }
-  .text1-ess {
-    font-size: 18px !important;
-    top: 55px;
-    left: 50px;
-  }
-  .text1-tm {
-    font-size: 18px !important;
-    top: 45px;
-    left: 35px;
-    line-height: 20px;
-  }
-  .back-judul {
-    font-size: 20px;
-  }
-  .back-paragraph,
-  .back-paragraph-ess {
-    font-size: 12px;
-  }
-  .back-content .btn {
-    left: 19%;
-    font-size: 14px;
+  #section4 .card768 {
+    display: none;
   }
 }
 
@@ -2403,21 +2459,21 @@ footer .copyright span {
     font-size: 48px !important;
   }
   .text2 {
-    font-size: 102px !important;
+    font-size: 102px;
     left: 15px;
   }
   .text1-rec {
-    font-size: 20px !important;
+    font-size: 20px;
     top: 54px;
     left: 50px;
   }
   .text1-ess {
-    font-size: 20px !important;
+    font-size: 20px;
     top: 54px;
     left: 65px;
   }
   .text1-tm {
-    font-size: 20px !important;
+    font-size: 20px;
     top: 50px;
     left: 50px;
     line-height: 20px;
@@ -2427,7 +2483,6 @@ footer .copyright span {
   }
   .back-paragraph,
   .back-paragraph-ess {
-    top: 60%;
     font-size: 14px;
   }
   .back-content .btn {
@@ -2475,71 +2530,36 @@ footer .copyright span {
     font-size: 56px !important;
   }
   .text2 {
-    color: #ffcf54;
-    -webkit-text-stroke-color: #94762b;
-    -webkit-text-stroke-width: 1px;
-    position: absolute;
-    font-size: 140px !important;
+    font-size: 130px;
     top: -30px;
-    left: 1px;
   }
-
   .text1-ess {
-    font-size: 30px !important;
-    color: #2b2b29;
+    font-size: 30px;
     top: 58px;
     left: 55px;
-    position: absolute;
-    font-style: italic;
   }
-
   .text1-rec {
-    font-size: 30px !important;
-    color: #2b2b29;
+    font-size: 30px;
     top: 58px;
     left: 40px;
-    position: absolute;
-    font-style: italic;
   }
-
   .text1-tm {
-    font-size: 30px !important;
-    color: #2b2b29;
-    top: 40px;
+    font-size: 30px;
+    top: 45px;
     left: 40px;
-    position: absolute;
-    font-style: italic;
     line-height: 30px;
   }
-  .ic1 {
-    position: absolute;
-    left: 25%;
-    top: 50px;
-    width: 50%;
-  }
-
   .back-judul {
-    position: absolute;
     font-size: 1.75rem;
-    top: 40%;
     padding: 0 10px 0 10px;
   }
-
   .back-paragraph,
   .back-paragraph-ess {
     position: absolute;
-    font-size: 16px;
-    padding: 0 10px 0 10px;
+    font-size: 18px;
   }
-
   .back-content .btn {
-    position: absolute;
-    font-size: 20px;
-    left: 23%;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    background-color: #2b2b29;
-    color: white;
-    border-radius: 10px;
+    font-size: 24px;
+    left: 19%;
   }
 }
