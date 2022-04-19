@@ -873,17 +873,19 @@ body {
   }
   .desc h1 {
     font-size: 56px;
-    margin-top: 100px;
+    margin-top: 75px;
     line-height: 70px;
+    font-weight: 900;
   }
   .desc p {
-    font-size: 19px;
+    font-size: 18px;
     line-height: 30.6px;
   }
   .desc .btn,
   .anim3 .btn {
     font-size: 18px;
     width: 295.18px;
+    margin-top: 40px !important;
   }
   .rect {
     width: 60px;
@@ -2237,18 +2239,12 @@ footer .copyright span {
 }
 
 #section3-4 .slider .slide img {
-  margin: 20px 30px;
-  padding: 10px;
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-  background-color: white;
-  transform: rotate(-45deg);
-  -webkit-backdrop-filter: blur(42px);
-  backdrop-filter: blur(42px);
+  width: 100vw;
+  height: 300px;
 }
 
 #section3-4 .slider .slide-track {
+  margin-top: -100px;
   -webkit-animation: marquee3 12s linear infinite;
   animation: marquee3 12s linear infinite;
   display: flex;
@@ -2257,15 +2253,7 @@ footer .copyright span {
 
 #section3-4 .slider .slide-track1 {
   margin-left: -96px;
-  margin-top: -70px;
-  -webkit-animation: marquee3 12s linear infinite;
-  animation: marquee3 12s linear infinite;
-  display: flex;
-  width: calc(300px * 12);
-}
-
-#section3-4 .slider .slide-track2 {
-  margin-top: -70px;
+  margin-top: 100px;
   -webkit-animation: marquee3 12s linear infinite;
   animation: marquee3 12s linear infinite;
   display: flex;
@@ -2273,8 +2261,8 @@ footer .copyright span {
 }
 
 #section3-4 .slider .slide {
-  height: 150px;
-  width: 185px;
+  height: 300px;
+  width: 100vw;
 }
 
 @keyframes marquee3 {
@@ -2514,6 +2502,15 @@ footer .copyright span {
 }
 
 @media (min-width: 320px) {
+  #section3-4 {
+    height: 680px;
+  }
+  #section3-4 .slider {
+    margin-top: 40px;
+  }
+  #section3-4 .slide img {
+    width: 510px !important;
+  }
   #section3-4 .judul {
     font-size: 32px;
     font-weight: 800 !important;
@@ -2531,12 +2528,31 @@ footer .copyright span {
 }
 
 @media (min-width: 375px) {
+  #section3-4 { 
+    height: 630px;
+  }
+  #section3-4 .slider {
+    margin-top: 20px;
+  }
+  #section3-4 .slide img {
+    width: 600px !important;
+  }
   #section4 .judul {
     margin: 0 20px 0 20px;
   }
 }
 
 @media (min-width: 576px) {
+  #section3-4 {
+    height: 600px;
+  }
+  #section3-4 .slider {
+    margin-top: 20px;
+  }
+  #section3-4 .slide img {
+    width: 100vw !important;
+    height: 300px;
+  }
   .anim2 {
     margin: 0 70px 0 70px;
   }
@@ -2551,6 +2567,12 @@ footer .copyright span {
 }
 
 @media (min-width: 768px) {
+  #section3-4 {
+    height: 620px;
+  }
+  #section3-4 .slide img {
+    height: 400px !important;
+  }
   .anim2 {
     margin: 12px 0 12px 0;
   }
@@ -2563,6 +2585,13 @@ footer .copyright span {
 }
 
 @media (min-width: 992px) {
+  #section3-4 {
+    height: 670px;
+  }
+  #section3-4 .slide img {
+    width: 1000px !important;
+    height: 400px !important;
+  }
   #section3-4 .judul {
     font-size: 38px;
     white-space: nowrap;
@@ -2583,6 +2612,13 @@ footer .copyright span {
 }
 
 @media (min-width: 1200px) {
+  #section3-4 {
+    height: 800px;
+  }
+  #section3-4 .slide img {
+    width: 1100px !important;
+    height: 500px !important;
+  }
   #section3-4 .judul {
     font-size: 48px;
   }
@@ -2631,21 +2667,14 @@ footer .copyright span {
 
 @media (min-width: 1400px) {
   #section3-4 {
-    height: 700px;
+    height: 850px;
   }
   #section3-4 .judul {
     font-size: 56px;
   }
   #section3-4 .slider .slide img {
-    margin: 20px 30px;
-    padding: 10px;
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    background-color: white;
-    transform: rotate(-45deg);
-    -webkit-backdrop-filter: blur(42px);
-    backdrop-filter: blur(42px);
+    width: 1000px !important;
+    height: 500px !important;
   }
   @keyframes marquee3 {
     0% {
