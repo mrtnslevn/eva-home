@@ -2326,13 +2326,13 @@ footer .copyright span {
   line-height: 216px;
   letter-spacing: 0px;
   left: 0px;
-  margin-left: 15px;
+  margin-left: 30px;
 }
 
 .text1-ess {
   color: #2b2b29;
   top: 55px;
-  left: 30px;
+  left: 60px;
   position: absolute;
   font-size: 18px;
   font-style: italic;
@@ -2342,7 +2342,7 @@ footer .copyright span {
 .text1-rec {
   color: #2b2b29;
   top: 55px;
-  left: 30px;
+  left: 50px;
   position: absolute;
   font-size: 18px;
   font-style: italic;
@@ -2352,7 +2352,7 @@ footer .copyright span {
 .text1-tm {
   color: #2b2b29;
   top: 45px;
-  left: 35px;
+  left: 50px;
   position: absolute;
   font-size: 18px;
   font-style: italic;
@@ -2457,23 +2457,27 @@ footer .copyright span {
   transform: rotateY(180deg);
 }
 
+.back img {
+  margin-left: -12px;
+}
+
 .back-judul {
   position: absolute;
   font-size: 20px;
   top: 20%;
-  left: 10%;
+  left: 0;
+  right: 0;
 }
 
 .back-paragraph,
 .back-paragraph-ess {
   position: absolute;
   top: 42%;
-  left: 10%;
   font-size: 12px;
   padding: 0 10px 0 10px;
 }
 
-.back-content .btn {
+#section4 .btn {
   position: absolute;
   top: 70%;
   font-size: 14px;
@@ -2485,7 +2489,7 @@ footer .copyright span {
   border-radius: 10px;
 }
 
-.back-content .btn:hover {
+#section4 .btn:hover {
   background-color: #ffa600 !important;
 }
 
@@ -2596,6 +2600,11 @@ footer .copyright span {
   #section4 .card768 {
     display: none;
   }
+  #section4 .btn {
+    font-size: 14px;
+    width: 70%;
+    left: 15%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -2617,12 +2626,12 @@ footer .copyright span {
   }
   .text2 {
     font-size: 102px;
-    left: 35px;
+    left: 15px;
   }
   .text1-rec {
     font-size: 20px;
     top: 54px;
-    left: 50px;
+    left: 65px;
   }
   .text1-ess {
     font-size: 20px;
@@ -2632,7 +2641,7 @@ footer .copyright span {
   .text1-tm {
     font-size: 20px;
     top: 50px;
-    left: 50px;
+    left: 65px;
     line-height: 20px;
   }
   .back-judul {
@@ -2642,8 +2651,7 @@ footer .copyright span {
   .back-paragraph-ess {
     font-size: 14px;
   }
-  .back-content .btn {
-    left: 22%;
+  #section4 .btn {
     font-size: 16px;
   }
 }
@@ -2680,22 +2688,22 @@ footer .copyright span {
   }
   .text2 {
     font-size: 130px;
-    top: -30px;
+    top: 0px;
   }
   .text1-ess {
-    font-size: 30px;
-    top: 58px;
-    left: 75px;
+    font-size: 24px;
+    top: 90px;
+    left: 95px;
   }
   .text1-rec {
-    font-size: 30px;
-    top: 58px;
-    left: 67px;
+    font-size: 24px;
+    top: 90px;
+    left: 80px;
   }
   .text1-tm {
-    font-size: 30px;
-    top: 45px;
-    left: 60px;
+    font-size: 24px;
+    top: 75px;
+    left: 80px;
     line-height: 30px;
   }
   .back-judul {
@@ -2707,8 +2715,7 @@ footer .copyright span {
     position: absolute;
     font-size: 18px;
   }
-  .back-content .btn {
+  #section4 .btn {
     font-size: 24px;
-    left: 22%;
   }
 }
