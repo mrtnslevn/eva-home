@@ -209,6 +209,7 @@ body {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  box-shadow: #e2e8f0 0px 10px;
 }
 
 .desc {
@@ -982,6 +983,7 @@ body {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  box-shadow: #e2e8f0 0px 10px;
 }
 .choose .header-choose {
   display: flex;
@@ -2207,6 +2209,7 @@ footer .copyright span {
   overflow: hidden;
   background-color: #edf2f7;
   z-index: 1;
+  box-shadow: #edf2f7 0px 10px;
 }
 
 #section3-4 .judul {
@@ -2235,34 +2238,16 @@ footer .copyright span {
 #section3-4 .slider {
   overflow: hidden;
   position: relative;
+  display: flex;
   width: 100vw;
-}
-
-#section3-4 .slider .slide img {
-  width: 100vw;
-  height: 300px;
 }
 
 #section3-4 .slider .slide-track {
   margin-top: -100px;
-  -webkit-animation: marquee3 12s linear infinite;
-  animation: marquee3 12s linear infinite;
+  -webkit-animation: marquee3 36s linear infinite;
+  animation: marquee3 36s linear infinite;
   display: flex;
-  width: calc(300px * 12);
-}
-
-#section3-4 .slider .slide-track1 {
-  margin-left: -96px;
-  margin-top: 100px;
-  -webkit-animation: marquee3 12s linear infinite;
-  animation: marquee3 12s linear infinite;
-  display: flex;
-  width: calc(300px * 12);
-}
-
-#section3-4 .slider .slide {
-  height: 300px;
-  width: 100vw;
+  /* width: calc(300px * 12); */
 }
 
 @keyframes marquee3 {
@@ -2277,7 +2262,7 @@ footer .copyright span {
 #section3-4 .rectangle {
   position: absolute;
   width: 100vw;
-  height: 100px;
+  height: 20%;
   bottom: 0px;
   background: linear-gradient(180deg, rgba(237, 242, 247, 0) 0%, #e2e8f0 100%);
 }
@@ -2310,6 +2295,7 @@ footer .copyright span {
   height: 800px;
   overflow: hidden;
   z-index: 1;
+  box-shadow: #e2e8f0 0px 10px;
 }
 
 #section4 .judul {
@@ -2508,8 +2494,8 @@ footer .copyright span {
   #section3-4 .slider {
     margin-top: 40px;
   }
-  #section3-4 .slide img {
-    width: 510px !important;
+  #section3-4 .slider img {
+    width: 700px;
   }
   #section3-4 .judul {
     font-size: 32px;
@@ -2534,8 +2520,8 @@ footer .copyright span {
   #section3-4 .slider {
     margin-top: 20px;
   }
-  #section3-4 .slide img {
-    width: 600px !important;
+  #section3-4 .slider img {
+    width: 800px;
   }
   #section4 .judul {
     margin: 0 20px 0 20px;
@@ -2549,9 +2535,8 @@ footer .copyright span {
   #section3-4 .slider {
     margin-top: 20px;
   }
-  #section3-4 .slide img {
-    width: 100vw !important;
-    height: 300px;
+  #section3-4 .slider img {
+    width: 1000px;
   }
   .anim2 {
     margin: 0 70px 0 70px;
@@ -2570,9 +2555,6 @@ footer .copyright span {
   #section3-4 {
     height: 620px;
   }
-  #section3-4 .slide img {
-    height: 400px !important;
-  }
   .anim2 {
     margin: 12px 0 12px 0;
   }
@@ -2586,11 +2568,10 @@ footer .copyright span {
 
 @media (min-width: 992px) {
   #section3-4 {
-    height: 670px;
+    height: 700px;
   }
-  #section3-4 .slide img {
-    width: 1000px !important;
-    height: 400px !important;
+  #section3-4 .slider img {
+    width: 1200px;
   }
   #section3-4 .judul {
     font-size: 38px;
@@ -2613,11 +2594,7 @@ footer .copyright span {
 
 @media (min-width: 1200px) {
   #section3-4 {
-    height: 800px;
-  }
-  #section3-4 .slide img {
-    width: 1100px !important;
-    height: 500px !important;
+    height: 720px;
   }
   #section3-4 .judul {
     font-size: 48px;
@@ -2667,14 +2644,13 @@ footer .copyright span {
 
 @media (min-width: 1400px) {
   #section3-4 {
-    height: 850px;
+    height: 800px;
+  }
+  #section3-4 .slider img {
+    width: 1400px;
   }
   #section3-4 .judul {
     font-size: 56px;
-  }
-  #section3-4 .slider .slide img {
-    width: 1000px !important;
-    height: 500px !important;
   }
   @keyframes marquee3 {
     0% {
