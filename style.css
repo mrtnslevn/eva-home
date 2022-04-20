@@ -2404,6 +2404,10 @@ footer .copyright span {
   font-size: 56px;
 }
 
+#section3-4 .row {
+  --bs-gutter-x: 0rem;
+}
+
 #section3-4 .slider {
   overflow: hidden;
   position: relative;
