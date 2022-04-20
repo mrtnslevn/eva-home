@@ -2713,6 +2713,9 @@ position: relative;
   #section4 .judul {
     margin: 0 20px 0 20px;
   }
+  #section4 .card768 {
+    display: block;
+  }
 }
 
 @media (min-width: 576px) {
@@ -2742,9 +2745,9 @@ position: relative;
     -webkit-text-stroke-width: 0.5px;
     position: absolute;
     font-family: "Open Sans", sans-serif;
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 800;
-    top: 14%;
+    top: 3%;
     /* line-height: 216px; */
     letter-spacing: 0px;
     right: 14%;
@@ -2756,9 +2759,9 @@ position: relative;
     -webkit-text-stroke-width: 0.5px;
     position: absolute;
     font-family: "Open Sans", sans-serif;
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 800;
-    top: 0%;
+    top: -13%;
     /* line-height: 216px; */
     letter-spacing: 0px;
     left: 10%;
@@ -2770,9 +2773,9 @@ position: relative;
     -webkit-text-stroke-width: 0.5px;
     position: absolute;
     font-family: "Open Sans", sans-serif;
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 800;
-    top: 0%;
+    top: -10%;
     /* line-height: 216px; */
     letter-spacing: 0px;
     right: 14%;
@@ -2783,7 +2786,7 @@ position: relative;
     top: 43%;
     left: 13%;
     position: absolute;
-    font-size: 24px;
+    font-size: 18px;
     font-style: italic;
     font-weight: 900;
   }
@@ -2793,7 +2796,7 @@ position: relative;
     top: 50%;
     right: 16%;
     position: absolute;
-    font-size: 24px;
+    font-size: 18px;
     font-style: italic;
     font-weight: 900;
   }
@@ -2804,7 +2807,7 @@ position: relative;
     right: 15%;
     position: absolute;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     font-style: italic;
     font-weight: 900;
     line-height: 30px;
