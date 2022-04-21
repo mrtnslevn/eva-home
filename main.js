@@ -2,7 +2,7 @@ $(document).ready(function () {
   var $win = $(window);
 
   $win.scroll(function () {
-    if ($win.scrollTop() > 0) {
+    if ($win.scrollTop() > 150) {
       $("#nav .container-lg").addClass("scrolltop");
     } else {
       $("#nav .container-lg").removeClass("scrolltop");
@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function () {
       if (scroll_top < last_scroll_top) {
         el_autohide.classList.remove("scrolled-down");
         el_autohide.classList.add("scrolled-up");
-      } else if (scroll_top < 600) {
       } else {
         el_autohide.classList.remove("scrolled-up");
         el_autohide.classList.add("scrolled-down");
@@ -37,8 +36,10 @@ document.addEventListener("DOMContentLoaded", function () {
 // DOMContentLoaded  end
 
 document.querySelector('#nav .first-button').addEventListener('click', function () {
+
   document.querySelector('#nav .animated-icon1').classList.toggle('open');
-});
+  });
+
 
 const loopImage = gsap.timeline({repeat: -1});
 const header = gsap.timeline();
