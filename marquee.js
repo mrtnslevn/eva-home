@@ -12,7 +12,7 @@ if(window.matchMedia("(min-width: 992px)").matches) {
           .fromTo("#anim1", {y: 350}, {y: 0, duration: 1, ease: 'power2.inOut'})
           .from(".anim2", {autoAlpha: 0, duration: 0.5, y: -5 })
           .from(".anim3", {autoAlpha: 0, duration:0.4, y: 30 })
-          .fromTo('#section3-4 .slider', {autoAlpha: 0}, {autoAlpha: 1});
+          .fromTo('.slider', {autoAlpha: 0}, {autoAlpha: 1});
   
   ScrollTrigger.create({
     animation: tl3,
