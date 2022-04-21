@@ -1738,16 +1738,16 @@ transform: rotate(-135deg);
   max-height: 350px;
   opacity: 0;
   overflow: hidden;
-  animation: animate 9s linear infinite 0s;
+  animation: animate 15s linear infinite 0s;
 }
 .formSection .image-form img:nth-child(1) {
   animation-delay: 0s;
 }
 .formSection .image-form img:nth-child(2) {
-  animation-delay: 3s;
+  animation-delay: 5s;
 }
 .formSection .image-form img:nth-child(3) {
-  animation-delay: 6s;
+  animation-delay: 10s;
 }
 
 @-webkit-keyframes animate {
@@ -1770,7 +1770,6 @@ transform: rotate(-135deg);
 
 .formSection .card-form {
   box-shadow: -10px -10px 25px #f1f8ff, 10px 10px 15px rgba(0, 0, 0, 0.1);
-  transform: translateX(100%);
   transition: 2s;
   background-color: white;
   border-radius: 20px;
