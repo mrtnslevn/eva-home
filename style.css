@@ -2465,7 +2465,7 @@ footer .copyright span {
 #section4 {
   position: relative;
   background-color: #e2e8f0;
-  height: 800px;
+  height: 100vh;
   overflow: hidden;
   z-index: 1;
   box-shadow: #e2e8f0 0px 10px;
@@ -2495,6 +2495,22 @@ position: relative;
   position: relative;
 
   }
+
+#responsive-768 .accordion-bg {
+  display: none;
+  
+  
+  
+  /* background-color: var(--warna2); */
+  
+  
+}
+
+#responsive-768 .accordion-p {
+  font-family: "Open Sans", sans-serif;
+  padding-left: 80px;
+  padding-right: 100px;
+}
 
 .text2 {
   color: #ffcf54;
