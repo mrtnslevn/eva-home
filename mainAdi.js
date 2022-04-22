@@ -12,8 +12,8 @@ function resize() {
     ScrollTrigger.create({
       animation: tlForm,
       trigger: ".formSection",
-      start: "0% 50%",
-      end: "0% 50%",
+      start: "top center",
+      end: "top center",
       toggleActions: "play none none none",
       // scrub: 1,
       // markers: true,
