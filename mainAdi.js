@@ -35,10 +35,10 @@ function resize() {
 
     const tlBlog = gsap.timeline();
     tlBlog
-      .fromTo(".blog .judul h1", { opacity: 0 }, { opacity: 1, duration: 5 })
-      .fromTo(".blog .judul p", { opacity: 0 }, { opacity: 1, duration: 5 })
-      .fromTo(".blog .slider-blog", { opacity: 0 }, { opacity: 1, duration: 5 })
-      .fromTo(".blog .button", { opacity: 0 }, { opacity: 1, duration: 5 });
+      .fromTo(".blog .judul h1", { opacity: 0 }, { opacity: 1, duration: 2 })
+      .fromTo(".blog .judul p", { opacity: 0 }, { opacity: 1, duration: 2 })
+      .fromTo(".blog .slider-blog", { opacity: 0 }, { opacity: 1, duration: 2 })
+      .fromTo(".blog .button", { opacity: 0 }, { opacity: 1, duration: 2 });
 
     ScrollTrigger.create({
       animation: tlBlog,

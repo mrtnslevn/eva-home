@@ -975,7 +975,6 @@ body {
   padding-top: 10rem;
   padding-bottom: 2rem;
 }
-
 /* ----------------------------------------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------------------------- */
 /* ------WHY CHOOSE US-------------------------WHY CHOOSE US---------------------------------WHY CHOOSE US---- */
@@ -1010,7 +1009,7 @@ body {
   top: 0;
   left: 0;
   width: 600px;
-  font-weight: 800;
+  font-weight: 900;
   color: #2b2b29;
 }
 .choose .header-choose h1:nth-child(1) {
@@ -1318,7 +1317,7 @@ body {
     margin-bottom: 0px;
   }
   .choose .header-choose h1 {
-    font-size: 34px;
+    font-size: 36px;
     width: 520px;
     margin-top: 55px;
   }
@@ -1369,12 +1368,12 @@ body {
     border-radius: 10px;
     margin-top: 0px;
     width: 260px;
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 @media (min-width: 1200px) {
   .choose .header-choose h1 {
-    font-size: 38px;
+    font-size: 40px;
   }
   .choose .slider {
     height: 330px;
@@ -1407,17 +1406,19 @@ body {
   }
   .choose .button a {
     width: 300px;
-    height: 48px;
+    height: 52px;
     margin-top: 0px;
-    border-radius: 12px;
+    font-size: 15px;
+    border-radius: 11px;
   }
 }
 @media (min-width: 1400px) {
   .choose .header-choose h1 {
-    font-size: 42px;
-    width: 600px;
+    font-size: 56px;
+    width: 800px;
   }
   .choose .slider {
+    padding-top: 50px;
     height: 390px;
   }
   .choose .slider .board-slider {
@@ -1452,7 +1453,7 @@ body {
   .choose .button a {
     margin-top: 24px;
     width: 380px;
-    height: 60px;
+    height: 70px;
     font-size: 20px;
   }
 }
@@ -1532,6 +1533,7 @@ body {
 }
 .blog .button a {
   width: 90%;
+  font-size: 14px;
   border-radius: 9px;
 }
 
@@ -1559,7 +1561,7 @@ body {
     font-size: 17px;
   }
   .blog .button a {
-    width: 280px;
+    width: 80%;
   }
 }
 @media (min-width: 576px) {
@@ -1590,6 +1592,10 @@ body {
   .blog .card .card-text {
     font-size: 14px;
   }
+  .blog .button a {
+    width: 320px;
+    font-size: 14px;
+  }
 }
 @media (min-width: 768px) {
   .blog .slider-blog {
@@ -1609,7 +1615,8 @@ body {
     height: 100%;
   }
   .blog .button a {
-    width: 380px;
+    width: 360px;
+    font-size: 14px;
   }
 }
 @media (min-width: 992px) {
@@ -1638,7 +1645,10 @@ body {
   }
 
   .blog .button a {
-    padding: 8px 0px;
+    width: 275px;
+    border-radius: 12px;
+    padding: 3px 0px;
+    font-size: 15px;
   }
 
   .blog .slider-blog .board-slider-blog .card.center {
@@ -1687,10 +1697,15 @@ body {
   .blog .card .card-link {
     font-size: 11px;
   }
+  .blog .button a {
+    font-size: 16px;
+    padding: 7px 0px;
+    width: 330px;
+  }
 }
 @media (min-width: 1400px) {
   .blog .judul h1 {
-    font-size: 54px;
+    font-size: 56px;
   }
   .blog .judul p {
     margin-top: 38px !important;
@@ -1719,8 +1734,12 @@ body {
   .blog .card .card-link {
     font-size: 12px;
   }
+  .blog .button a {
+    width: 380px;
+    padding: 10px;
+    font-size: 18px;
+  }
 }
-
 /* ----------------------------------------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------------------------- */
 /* ------FORM SECTION--------------------------FORM SECTION-----------------------------FORM SECTION---------- */
