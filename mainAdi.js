@@ -1,3 +1,26 @@
+//Form
+$(window).on("resize", resize);
+
+resize();
+
+function resize() {
+  if(window.matchMedia("(min-width: 992px)").matches) { 
+    const tlForm = gsap.timeline();
+    tlForm.fromTo('.formSection .image-form', {y: 1000}, {y: 0, duration: 0.1}, 'form')
+    .fromTo('.formSection .card-form', {x: 1000}, {x: 0, duration: 0.1}, 'form');
+    
+    ScrollTrigger.create({
+      animation: tlForm,
+      trigger: ".formSection",
+      start: "0% 50%",
+      end: "0% 50%",
+      toggleActions: "play none none none",
+      // scrub: 1,
+      // markers: true,
+    }); 
+  }
+}
+
 //Slider
 const sliderItems = document.querySelectorAll(".slider-items");
 const card = document.querySelectorAll(".card");
