@@ -145,7 +145,7 @@ if(window.matchMedia("(min-width: 992px)").matches) {
       "third"
     )
     .fromTo(
-      ".desc a",
+      ".desc .btn .solusiButton",
       { display: "none", autoAlpha: 0 },
       { display: "block", autoAlpha: 1, duration: 0.6, delay: 0.1 },
       "third"
