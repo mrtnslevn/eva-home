@@ -116,26 +116,26 @@ if(window.matchMedia("(min-width: 992px)").matches) {
   header
     .fromTo(
       ".desc h1",
-      { x: -500, opacity: 0 },
-      { x: 0, opacity: 1, duration: 0.6, delay: 0.2 },
+      { x: -500, autoAlpha: 0 },
+      { x: 0, autoAlpha: 1, duration: 0.6, delay: 0.2 },
       "first"
     )
     .fromTo(
       ".desc p",
-      { x: -500, opacity: 0 },
-      { x: 0, opacity: 1, duration: 0.6, delay: 0.2 },
+      { x: -500, autoAlpha: 0 },
+      { x: 0, autoAlpha: 1, duration: 0.6, delay: 0.2 },
       "first"
     )
     .fromTo(
       ".employee-img",
-      { display: "none", opacity: 0 },
-      { display: "block", opacity: 1, duration: 0.6 },
+      { display: "none", autoAlpha: 0 },
+      { display: "block", autoAlpha: 1, duration: 0.6 },
       "second"
     )
     .fromTo(
       ".title",
-      { display: "none", opacity: 0 },
-      { display: "block", opacity: 1, duration: 0.6 },
+      { display: "none", autoAlpha: 0 },
+      { display: "block", autoAlpha: 1, duration: 0.6 },
       "second"
     )
     .fromTo(
@@ -146,8 +146,8 @@ if(window.matchMedia("(min-width: 992px)").matches) {
     )
     .fromTo(
       ".desc a",
-      { display: "none", opacity: 0 },
-      { display: "block", opacity: 1, duration: 0.6, delay: 0.1 },
+      { display: "none", autoAlpha: 0 },
+      { display: "block", autoAlpha: 1, duration: 0.6, delay: 0.1 },
       "third"
     )
     .fromTo("nav", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.6, delay: 0.1 }, "third")

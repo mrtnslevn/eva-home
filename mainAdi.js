@@ -7,8 +7,8 @@ function resize() {
   if (window.matchMedia("(min-width: 992px)").matches) {
     const tlForm = gsap.timeline();
     tlForm
-    .fromTo(".formSection .image-form", { y: 1000 }, { y: 0, duration: 0.01 }, "form")
-    .fromTo(".formSection .card-form", { x: 1000 }, { x: 0, duration: 0.01 }, "form");
+    .fromTo(".formSection .image-form", { y: 1000 }, { y: 0, duration: 0.01 })
+    .fromTo(".formSection .card-form", { x: 1000 }, { x: 0, duration: 0.01 });
 
     ScrollTrigger.create({
       animation: tlForm,
