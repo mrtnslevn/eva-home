@@ -989,7 +989,6 @@ body {
   position: relative;
   z-index: 1;
   overflow: hidden;
-  box-shadow: #e2e8f0 0px 10px;
 }
 .choose .container {
   padding: 0;
@@ -1724,12 +1723,6 @@ body {
 
 /* ----------------------------------------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------------------------- */
-/* ------FORM SECTION--------------------------FORM SECTION-----------------------------------FORM SECTION---- */
-/* ----------------------------------------------------------------------------------------------------------- */
-/* ----------------------------------------------------------------------------------------------------------- */
-
-/* ----------------------------------------------------------------------------------------------------------- */
-/* ----------------------------------------------------------------------------------------------------------- */
 /* ------FORM SECTION--------------------------FORM SECTION-----------------------------FORM SECTION---------- */
 /* ----------------------------------------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------------------------- */
@@ -1969,6 +1962,7 @@ body {
 /* ----------------------------------------------------------------------------------------------------------- */
 
 footer {
+  font-family: "Inter", sans-serif;
   position: relative;
   background-color: #2b2b29;
   color: white;
@@ -2082,19 +2076,54 @@ footer .image .image-list img:not(.footer-people) {
 
 footer img.footer-people {
   max-height: 210px;
-  transform: translateX(45%);
+  transform: translateX(90%);
 }
 footer img.eva-rec {
-  transform: translateX(27%) translateY(50%);
   align-self: flex-start;
+  transform: translateX(27%) translateY(50%);
+  z-index: 2;
 }
 footer img.eva-talent {
   align-self: center;
   transform: translateX(-40%) translateY(5%);
+  z-index: 2;
 }
 footer img.eva-essen {
   align-self: bottom;
   transform: translateX(-80%) translateY(-25%);
+  z-index: 2;
+}
+footer span.eva-essen-span,
+footer span.eva-rec-span,
+footer span.eva-talent-span {
+  align-self: center;
+  transition: 0.3s;
+  box-shadow: 0 0 0 0 rgba(180, 102, 0, 0.384);
+  animation: pulsing 2.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  z-index: 99;
+  border-radius: 50%;
+  background-color: #d4a325;
+  z-index: 1;
+}
+footer span.eva-essen-span {
+  transform: translateX(-444%) translateY(178%);
+  min-height: 52px;
+  min-width: 52px;
+}
+footer span.eva-talent-span {
+  transform: translateX(-250%) translateY(7%);
+  min-height: 52px;
+  min-width: 52px;
+}
+footer span.eva-rec-span {
+  transform: translateX(2%) translateY(-129%);
+  min-height: 52px;
+  min-width: 52px;
+}
+@-webkit-keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 35px rgba(173, 173, 173, 0);
+  }
 }
 footer img.white1 {
   align-self: flex-start;
@@ -2152,6 +2181,21 @@ footer .copyright span {
   footer img.eva-essen {
     transform: translateX(-70%) translateY(-40%);
   }
+  footer span.eva-essen-span {
+    transform: translateX(-460%) translateY(105%);
+    min-height: 60px;
+    min-width: 60px;
+  }
+  footer span.eva-talent-span {
+    transform: translateX(-290%) translateY(-85%);
+    min-height: 60px;
+    min-width: 60px;
+  }
+  footer span.eva-rec-span {
+    transform: translateX(-27%) translateY(-250%);
+    min-height: 60px;
+    min-width: 60px;
+  }
   footer img.white1 {
     transform: translateX(20%) translateY(-25%);
     min-height: 200px;
@@ -2161,8 +2205,8 @@ footer .copyright span {
     min-height: 220px;
   }
   footer img.footer-people {
-    max-height: 310px;
-    transform: translateX(42%);
+    max-height: 300px;
+    transform: translateX(75%);
   }
   footer .copyright {
     margin-bottom: -5px;
@@ -2211,6 +2255,21 @@ footer .copyright span {
   footer img.eva-essen {
     transform: translateX(-45%) translateY(-34%);
   }
+  footer span.eva-essen-span {
+    transform: translateX(-414%) translateY(97%);
+    min-height: 65px;
+    min-width: 65px;
+  }
+  footer span.eva-talent-span {
+    transform: translateX(-254%) translateY(-108%);
+    min-height: 65px;
+    min-width: 65px;
+  }
+  footer span.eva-rec-span {
+    transform: translateX(6%) translateY(-272%);
+    min-height: 65px;
+    min-width: 65px;
+  }
   footer img.white1 {
     transform: translateX(35%) translateY(-35%);
     min-height: 200px;
@@ -2221,7 +2280,7 @@ footer .copyright span {
   }
   footer img.footer-people {
     max-height: 340px;
-    transform: translateX(60%);
+    transform: translateX(94%);
   }
   footer .copyright {
     margin-bottom: 0px;
@@ -2280,6 +2339,21 @@ footer .copyright span {
   footer img.eva-essen {
     transform: translateX(-60%) translateY(-40%);
   }
+  footer span.eva-essen-span {
+    transform: translateX(-458%) translateY(47%);
+    min-height: 80px;
+    min-width: 80px;
+  }
+  footer span.eva-talent-span {
+    transform: translateX(-298%) translateY(-120%);
+    min-height: 80px;
+    min-width: 80px;
+  }
+  footer span.eva-rec-span {
+    transform: translateX(-33%) translateY(-266%);
+    min-height: 80px;
+    min-width: 80px;
+  }
   footer img.white1 {
     transform: translateX(20%) translateY(-53%);
     min-height: 260px;
@@ -2290,7 +2364,7 @@ footer .copyright span {
   }
   footer img.footer-people {
     max-height: 430px;
-    transform: translateX(50%);
+    transform: translateX(78%);
   }
   footer .copyright span {
     font-size: 16px;
@@ -2301,8 +2375,9 @@ footer .copyright span {
 
 @media (min-width: 992px) {
   footer {
+    /* height: 100vh; */
     min-width: 100%;
-    padding-top: 150px;
+    padding-top: 180px;
     position: fixed;
     bottom: 0;
     overflow: hidden;
@@ -2340,6 +2415,21 @@ footer .copyright span {
   footer img.eva-essen {
     transform: translateX(-70%) translateY(-50%);
   }
+  footer span.eva-essen-span {
+    transform: translateX(-463%) translateY(173%);
+    min-height: 80px;
+    min-width: 80px;
+  }
+  footer span.eva-talent-span {
+    transform: translateX(-318%) translateY(-14%);
+    min-height: 80px;
+    min-width: 80px;
+  }
+  footer span.eva-rec-span {
+    transform: translateX(-49%) translateY(-168%);
+    min-height: 80px;
+    min-width: 80px;
+  }
   footer img.white1 {
     transform: translateX(12%) translateY(20%);
     min-height: 280px;
@@ -2350,7 +2440,7 @@ footer .copyright span {
   }
   footer img.footer-people {
     max-height: 410px;
-    transform: translateX(40%);
+    transform: translateX(72%);
   }
 }
 
@@ -2384,6 +2474,21 @@ footer .copyright span {
   footer img.eva-essen {
     transform: translateX(-70%) translateY(-65%);
   }
+  footer span.eva-essen-span {
+    transform: translateX(-516%) translateY(131%);
+    min-height: 80px;
+    min-width: 80px;
+  }
+  footer span.eva-talent-span {
+    transform: translateX(-370%) translateY(-75%);
+    min-height: 80px;
+    min-width: 80px;
+  }
+  footer span.eva-rec-span {
+    transform: translateX(-107%) translateY(-225%);
+    min-height: 80px;
+    min-width: 80px;
+  }
   footer img.white1 {
     transform: translateX(10%) translateY(5%);
     min-height: 280px;
@@ -2394,6 +2499,7 @@ footer .copyright span {
   }
   footer img.footer-people {
     max-height: 500px;
+    transform: translateX(70%);
   }
 }
 @media (min-width: 1400px) {
@@ -2432,6 +2538,22 @@ footer .copyright span {
   footer img.eva-essen {
     transform: translateX(-70%) translateY(-55%);
   }
+  footer span.eva-essen-span {
+    transform: translateX(-485%) translateY(135%);
+    min-height: 90px;
+    min-width: 90px;
+  }
+  footer span.eva-talent-span {
+    transform: translateX(-340%) translateY(-60%);
+    min-height: 90px;
+    min-width: 90px;
+  }
+  footer span.eva-rec-span {
+    transform: translateX(-85%) translateY(-227%);
+    min-height: 90px;
+    min-width: 90px;
+  }
+
   footer img.white1 {
     transform: translateX(10%) translateY(5%);
     min-height: 280px;
@@ -2444,6 +2566,11 @@ footer .copyright span {
     max-height: 500px;
   }
 }
+/* -------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------- */
 
 #section3-4 {
   position: relative;

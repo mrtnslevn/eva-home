@@ -4,11 +4,10 @@ $(window).on("resize", resize);
 resize();
 
 function resize() {
-  if(window.matchMedia("(min-width: 992px)").matches) { 
+  if (window.matchMedia("(min-width: 992px)").matches) {
     const tlForm = gsap.timeline();
-    tlForm.fromTo('.formSection .image-form', {y: 1000}, {y: 0, duration: 0.1}, 'form')
-    .fromTo('.formSection .card-form', {x: 1000}, {x: 0, duration: 0.1}, 'form');
-    
+    tlForm.fromTo(".formSection .image-form", { y: 1000 }, { y: 0, duration: 0.1 }, "form").fromTo(".formSection .card-form", { x: 1000 }, { x: 0, duration: 0.1 }, "form");
+
     ScrollTrigger.create({
       animation: tlForm,
       trigger: ".formSection",
@@ -17,7 +16,38 @@ function resize() {
       toggleActions: "play none none none",
       // scrub: 1,
       // markers: true,
-    }); 
+    });
+
+    const tl = gsap.timeline();
+    tl.fromTo(".choose .header-choose", { x: 500 }, { x: 0, duration: 2 })
+      .fromTo(".choose .slider", { opacity: 0 }, { opacity: 1, duration: 2 })
+      .fromTo(".choose .board-slider", { opacity: 0 }, { opacity: 1, duration: 2 })
+      .fromTo(".choose .button", { opacity: 0 }, { opacity: 1, duration: 2 });
+
+    ScrollTrigger.create({
+      animation: tl,
+      trigger: ".choose",
+      start: "top center",
+      end: "top center",
+      scrub: 2,
+      // markers: true
+    });
+
+    const tlBlog = gsap.timeline();
+    tlBlog
+      .fromTo(".blog .judul h1", { opacity: 0 }, { opacity: 1, duration: 5 })
+      .fromTo(".blog .judul p", { opacity: 0 }, { opacity: 1, duration: 5 })
+      .fromTo(".blog .slider-blog", { opacity: 0 }, { opacity: 1, duration: 5 })
+      .fromTo(".blog .button", { opacity: 0 }, { opacity: 1, duration: 5 });
+
+    ScrollTrigger.create({
+      animation: tlBlog,
+      trigger: ".blog",
+      start: "top center",
+      end: "top center",
+      scrub: 2,
+      // markers: true
+    });
   }
 }
 
