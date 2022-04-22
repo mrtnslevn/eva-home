@@ -117,41 +117,41 @@ if(window.matchMedia("(min-width: 992px)").matches) {
     .fromTo(
       ".desc h1",
       { x: -500, opacity: 0 },
-      { x: 0, opacity: 1, duration: 1, delay: 0.2 },
+      { x: 0, opacity: 1, duration: 0.6, delay: 0.2 },
       "first"
     )
     .fromTo(
       ".desc p",
       { x: -500, opacity: 0 },
-      { x: 0, opacity: 1, duration: 1, delay: 0.2 },
+      { x: 0, opacity: 1, duration: 0.6, delay: 0.2 },
       "first"
     )
     .fromTo(
       ".employee-img",
       { display: "none", opacity: 0 },
-      { display: "block", opacity: 1, duration: 1.5 },
+      { display: "block", opacity: 1, duration: 0.6 },
       "second"
     )
     .fromTo(
       ".title",
       { display: "none", opacity: 0 },
-      { display: "block", opacity: 1, duration: 1.5 },
+      { display: "block", opacity: 1, duration: 0.6 },
       "second"
     )
     .fromTo(
       ".rect",
       { y: 1000, display: "none" },
-      { y: 0, display: "block", duration: 1 },
+      { y: 0, display: "block", duration: 0.6, delay: 0.1 },
       "third"
     )
     .fromTo(
       ".desc a",
       { display: "none", opacity: 0 },
-      { display: "block", opacity: 1, duration: 1 },
+      { display: "block", opacity: 1, duration: 0.6, delay: 0.1 },
       "third"
     )
-    .fromTo("nav", { autoAlpha: 0 }, { autoAlpha: 1, duration: 1 }, "third")
-    .fromTo(".icon-scroll", {autoAlpha: 0}, {autoAlpha: 1, duration: 1}, "third");
+    .fromTo("nav", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.6, delay: 0.1 }, "third")
+    .fromTo(".icon-scroll", {autoAlpha: 0}, {autoAlpha: 1, duration: 0.6, delay: 0.1}, "third");
 }
 
 $(window).on("resize", resize);
