@@ -243,6 +243,7 @@ body {
 .desc .btn .solusiButton {
   background-color: #212529;
   color: white;
+  transition: 0.5s;
   border-radius: 12px;
   font-weight: 400;
   font-size: 14px;
@@ -2604,6 +2605,7 @@ footer .copyright span {
 .solusiButton {
   background-color: #212529;
   color: white;
+  transition: 0.5s;
   border-radius: 12px;
   font-weight: 400;
   font-size: 14px;
@@ -2665,171 +2667,6 @@ footer .copyright span {
 .essen375 {
   position: relative;
   transform: translateX(15px);
-}
-
-.text2 {
-  color: #ffcf54;
-  -webkit-text-stroke-color: #94762b;
-  -webkit-text-stroke-width: 0.5px;
-  position: absolute;
-  font-family: "Open Sans", sans-serif;
-  font-size: 80px;
-  font-weight: 800 !important;
-  top: -40px;
-  line-height: 216px;
-  left: -20%;
-  margin-left: 30px;
-}
-
-.text1-ess {
-  color: #2b2b29;
-  top: 55px;
-  left: 60px;
-  position: absolute;
-  font-size: 18px;
-  font-style: italic;
-  font-weight: 800;
-}
-
-.text1-rec {
-  color: #2b2b29;
-  top: 55px;
-  left: 50px;
-  position: absolute;
-  font-size: 18px;
-  font-style: italic;
-  font-weight: 800;
-}
-
-.text1-tm {
-  color: #2b2b29;
-  top: 45px;
-  left: 50px;
-  position: absolute;
-  font-size: 18px;
-  font-style: italic;
-  font-weight: 800;
-  line-height: 20px;
-}
-
-.text2-rec768 {
-  color: #ffcf54;
-  -webkit-text-stroke-color: #94762b;
-  -webkit-text-stroke-width: 0.5px;
-  position: absolute;
-  font-family: "Open Sans", sans-serif;
-  font-size: 125px;
-  font-weight: 800;
-  top: 230px;
-
-  letter-spacing: 0px;
-  right: 130px;
-}
-
-.text2-ess768 {
-  color: #ffcf54;
-  -webkit-text-stroke-color: #94762b;
-  -webkit-text-stroke-width: 0.5px;
-  position: absolute;
-  font-family: "Open Sans", sans-serif;
-  font-size: 125px;
-  font-weight: 800;
-  top: 450px;
-  letter-spacing: 0px;
-  left: 40px;
-}
-
-.text2-tm768 {
-  color: #ffcf54;
-  -webkit-text-stroke-color: #94762b;
-  -webkit-text-stroke-width: 0.5px;
-  position: absolute;
-  font-family: "Open Sans", sans-serif;
-  font-size: 125px;
-  font-weight: 800;
-  top: 660px;
-  letter-spacing: 0px;
-  right: 130px;
-}
-
-.text1-ess768 {
-  color: #2b2b29;
-  top: 545px;
-  left: 75px;
-  position: absolute;
-  font-size: 24px;
-  font-style: italic;
-  font-weight: 900;
-}
-
-.text1-rec768 {
-  color: #2b2b29;
-  top: 320px;
-  right: 170px;
-  position: absolute;
-  font-size: 24px;
-  font-style: italic;
-  font-weight: 900;
-}
-
-.text1-tm768 {
-  color: #2b2b29;
-  top: 740px;
-  right: 170px;
-  position: absolute;
-  text-align: center;
-  font-size: 24px;
-  font-style: italic;
-  font-weight: 900;
-  line-height: 30px;
-}
-
-.text2-ess375 {
-  color: #ffcf54;
-  -webkit-text-stroke-color: #94762b;
-  -webkit-text-stroke-width: 0.5px;
-  position: absolute;
-  font-family: "Open Sans", sans-serif;
-  font-size: 50px;
-  font-weight: 800;
-  top: 10%;
-  left: 10%;
-}
-
-.text2-tm375 {
-  color: #ffcf54;
-  -webkit-text-stroke-color: #94762b;
-  -webkit-text-stroke-width: 0.5px;
-  position: absolute;
-  font-family: "Open Sans", sans-serif;
-  font-size: 50px;
-  font-weight: 800;
-  top: 10%;
-  right: 20%;
-}
-
-.text2-rec375 {
-  color: #ffcf54;
-  -webkit-text-stroke-color: #94762b;
-  -webkit-text-stroke-width: 0.5px;
-  position: absolute;
-  font-family: "Open Sans", sans-serif;
-  font-size: 50px;
-  font-weight: 800;
-  top: 10%;
-  right: 20%;
-}
-
-.text1-tm375,
-.text1-ess375,
-.text1-rec375 {
-  color: #2b2b29;
-  position: absolute;
-  text-align: center;
-  font-size: 13px;
-  font-style: italic;
-  font-weight: 900;
-  line-height: 15px;
 }
 
 #section4 .col {
@@ -2943,51 +2780,6 @@ footer .copyright span {
   #section4 .card768 {
     display: none;
   }
-  .text2-rec375,
-  .text2-ess375,
-  .text2-tm375 {
-    color: #ffcf54;
-    -webkit-text-stroke-color: #94762b;
-    -webkit-text-stroke-width: 0.5px;
-    font-family: "Open Sans", sans-serif;
-    font-size: 50px;
-    font-weight: 800;
-    letter-spacing: 0px;
-  }
-  .text2-rec375 {
-    position: absolute;
-    top: 29%;
-    right: 15%;
-  }
-
-  .text2-ess375 {
-    position: absolute;
-    top: 18%;
-    left: 10%;
-  }
-
-  .text2-tm375 {
-    position: absolute;
-    top: 20%;
-    right: 15%;
-  }
-
-  .text1-ess375 {
-    position: absolute;
-    top: 45%;
-    left: 12%;
-  }
-
-  .text1-rec375 {
-    position: absolute;
-    top: 51%;
-    right: 16%;
-  }
-  .text1-tm375 {
-    position: absolute;
-    top: 40%;
-    right: 15%;
-  }
 
   #section4 .card768 {
     display: none;
@@ -3005,7 +2797,7 @@ footer .copyright span {
     width: 1000px;
   }
   .anim2 {
-    font-size: 24px;
+    font-size: 18px;
     margin: 0 70px 0 70px;
   }
   #section4 .judul {
@@ -3022,79 +2814,6 @@ footer .copyright span {
   #section4 .card768 {
     display: block;
   }
-  /* .text2-rec768 {
-    color: #ffcf54;
-    -webkit-text-stroke-color: #94762b;
-    -webkit-text-stroke-width: 0.5px;
-    position: absolute;
-    font-family: "Open Sans", sans-serif;
-    font-size: 80px;
-    font-weight: 800;
-    top: 3%;
-    /* line-height: 216px; */
-  /* letter-spacing: 0px;
-    right: 14%;
-  } */
-
-  .text2-ess768 {
-    color: #ffcf54;
-    -webkit-text-stroke-color: #94762b;
-    -webkit-text-stroke-width: 0.5px;
-    position: absolute;
-    font-family: "Open Sans", sans-serif;
-    font-size: 80px;
-    font-weight: 800;
-    top: -13%;
-    /* line-height: 216px; */
-    letter-spacing: 0px;
-    left: 10%;
-  }
-
-  .text2-tm768 {
-    color: #ffcf54;
-    -webkit-text-stroke-color: #94762b;
-    -webkit-text-stroke-width: 0.5px;
-    position: absolute;
-    font-family: "Open Sans", sans-serif;
-    font-size: 80px;
-    font-weight: 800;
-    top: -10%;
-    /* line-height: 216px; */
-    letter-spacing: 0px;
-    right: 14%;
-  }
-
-  .text1-ess768 {
-    color: #2b2b29;
-    top: 43%;
-    left: 13%;
-    position: absolute;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 900;
-  }
-
-  .text1-rec768 {
-    color: #2b2b29;
-    top: 50%;
-    right: 16%;
-    position: absolute;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 900;
-  }
-
-  .text1-tm768 {
-    color: #2b2b29;
-    top: 36%;
-    right: 15%;
-    position: absolute;
-    text-align: center;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 900;
-    line-height: 30px;
-  }
 }
 
 @media (min-width: 768px) {
@@ -3110,80 +2829,6 @@ footer .copyright span {
   #section4 .judul {
     margin: 0 20px 0 20px;
   }
-  .text2-rec768 {
-    color: #ffcf54;
-    -webkit-text-stroke-color: #94762b;
-    -webkit-text-stroke-width: 0.5px;
-    position: absolute;
-    font-family: "Open Sans", sans-serif;
-    font-size: 100px;
-    font-weight: 800;
-    top: 25%;
-    /* line-height: 216px; */
-    letter-spacing: 0px;
-    right: 14%;
-  }
-
-  .text2-ess768 {
-    color: #ffcf54;
-    -webkit-text-stroke-color: #94762b;
-    -webkit-text-stroke-width: 0.5px;
-    position: absolute;
-    font-family: "Open Sans", sans-serif;
-    font-size: 100px;
-    font-weight: 800;
-    top: 15%;
-    /* line-height: 216px; */
-    letter-spacing: 0px;
-    left: 10%;
-  }
-
-  .text2-tm768 {
-    color: #ffcf54;
-    -webkit-text-stroke-color: #94762b;
-    -webkit-text-stroke-width: 0.5px;
-    position: absolute;
-    font-family: "Open Sans", sans-serif;
-    font-size: 100px;
-    font-weight: 800;
-    top: 16%;
-    /* line-height: 216px; */
-    letter-spacing: 0px;
-    right: 14%;
-  }
-
-  .text1-ess768 {
-    color: #2b2b29;
-    top: 43%;
-    left: 13%;
-    position: absolute;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 900;
-  }
-
-  .text1-rec768 {
-    color: #2b2b29;
-    top: 50%;
-    right: 16%;
-    position: absolute;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 900;
-  }
-
-  .text1-tm768 {
-    color: #2b2b29;
-    top: 36%;
-    right: 15%;
-    position: absolute;
-    text-align: center;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 900;
-    line-height: 30px;
-  }
-
   #section4 .card375 {
     display: none;
   }
@@ -3236,26 +2881,6 @@ footer .copyright span {
   #section4 .judul {
     font-size: 48px !important;
   }
-  .text2 {
-    font-size: 90px;
-    left: -2%;
-  }
-  .text1-rec {
-    font-size: 20px;
-    top: 54px;
-    left: 65px;
-  }
-  .text1-ess {
-    font-size: 20px;
-    top: 54px;
-    left: 80px;
-  }
-  .text1-tm {
-    font-size: 20px;
-    top: 50px;
-    left: 65px;
-    line-height: 20px;
-  }
   .back-judul {
     font-size: 1.5rem;
   }
@@ -3294,26 +2919,6 @@ footer .copyright span {
   }
   #section4 .judul {
     font-size: 56px !important;
-  }
-  .text2 {
-    font-size: 130px;
-    top: 0px;
-  }
-  .text1-ess {
-    font-size: 24px;
-    top: 90px;
-    left: 10%;
-  }
-  .text1-rec {
-    font-size: 24px;
-    top: 90px;
-    left: 80px;
-  }
-  .text1-tm {
-    font-size: 24px;
-    top: 75px;
-    left: 80px;
-    line-height: 30px;
   }
   .back-judul {
     font-size: 1.75rem;
