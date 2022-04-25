@@ -764,6 +764,9 @@ body {
     top: 480px;
     left: 445px;
   }
+  .desc .btn .solusiButton {
+    margin-left: -18px;
+  }
   .icon-scroll {
     display: block;
   }
