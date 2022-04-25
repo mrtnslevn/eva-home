@@ -2619,12 +2619,14 @@ footer .copyright span {
 .recruit768,
 .essen768 {
   position: relative;
+  transform: translateX(15px);
 }
 
 .tm375,
 .recruit375,
 .essen375 {
   position: relative;
+  transform: translateX(15px);
 }
 
 .text2 {
@@ -2888,9 +2890,9 @@ footer .copyright span {
   #section3-4 .slider {
     margin-top: 20px;
   }
-  #section3-4 .slider img {
+  /* #section3-4 .slider img {
     width: 800px;
-  }
+  } */
   #section4{
     height: 130vh;
   }
