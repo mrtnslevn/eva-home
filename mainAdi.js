@@ -5,18 +5,16 @@ resize();
 
 function resize() {
   if (window.matchMedia("(min-width: 992px)").matches) {
-    const tlForm = gsap.timeline();
-    tlForm
-    .fromTo(".formSection .image-form", { y: 1000 }, { y: 0, duration: 0.01 })
-    .fromTo(".formSection .card-form", { x: 1000 }, { x: 0, duration: 0.01 });
+    const tl5 = gsap.timeline();
+    tl5.fromTo(".formSection .imageforForm", { y: 500 }, { y: 0 }).fromTo(".formSection .cardforForm", { x: 1000 }, { x: 0 }, "<");
 
     ScrollTrigger.create({
-      animation: tlForm,
+      animation: tl5,
       trigger: ".formSection",
       start: "top center",
       end: "top center",
       toggleActions: "play none none none",
-      // scrub: 1,
+      scrub: 1,
       // markers: true,
     });
 
