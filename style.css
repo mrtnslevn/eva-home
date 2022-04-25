@@ -2679,6 +2679,7 @@ footer .copyright span {
 
 .front {
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .wrap {
