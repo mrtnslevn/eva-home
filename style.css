@@ -2633,12 +2633,11 @@ footer .copyright span {
   -webkit-text-stroke-width: 0.5px;
   position: absolute;
   font-family: "Open Sans", sans-serif;
-  font-size: 90px;
+  font-size: 80px;
   font-weight: 800 !important;
   top: -40px;
   line-height: 216px;
-  letter-spacing: 0px;
-  left: 0px;
+  left: -20%;
   margin-left: 30px;
 }
 
@@ -2891,6 +2890,9 @@ footer .copyright span {
   }
   #section3-4 .slider img {
     width: 800px;
+  }
+  #section4{
+    height: 80vh;
   }
   #section4 .judul {
     margin: 0 20px 0 20px;
@@ -3195,8 +3197,8 @@ footer .copyright span {
     font-size: 48px !important;
   }
   .text2 {
-    font-size: 102px;
-    left: 15px;
+    font-size: 90px;
+    left: -2%;
   }
   .text1-rec {
     font-size: 20px;
@@ -3260,7 +3262,7 @@ footer .copyright span {
   .text1-ess {
     font-size: 24px;
     top: 90px;
-    left: 95px;
+    left: 10%;
   }
   .text1-rec {
     font-size: 24px;
