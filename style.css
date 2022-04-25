@@ -2673,6 +2673,13 @@ footer .copyright span {
   transform: translateX(15px);
 }
 
+#section4 .accordion {
+  padding: 0 70px 0 70px;
+  background-color: #d4a325;
+  transform: translateY(-50px);
+  /* display: none; */
+}
+
 #section4 .col {
   perspective: 1000px;
 }
@@ -2703,10 +2710,12 @@ footer .copyright span {
 
 .back-judul {
   position: absolute;
-  font-size: 20px;
+  font-size: 18px;
   top: 20%;
-  left: 0;
+  left: -1%;
   right: 0;
+  padding-left: 8%;
+  padding-right: 10%;
 }
 
 .back-paragraph,
@@ -2714,19 +2723,57 @@ footer .copyright span {
   position: absolute;
   top: 42%;
   font-size: 12px;
-  padding: 0 10px 0 10px;
+  padding-left: 8%;
+  padding-right: 10%;
 }
 
-#section4 .btn {
+/* #section4 .btn {
   position: absolute;
   top: 70%;
-  font-size: 14px;
-  left: 19%;
+  font-weight: 600;
+  font-size: 18px;
+  left: 10%;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   background-color: #2b2b29;
   color: white;
   border-radius: 10px;
+  height: 66px;
+} */
+
+#section4 .solusiButton {
+  /* position: absolute;
+  top: 70%;
+  background-color: #212529;
+  color: white;
+  transition: 0.5s;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  width: 240px;
+  height: 400px; 
+  padding: 10px 50px 50px 10px;
+  border: none; */
+
+
+  position: absolute;
+  top: 70%;
+  font-weight: 600;
+  font-size: 18px;
+  left: 10%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-color: #2b2b29;
+  color: white;
+  border-radius: 10px;
+  /* height: 66px; */
+  
+}
+
+
+
+#section4 .solusiButton:hover {
+  background-color: #ffa600 !important;
 }
 
 #section4 .btn:hover {
@@ -2810,15 +2857,18 @@ footer .copyright span {
     line-height: 40px;
     margin: 0 50px 0 50px;
   }
+  #section4 {
+    height: 120vh;
+  }
   .solusiButton {
     font-weight: 600;
     font-size: 18px;
     width: 280px;
     height: 66px;
   }
-  #section4 .card768 {
+  /* #section4 .card768 {
     display: block;
-  }
+  } */
 }
 
 @media (min-width: 768px) {
@@ -2836,6 +2886,10 @@ footer .copyright span {
   }
   #section4 .card375 {
     display: none;
+  }
+
+  #section4 .card768{
+    display: block;
   }
 }
 
@@ -2887,7 +2941,9 @@ footer .copyright span {
     font-size: 48px !important;
   }
   .back-judul {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    padding-left: 8%;
+    padding-right: 10%;
   }
   .back-paragraph,
   .back-paragraph-ess {
@@ -2925,16 +2981,20 @@ footer .copyright span {
   #section4 .judul {
     font-size: 56px !important;
   }
-  .back-judul {
+  /* #section4 .back-content {
+
+  }*/
+
+  #section4 .back-judul {
     font-size: 1.75rem;
-    padding: 0 10px 0 10px;
-  }
+  } 
+
   .back-paragraph,
   .back-paragraph-ess {
     position: absolute;
     font-size: 18px;
   }
   #section4 .btn {
-    font-size: 24px;
+    font-size: 18px;
   }
 }
