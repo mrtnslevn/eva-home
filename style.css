@@ -2668,6 +2668,7 @@ footer .copyright span {
 .essen768 {
   position: relative;
   transform: translateX(15px);
+  z-index: 1;
 }
 
 .tm375,
@@ -2675,13 +2676,29 @@ footer .copyright span {
 .essen375 {
   position: relative;
   transform: translateX(15px);
+  z-index: 1;
 }
 
-#section4 .accordion {
-  padding: 0 70px 0 70px;
-  background-color: #d4a325;
-  transform: translateY(-50px);
+#section4 .accordion-768 {
+  padding: 0 55px 0 55px;
+  /* background-color: #d4a325; */
+  transform: translateY(-35px);
   /* display: none; */
+  z-index: -1;
+}
+#section4 .content-accordion-768 {
+  padding-top: 10px;
+  background-color: var(--warna2);
+  border-radius: 0 0 20px 20px;
+  /* box-shadow: inset #a0aec0; */
+}
+
+#section4 .accordion-375 {
+  display: none;
+}
+#section4 .content-accordion-375 {
+  padding-top: 10px;
+  background-color: var(--warna2);
 }
 
 #section4 .col {
@@ -2823,6 +2840,7 @@ footer .copyright span {
   }
   #section4 .card375 {
     display: block;
+    z-index: 1;
   }
   #section4 .card768 {
     display: none;
@@ -2830,6 +2848,25 @@ footer .copyright span {
 
   #section4 .card768 {
     display: none;
+  }
+  #section4 .accordion-768{
+    display: none;
+  }
+  #section4 .accordion-375 {
+    padding: 0 50px 0 50px;
+    /* background-color: #d4a325; */
+    transform: translateY(-50px);
+    /* display: none; */
+    z-index: -1;
+    display: block;
+    
+  }
+  #section4 .content-accordion-375 {
+    
+    /* padding-top: 20px; */
+    padding: 20px 10px 0 10px;
+    background-color: var(--warna2);
+    /* height: 0; */
   }
 }
 
@@ -2861,6 +2898,17 @@ footer .copyright span {
     width: 280px;
     height: 66px;
   }
+  #section4 .accordion-768{
+    display: block;
+    transform: translate(2px, -40px);
+    padding: 0 60px 0 60px;
+  }
+
+  #sectio4 .content-accordion-768{
+    padding: 30px 20px 0 20px;
+  }
+
+
   /* #section4 .card768 {
     display: block;
   } */
@@ -2885,6 +2933,16 @@ footer .copyright span {
 
   #section4 .card768 {
     display: block;
+  }
+
+  #section4 .accordion-768{
+    display: block;
+    transform: translate(2px, -40px);
+    padding: 0 60px 0 60px;
+  }
+
+  #section4 .content-accordion-768{
+    padding: 30px 20px 0 20px;
   }
 }
 
