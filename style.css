@@ -1794,7 +1794,8 @@ body {
 }
 
 .formSection .card-form {
-  box-shadow: -10px -10px 25px #f1f8ff, 10px 10px 15px rgba(0, 0, 0, 0.1);
+  /* box-shadow: -10px -10px 25px #f1f8ff, 10px 10px 15px rgba(0, 0, 0, 0.1); */
+  box-shadow: 5px 5px 25px rgba(121, 121, 121, 0.1);
   transition: 2s;
   background-color: white;
   border-radius: 20px;
@@ -2849,7 +2850,7 @@ footer .copyright span {
   #section4 .card768 {
     display: none;
   }
-  #section4 .accordion-768{
+  #section4 .accordion-768 {
     display: none;
   }
   #section4 .accordion-375 {
@@ -2859,10 +2860,8 @@ footer .copyright span {
     /* display: none; */
     z-index: -1;
     display: block;
-    
   }
   #section4 .content-accordion-375 {
-    
     /* padding-top: 20px; */
     padding: 20px 10px 0 10px;
     background-color: var(--warna2);
@@ -2899,16 +2898,15 @@ footer .copyright span {
     width: 280px;
     height: 66px;
   }
-  #section4 .accordion-768{
+  #section4 .accordion-768 {
     display: block;
     transform: translate(2px, -40px);
     padding: 0 60px 0 60px;
   }
 
-  #sectio4 .content-accordion-768{
+  #sectio4 .content-accordion-768 {
     padding: 30px 20px 0 20px;
   }
-
 
   /* #section4 .card768 {
     display: block;
@@ -2936,13 +2934,13 @@ footer .copyright span {
     display: block;
   }
 
-  #section4 .accordion-768{
+  #section4 .accordion-768 {
     display: block;
     transform: translate(2px, -40px);
     padding: 0 60px 0 60px;
   }
 
-  #section4 .content-accordion-768{
+  #section4 .content-accordion-768 {
     padding: 30px 20px 0 20px;
   }
 }
