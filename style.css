@@ -1416,9 +1416,10 @@ body {
   }
   .choose .button a {
     margin-top: 24px;
-    width: 380px;
+    width: 300px;
     height: 70px;
     font-size: 20px;
+    border-radius: 12px;
   }
 }
 
@@ -1699,7 +1700,7 @@ body {
   }
   .blog .button a {
     width: 380px;
-    padding: 10px;
+    padding: 18px;
     font-size: 18px;
   }
 }
@@ -2758,7 +2759,6 @@ footer .copyright span {
   padding: 10px 50px 50px 10px;
   border: none; */
 
-
   position: absolute;
   top: 70%;
   font-weight: 600;
@@ -2883,7 +2883,7 @@ footer .copyright span {
     display: none;
   }
 
-  #section4 .card768{
+  #section4 .card768 {
     display: block;
   }
 }
@@ -2993,7 +2993,7 @@ footer .copyright span {
 
   #section4 .back-judul {
     font-size: 1.75rem;
-  } 
+  }
 
   .back-paragraph,
   .back-paragraph-ess {
