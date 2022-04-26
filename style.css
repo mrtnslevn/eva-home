@@ -2892,6 +2892,10 @@ footer .copyright span {
   #section4 {
     height: 120vh;
   }
+
+  #section4 .card768{
+    display: block;
+  }
   .solusiButton {
     font-weight: 600;
     font-size: 18px;
@@ -2921,7 +2925,7 @@ footer .copyright span {
     margin: 12px 0 12px 0;
   }
   #section4 {
-    height: 120vh;
+    height: 100vh;
   }
   #section4 .judul {
     margin: 0 20px 0 20px;
