@@ -2769,17 +2769,9 @@ footer .copyright span {
   background-color: #2b2b29;
   color: white;
   border-radius: 10px;
-  /* height: 66px; */
-  
 }
-
-
 
 #section4 .solusiButton:hover {
-  background-color: #ffa600 !important;
-}
-
-#section4 .btn:hover {
   background-color: #ffa600 !important;
 }
 
@@ -2925,6 +2917,11 @@ footer .copyright span {
     width: 70%;
     left: 15%;
   }
+  #section4 .solusiButton {
+    font-size: 14px;
+    width: 75%;
+    height: 50px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -2954,6 +2951,12 @@ footer .copyright span {
   }
   #section4 .btn {
     font-size: 16px;
+  }
+  #section4 .solusiButton {
+    font-size: 16px;
+    width: 75%;
+    height: 66px;
+    left: 11%;
   }
 }
 
