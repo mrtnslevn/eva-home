@@ -191,5 +191,5 @@ $('#section3-4 .anim3 .btn').click(function() {
 })
 
 $('.back-button button').click(function () {
-  $("html, body").animate({ scrollTop: $('#section4').offset().top });
+  $("html, body").animate({ scrollTop: $('#section4').offset().top - 80});
 });
