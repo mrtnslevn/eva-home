@@ -1913,7 +1913,7 @@ body {
 .formSection select {
   border: 1px solid #ededed;
   background-color: #f7fafc;
-  color: #a0aec0;
+  color: #212529;
   font-size: 12px;
   padding: 7px 10px;
   margin-top: 5px;
@@ -1921,6 +1921,7 @@ body {
 .formSection input::placeholder {
   color: #a0aec0;
 }
+
 .formSection label {
   color: #2d3748;
   font-weight: 700;
@@ -1966,7 +1967,7 @@ body {
     font-size: 24px;
   }
   .formSection .back-button {
-    bottom: -85px;
+    bottom: -35px;
   }
   .formSection label {
     font-size: 13px;
@@ -2016,6 +2017,9 @@ body {
     display: flex;
     align-items: center;
   }
+  .formSection .back-button {
+    bottom: -85px;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -2037,7 +2041,11 @@ body {
     bottom: 8%;
   }
   .formSection button {
-    font-size: 16px;
+    font-size: 18px;
+  }
+  .formSection .back-button {
+    font-size: 18px !important;
+    bottom: -95px;
   }
 }
 /* ----------------------------------------------------------------------------------------------------------- */
@@ -2839,7 +2847,7 @@ footer .copyright span {
 }
 
 .content375 p {
-  font-size:12px;
+  font-size: 12px;
 }
 
 #section4 .content-accordion-768 {
@@ -3036,11 +3044,11 @@ footer .copyright span {
   .content375 .btn-acc {
     background-color: var(--warna6);
     color: white;
-    font-size:14px ;
+    font-size: 14px;
     padding: 5px 30px 5px 30px;
     border-radius: 11px;
   }
-  
+
   #section4 .accordion375 .contentBox.active .content375 {
     height: 250px;
     transform: translateY(-30%);
@@ -3073,7 +3081,7 @@ footer .copyright span {
   .content768 .btn-acc {
     background-color: var(--warna6);
     color: white;
-    font-size:14px ;
+    font-size: 14px;
     padding: 5px 30px 5px 30px;
     border-radius: 11px;
   }
