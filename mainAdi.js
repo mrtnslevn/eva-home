@@ -1,267 +1,144 @@
-const imageFormPoint = document.querySelector(".imageforForm");
-const imageForm = document.querySelector(".image-form");
-const cardFormPoint = document.querySelector(".cardforForm");
-const cardForm = document.querySelector(".card-form");
+//Form
+$(window).on("resize", resize);
 
-const animateOnScroll = (elementAnimate, animateIn, animateOut, marginView) => {
-  return new IntersectionObserver(
-    (entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          // console.log("masuk nih");
-          elementAnimate.style.transform = `${animateIn}`;
-        } else {
-          // console.log("yah keluar");
-          elementAnimate.style.transform = `${animateOut}`;
-        }
-      });
-    },
-    {
-      root: document,
-      rootMarginTop: `${marginView}`,
-    }
-  );
-};
+resize();
 
-const observer3 = animateOnScroll(imageForm, "translateY(0%)", "translateY(100%)", "-200px");
-const observer4 = animateOnScroll(cardForm, "translateX(0%)", "translateX(100%)", "-200px");
-
-observer3.observe(imageFormPoint);
-observer4.observe(cardFormPoint);
+function resize() {
+  if(window.matchMedia("(min-width: 992px)").matches) { 
+    const tlForm = gsap.timeline();
+    tlForm.fromTo('.formSection .image-form', {y: 1000}, {y: 0, duration: 0.1}, 'form')
+    .fromTo('.formSection .card-form', {x: 1000}, {x: 0, duration: 0.1}, 'form');
+    
+    ScrollTrigger.create({
+      animation: tlForm,
+      trigger: ".formSection",
+      start: "0% 50%",
+      end: "0% 50%",
+      toggleActions: "play none none none",
+      // scrub: 1,
+      // markers: true,
+    }); 
+  }
+}
 
 //Slider
 const sliderItems = document.querySelectorAll(".slider-items");
-const sliderItemsImg = document.querySelectorAll(".slider-items img");
-const sliderItemsH3 = document.querySelectorAll(".slider-items h3");
-const sliderItemsH3Loc = document.querySelector(".slider-items h3.loc");
-const sliderItemsP = document.querySelectorAll(".slider-items p");
-const sliderItemsPLoc = document.querySelector(".slider-items p.loc");
+const card = document.querySelectorAll(".card");
 
 const buttonSliderNext = document.querySelector("button.slider-next");
 const buttonSliderPrevious = document.querySelector("button.slider-previous");
-const sliderIndicatorLoc = document.querySelector(".indicator-slider");
+const sliderIndicator = document.querySelectorAll(".indicator-slider button");
 
-// Function for sliderIndicator
-function printIndicator() {
-  cards = "";
-  sliderItems.forEach((el, i) => {
-    if (el.classList.contains("active")) {
-      cards += `<button class="mx-1 indicator-button opacity-null btn-warning" image="${sliderItemsImg[i].src}" indicator="${i}"></button>`;
-    } else {
-      cards += `<button class="mx-1 indicator-button btn-secondary" image="${sliderItemsImg[i].src}" indicator="${i}"></button>`;
-    }
-  });
-  sliderIndicatorLoc.innerHTML = cards;
-}
+let width = document.querySelector(".slider-items.active").offsetWidth;
 
-// Starting sliderIndicator Function
-printIndicator();
-
-// Function to Give Image animation Effect when the Slider is used
-function animateSlider(nth1, nth2, nth3) {
-  document.querySelector(".slider-items:nth-child(1)").classList.add(`animasi${nth1}`);
-  document.querySelector(".slider-items:nth-child(2)").classList.add(`animasi${nth2}`);
-  document.querySelector(".slider-items:nth-child(3)").classList.add(`animasi${nth3}`);
-  setTimeout(function () {
-    document.querySelector(".slider-items:nth-child(1)").classList.remove(`animasi${nth1}`);
-    document.querySelector(".slider-items:nth-child(2)").classList.remove(`animasi${nth2}`);
-    document.querySelector(".slider-items:nth-child(3)").classList.remove(`animasi${nth3}`);
-  }, 500);
-}
-
-// Function to Give Content animation Effect when the Slider is used
-function animateContent(params) {
-  sliderItems.forEach((el) => {
-    el.classList.remove("active");
-  });
-
-  sliderItems[params].classList.add("active");
-  sliderItemsH3Loc.innerHTML = h3Image[params];
-  sliderItemsPLoc.innerHTML = pImage[params];
-}
-// Function for update Array Content
-function updateArray(params) {
-  let arraySrcImg = [];
-  let arrayActive = [];
-  let arrayReActive = [];
-
-  for (let i = 0; i < srcImage.length; i++) {
-    if (i + params <= srcImage.length) {
-      if (params + i == 0) {
-        arrayActive.push(0);
-      } else if (params + i == srcImage.length) {
-        arrayReActive.push(i * 0);
-      } else {
-        arrayActive.push(i + params);
-      }
-    } else {
-      arrayReActive.push(i * 0);
-    }
-  }
-
-  for (let j = 0; j < arrayReActive.length; j++) {
-    arrayReActive[j] = j;
-  }
-
-  const arrayMix = arrayActive.concat(arrayReActive);
-
-  for (let k = 0; k < srcImage.length; k++) {
-    sliderItemsImg[k].src = srcImage[arrayMix[k]];
-    arraySrcImg[k] = srcImage[arrayMix[k]];
-  }
-
-  arrayIndeks.splice(0, 0);
-  arrayIndeks = [...arrayMix];
-}
-
-// ---------------------------------------------------------------------------------------------------------------
-// Get Content for img, h3, and p
-// ---------------------------------------------------------------------------------------------------------------
-
-let srcImage = [];
-let h3Image = [];
-let pImage = [];
-for (let i = 0; i < sliderItems.length; i++) {
-  srcImage.push(sliderItemsImg[i].src);
-  h3Image.push(sliderItemsH3[i].textContent);
-  pImage.push(sliderItemsP[i].textContent);
-}
-
-// ---------------------------------------------------------------------------------------------------------------
-// Get Array Default
-// ---------------------------------------------------------------------------------------------------------------
-
-let arrayIndeks = [];
-for (let i = 0; i < srcImage.length; i++) {
-  if (i == 0) {
-    arrayIndeks.push(srcImage.length - 1);
-  } else {
-    arrayIndeks.push(i - 1);
-  }
-}
-
-let arrayImage = [];
-for (let i = 0; i < srcImage.length; i++) {
-  sliderItemsImg[i].src = srcImage[arrayIndeks[i]];
-  arrayImage.push(srcImage[arrayIndeks[i]]);
-}
-
-animateContent(arrayIndeks[1]);
-
-// ---------------------------------------------------------------------------------------------------------------
-// Button Next
-// ---------------------------------------------------------------------------------------------------------------
+let i = 0;
 
 buttonSliderNext.addEventListener("click", function () {
-  let arrayReActive = [];
-
-  for (let i = 0; i < srcImage.length; i++) {
-    arrayReActive.push(arrayIndeks[i] + 1 < srcImage.length ? arrayIndeks[i] + 1 : arrayIndeks[i] * 0);
+  if (i + width >= width * 3) {
+    i = 0;
+  } else {
+    i = i + width + 45;
   }
-  arrayIndeks = [...arrayReActive];
+  let nilai = i / (width + 45);
+  indicatorActive(nilai, sliderIndicator);
 
-  let arrayImage = [];
-  for (let i = 0; i < srcImage.length; i++) {
-    sliderItemsImg[i].src = srcImage[arrayIndeks[i]];
-    arrayImage.push(srcImage[arrayIndeks[i]]);
-  }
-  animateContent(arrayIndeks[1]);
-  animateSlider(1, 2, 3);
-  printIndicator();
+  sliderItems.forEach((el) => {
+    el.style.transform = `translateX(-${i}px)`;
+  });
 });
-
-// ---------------------------------------------------------------------------------------------------------------
-// Button Previous
-// ---------------------------------------------------------------------------------------------------------------
 
 buttonSliderPrevious.addEventListener("click", function () {
-  let arrayReActive = [];
-  for (let i = 0; i < srcImage.length; i++) {
-    arrayReActive.push(arrayIndeks[i] - 1 == -1 ? srcImage.length - 1 : arrayIndeks[i] - 1);
-  }
-  arrayIndeks = [...arrayReActive];
-  animateContent(arrayIndeks[1]);
-
-  let arrayImage = [];
-  for (let i = 0; i < srcImage.length; i++) {
-    sliderItemsImg[i].src = srcImage[arrayIndeks[i]];
-    arrayImage[i] = srcImage[arrayIndeks[i]];
-  }
-  animateSlider(4, 5, 6);
-  printIndicator();
-  // console.log(arrayIndeks);
-});
-
-// ---------------------------------------------------------------------------------------------------------------
-// Responsive Trigger
-// ---------------------------------------------------------------------------------------------------------------
-
-function checkWidthWindow() {
-  if (window.innerWidth >= 992) {
-    arrayIndeks.splice(0, 3);
-    for (let i = 0; i < srcImage.length; i++) {
-      arrayIndeks.push(i);
-    }
-
-    arrayImage.splice(0, 3);
-    for (let i = 0; i < srcImage.length; i++) {
-      sliderItemsImg[i].src = srcImage[arrayIndeks[i]];
-      arrayImage.push(srcImage[arrayIndeks[i]]);
-    }
-
-    animateContent(arrayIndeks[1]);
-    printIndicator();
+  if (i === 0) {
+    i = (width + 45) * 2;
   } else {
-    arrayIndeks.splice(0, 3);
-    for (let i = 0; i < srcImage.length; i++) {
-      if (i == 0) {
-        arrayIndeks.push(srcImage.length - 1);
-      } else {
-        arrayIndeks.push(i - 1);
-      }
-    }
-
-    arrayImage.splice(0, 3);
-    for (let i = 0; i < srcImage.length; i++) {
-      sliderItemsImg[i].src = srcImage[arrayIndeks[i]];
-      arrayImage.push(srcImage[arrayIndeks[i]]);
-    }
-
-    animateContent(arrayIndeks[1]);
-    printIndicator();
+    i = i - (width + 45);
   }
-}
-
-checkWidthWindow();
-
-// ---------------------------------------------------------------------------------------------------------------
-// Indicator Button
-// ---------------------------------------------------------------------------------------------------------------
-let indicatorIndeks = [0];
+  console.log(i);
+  let nilai = i / (width + 45);
+  indicatorActive(nilai, sliderIndicator);
+  sliderItems.forEach((el) => {
+    el.style.transform = `translateX(-${i}px)`;
+  });
+});
 
 document.addEventListener("click", function (e) {
+  let widthEl = Math.floor(rectangle.width / 2);
   if (e.target.classList.contains("indicator-button")) {
-    let indicatorIndeksUpdate = e.target.getAttribute("indicator");
+    let nilai = e.target.getAttribute("indeks");
+    indicatorActive(+nilai, sliderIndicator);
 
-    if (indicatorIndeks[0] !== indicatorIndeksUpdate) {
-      let eNumber = Number(indicatorIndeksUpdate);
-
-      animateContent(eNumber);
-
-      updateArray(eNumber - 1 == -1 ? srcImage.length - 1 : eNumber - 1);
-      // selectAutomate(arrayIndeks[1]);
-
-      if (indicatorIndeks[0] < eNumber) {
-        animateSlider(1, 2, 3);
+    if (window.matchMedia("(min-width: 576px)").matches) {
+      i = +nilai * (width + 45);
+      sliderItems.forEach((el) => {
+        el.style.transform = `translateX(-${i}px)`;
+      });
+    } else {
+      if (+nilai === 0) {
+        sliderCard.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+      } else if (+nilai === 1) {
+        sliderCard.scrollTo({ top: 0, left: widthEl * 2 + 30, behavior: "smooth" });
       } else {
-        animateSlider(4, 5, 6);
+        sliderCard.scrollTo({ top: 0, left: widthEl * 4 + 60, behavior: "smooth" });
       }
-
-      printIndicator();
-
-      indicatorIndeks.splice(0, 1);
-      indicatorIndeks.unshift(eNumber);
-      // console.log(arrayIndeks);
     }
   }
 });
+
+function indicatorActive(params, element) {
+  element.forEach((el) => {
+    el.classList.remove("btn-warning");
+  });
+
+  element[params].classList.add("btn-warning");
+}
+
+//--------------------------------------------------------------------------
+// JAVASCRIPT FOR BLOG
+function textCutter(element) {
+  let cardTeks = [];
+  element.forEach((el) => {
+    cardTeks.push(el.textContent.substring(0, 200));
+  });
+  document.querySelectorAll(".card .card-text").forEach((el, i) => {
+    el.innerHTML = `${cardTeks[i]}...`;
+  });
+}
+const cardText = document.querySelectorAll(".card .card-text");
+textCutter(cardText);
+//--------------------------------------------------------------------------
+
+const sliderCard = document.querySelector(".choose .slider .board-slider");
+const sliderCardItems = document.querySelectorAll(".choose .slider .board-slider .slider-items");
+var rectangle = sliderCardItems[0].getBoundingClientRect();
+var style = sliderCardItems[0].currentStyle || window.getComputedStyle(sliderCardItems[0]);
+let y = 0;
+let x = 0;
+
+var isScrolling;
+
+// Listen for scroll events
+sliderCard.addEventListener(
+  "scroll",
+  function (event) {
+    x = sliderCard.scrollLeft;
+    let widthEl = Math.floor(rectangle.width / 2);
+    window.clearTimeout(isScrolling);
+
+    isScrolling = setTimeout(function () {
+      y = x;
+      if (x == y) {
+        if (x < widthEl + 30 && x > 30) {
+          sliderCard.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+          indicatorActive(0, sliderIndicator);
+        } else if (x >= widthEl + 30 && x < widthEl * 3 + 90) {
+          sliderCard.scrollTo({ top: 0, left: widthEl * 2 + 30, behavior: "smooth" });
+          indicatorActive(1, sliderIndicator);
+        } else if (x >= widthEl * 3 + 60) {
+          sliderCard.scrollTo({ top: 0, left: widthEl * 4 + 60, behavior: "smooth" });
+          indicatorActive(2, sliderIndicator);
+        }
+      }
+    }, 200);
+  },
+  false
+);
