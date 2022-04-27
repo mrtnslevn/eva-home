@@ -898,6 +898,9 @@ body {
   .section1 {
     height: 730px;
   }
+  .desc {
+    margin-top: 19vh;
+  }
   .desc h1 {
     font-size: 54px;
     line-height: 63px;
@@ -979,7 +982,7 @@ body {
     line-height: 30.6px;
   }
   .desc .btn {
-    margin-top: 40px;
+    margin-top: 26px;
   }
   .rect {
     width: 60px;
@@ -993,8 +996,8 @@ body {
     left: 23%;
   }
   .box-3 {
-    top: 170px;
-    left: 95%;
+    top: 138px;
+    left: 93%;
   }
   .box-4 {
     top: 660px;
