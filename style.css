@@ -2723,9 +2723,12 @@ footer .copyright span {
 }
 
 #section4 .accordion375 .contentBox.active .content375 {
-  max-height: 300px;
+  max-height: 330px;
 }
 
+.content-375 p {
+  font-size: 12px;
+}
 
 #section4 .content-accordion-768 {
   padding-top: 10px;
