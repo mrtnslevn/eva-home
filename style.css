@@ -2827,11 +2827,11 @@ footer .copyright span {
 }
 
 .content768 h5 {
-  font-size: 15.49px;
+  font-size: 18px;
 }
 
 .content768 p {
-  font-size: 10.25px;
+  font-size: 14px;
 }
 
 .content375 h5 {
@@ -2839,7 +2839,7 @@ footer .copyright span {
 }
 
 .content375 p {
-  font-size: 8px;
+  font-size:12px;
 }
 
 #section4 .content-accordion-768 {
@@ -2989,7 +2989,7 @@ footer .copyright span {
     width: 800px;
   } */
   #section4 {
-    min-height: 160vh;
+    min-height: 130vh;
   }
   #section4 .judul {
     margin: 0 20px 0 20px;
@@ -3043,7 +3043,7 @@ footer .copyright span {
   
   #section4 .accordion375 .contentBox.active .content375 {
     height: 250px;
-    transform: translateY(-20%);
+    transform: translateY(-30%);
   }
 }
 
@@ -3067,7 +3067,15 @@ footer .copyright span {
     margin: 0 50px 0 50px;
   }
   #section4 {
-    height: 120vh;
+    height: 100vh;
+  }
+
+  .content768 .btn-acc {
+    background-color: var(--warna6);
+    color: white;
+    font-size:14px ;
+    padding: 5px 30px 5px 30px;
+    border-radius: 11px;
   }
 
   #section4 .card768 {
@@ -3086,7 +3094,11 @@ footer .copyright span {
   }
 
   #section4 .content-accordion-768 {
-    padding: 45px 20px 0 20px;
+    padding: 45px 16px 10px 16px;
+  }
+
+  #section4 .card375 {
+    display: none;
   }
 
   /* #section4 .card768 {
@@ -3122,7 +3134,7 @@ footer .copyright span {
   }
 
   #section4 .content-accordion-768 {
-    padding: 30px 20px 0 20px;
+    padding: 30px 20px 10px 20px;
   }
 }
 
