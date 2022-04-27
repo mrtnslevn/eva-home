@@ -1,3 +1,7 @@
+if (window.matchMedia("(max-width: 992px)").matches) {
+  $('#nav li.dropdown>a').attr('data-bs-toggle','dropdown');
+}
+
 $(document).ready(function () {
   var $win = $(window);
 
@@ -39,7 +43,6 @@ document.querySelector('#nav .first-button').addEventListener('click', function 
 
   document.querySelector('#nav .animated-icon1').classList.toggle('open');
   });
-
 
 const loopImage = gsap.timeline({repeat: -1});
 const header = gsap.timeline();
