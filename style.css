@@ -1077,6 +1077,7 @@ body {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  box-shadow: #e2e8f0 0px 10px;
 }
 .choose .container {
   padding: 0;
