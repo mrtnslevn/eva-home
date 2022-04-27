@@ -580,7 +580,7 @@ transform: rotate(-135deg);
 
 @media (min-width: 320px) {
   .section1 {
-    height: 800px;
+    height: 820px;
   }
   .desc {
     text-align: center;
@@ -609,7 +609,7 @@ transform: rotate(-135deg);
 
 @media (min-width: 375px) {
   .section1 {
-    height: 860px;
+    height: 880px;
   }
   .desc h1 {
     font-size: 45px;
