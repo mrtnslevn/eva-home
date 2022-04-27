@@ -3018,7 +3018,7 @@ footer .copyright span {
   }
   #section4 .content-accordion-375 {
     /* padding-top: 20px; */
-    padding: 50px 20px 0 20px;
+    padding: 50px 20px 10px 20px;
     background-color: var(--warna2);
     /* height: 0; */
     border-radius: 0 0 20px 20px;
@@ -3026,16 +3026,24 @@ footer .copyright span {
 
   #section4 .accordion375 .contentBox .content375 {
     position: relative;
-    padding: 0 40px 0 40px;
-    transform: translateY(-20%);
+    padding: 0 45px 0 45px;
     height: 0;
     overflow: hidden;
     transition: 0.5s;
     overflow-y: auto;
   }
 
+  .content375 .btn-acc {
+    background-color: var(--warna6);
+    color: white;
+    font-size:14px ;
+    padding: 5px 30px 5px 30px;
+    border-radius: 11px;
+  }
+  
   #section4 .accordion375 .contentBox.active .content375 {
-    height: 330px;
+    height: 250px;
+    transform: translateY(-20%);
   }
 }
 
