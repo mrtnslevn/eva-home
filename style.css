@@ -2702,7 +2702,7 @@ footer .copyright span {
   position: relative;
   padding: 0 60px 0 60px;
   transform: translateY(-20%);
-  max-height: 0;
+  height: 0;
   overflow: hidden;
   transition: 0.5s;
   overflow-y: auto;
@@ -2712,22 +2712,34 @@ footer .copyright span {
   position: relative;
   padding: 0 60px 0 60px;
   transform: translateY(-20%);
-  max-height: 0;
+  height: 0;
   overflow: hidden;
   transition: 0.5s;
   overflow-y: auto;
 }
 
 #section4 .accordion768 .contentBox.active .content768 {
-  max-height: 250px;
+  height: 250px;
 }
 
 #section4 .accordion375 .contentBox.active .content375 {
-  max-height: 330px;
+  height: 330px;
 }
 
-.content-375 p {
-  font-size: 12px;
+.content768 h5 {
+  font-size: 15.49px ;
+}
+
+.content768 p {
+  font-size: 10.25px;
+}
+
+.content375 h5 {
+  font-size: 14px ;
+}
+
+.content375 p {
+  font-size: 8px;
 }
 
 #section4 .content-accordion-768 {
@@ -2877,7 +2889,7 @@ footer .copyright span {
     width: 800px;
   } */
   #section4 {
-    height: 130vh;
+    min-height: 160vh;
   }
   #section4 .judul {
     margin: 0 20px 0 20px;
@@ -2910,6 +2922,20 @@ footer .copyright span {
     background-color: var(--warna2);
     /* height: 0; */
     border-radius: 0 0 20px 20px;
+  }
+
+  #section4 .accordion375 .contentBox .content375 {
+    position: relative;
+    padding: 0 40px 0 40px;
+    transform: translateY(-20%);
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+  }
+  
+  #section4 .accordion375 .contentBox.active .content375 {
+    height: 330px;
   }
 }
 
