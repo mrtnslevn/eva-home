@@ -373,12 +373,17 @@ body {
   animation-delay: 1000ms;
 }
 
-.box-1, .box-3, .box-7 {
+.box-1,
+.box-3,
+.box-7 {
   animation: float-down 3s infinite ease-in-out;
   animation-delay: 1s;
 }
 
-.box-2, .box-4, .box-5, .box-6 {
+.box-2,
+.box-4,
+.box-5,
+.box-6 {
   animation: float-up 3s infinite ease-in-out;
   animation-delay: 1s;
 }
@@ -973,12 +978,12 @@ body {
   }
   .desc h1 {
     font-size: 56px;
-    margin-top: 75px;  
+    margin-top: 75px;
     line-height: 70px;
-    font-weight: 900; 
+    font-weight: 900;
   }
   .desc p {
-    font-size: 18px; 
+    font-size: 18px;
     line-height: 30.6px;
   }
 
@@ -994,7 +999,6 @@ body {
 
   .desc .btn {
     margin-top: 26px;
-
   }
   .rect {
     width: 60px;
@@ -1867,13 +1871,25 @@ body {
 }
 .formSection .back-button {
   position: absolute;
-  bottom: -25px;
+  bottom: -30px;
   left: 0;
   right: 0;
   z-index: 8;
 }
+.formSection .back-button .teks {
+  font-size: 13px !important;
+}
 .formSection .formContent {
   padding: 65px 0px;
+}
+.formSection img.element-wave {
+  position: absolute;
+  top: 102%;
+  max-width: 270px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 2;
 }
 .formSection img.element-oval {
   position: absolute;
@@ -1944,20 +1960,27 @@ body {
   font-weight: 800;
 }
 .formSection .card-form h3:nth-child(1) span {
-  color: #F29E01;
+  color: #f29e01;
 }
 
 .formSection input,
-.formSection select {
+.formSection select,
+.formSection textarea {
   border: 1px solid #ededed;
-  background-color: #f7fafc;
-  color: #4A5568;
+  background-color: white;
+  color: #4a5568;
   font-size: 15px;
   padding: 7px 10px;
   margin-top: 5px;
 }
 .formSection input::placeholder {
   color: #a0aec0;
+}
+.formSection input:not([value=""]):not(:focus):invalid {
+  background-color: #f7fafc;
+}
+.formSection textarea:not([value=""]):not(:focus):invalid {
+  background-color: #f7fafc;
 }
 
 .formSection label {
@@ -1971,6 +1994,10 @@ body {
   margin-top: 40px;
 }
 @media (min-width: 576px) {
+  .formSection img.element-wave {
+    top: 105%;
+    max-width: 350px;
+  }
   .formSection::after {
     height: 50px;
     border-radius: 0px 0px 50px 50px;
@@ -1979,8 +2006,15 @@ body {
     height: 280px;
     width: 250px;
   }
+  .formSection .back-button .teks {
+    font-size: 14px !important;
+  }
 }
 @media (min-width: 768px) {
+  .formSection img.element-wave {
+    top: 105.8%;
+    max-width: 400px;
+  }
   .formSection::after {
     height: 60px;
     border-radius: 0px 0px 50px 50px;
@@ -1992,26 +2026,36 @@ body {
     font-size: 16px;
   }
   .formSection input,
-  .formSection select {
+  .formSection select,
+  .formSection textarea {
     font-size: 12px;
+  }
+  .formSection .back-button {
+    bottom: -60px;
+  }
+  .formSection .back-button .teks {
+    font-size: 15px !important;
   }
 }
 @media (min-width: 992px) {
   .formSection {
     margin-bottom: 140vh;
   }
+  .formSection img.element-wave {
+    top: 105.5%;
+    max-width: 500px;
+  }
   .formSection .card-form h3:nth-child(1) {
     font-weight: 900;
     font-size: 32px;
   }
-  .formSection .back-button {
-    bottom: -35px;
-  }
+
   .formSection label {
     font-size: 13px;
   }
   .formSection input,
-  .formSection select {
+  .formSection select,
+  .formSection textarea {
     font-size: 11px;
   }
   .formSection .image-form {
@@ -2038,8 +2082,17 @@ body {
     bottom: 10%;
     border-radius: 20px;
   }
+  .formSection .back-button {
+    bottom: -60px;
+  }
+  .formSection .back-button .teks {
+    font-size: 16px !important;
+  }
 }
 @media (min-width: 1200px) {
+  .formSection img.element-wave {
+    top: 114%;
+  }
   .formSection::after {
     height: 130px;
     border-radius: 0px 0px 70px 70px;
@@ -2056,7 +2109,10 @@ body {
     align-items: center;
   }
   .formSection .back-button {
-    bottom: -85px;
+    bottom: -130px;
+  }
+  .formSection .back-button .teks {
+    font-size: 17px !important;
   }
 }
 
@@ -2064,8 +2120,12 @@ body {
   .formSection {
     margin-bottom: 0vh;
   }
+  .formSection img.element-wave {
+    top: 113%;
+  }
   .formSection input,
-  .formSection select {
+  .formSection select,
+  .formSection textarea {
     font-size: 15px;
   }
   .formSection label {
@@ -2083,7 +2143,10 @@ body {
   }
   .formSection .back-button {
     font-size: 18px !important;
-    bottom: -95px;
+    bottom: -120px;
+  }
+  .formSection .back-button .teks {
+    font-size: 18px !important;
   }
 }
 /* ----------------------------------------------------------------------------------------------------------- */
@@ -2999,7 +3062,7 @@ footer .copyright span {
 }
 
 #section4 .card768 .icon-button-open {
-  background-color: #2B2B29;
+  background-color: #2b2b29;
   color: white;
   height: 50px;
   width: 50px;
@@ -3013,7 +3076,6 @@ footer .copyright span {
 #section4 .card768 .icon-button-open i {
   padding: 15px 10px;
 }
-
 
 #section4 .card768 .icon-rec {
   top: 120px;
@@ -3031,7 +3093,7 @@ footer .copyright span {
 }
 
 #section4 .card375 .icon-button-open {
-  background-color: #2B2B29;
+  background-color: #2b2b29;
   color: white;
   height: 30px;
   width: 30px;
@@ -3048,7 +3110,6 @@ footer .copyright span {
 #section4 .card375 .icon-button-open i {
   padding: 8px 10px 10px 8px;
 }
-
 
 #section4 .card375 .icon-rec {
   top: 170px;
@@ -3369,7 +3430,7 @@ footer .copyright span {
 }
 
 html::-webkit-scrollbar {
-  width:1vw;
+  width: 1vw;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -3379,17 +3440,17 @@ html::-webkit-scrollbar-thumb {
 }
 
 html::-webkit-scrollbar-track {
-  border: 1px solid #D6D6CC;
-  background-color: #EDF2F7;
+  border: 1px solid #d6d6cc;
+  background-color: #edf2f7;
 }
 
 .pesan {
   border: 1px solid #ededed;
   background-color: #f7fafc;
-  color: #4A5568;
+  color: #4a5568;
   font-size: 15px;
 }
 
 .pesan::placeholder {
-  color: #A0AEC0;
+  color: #a0aec0;
 }
