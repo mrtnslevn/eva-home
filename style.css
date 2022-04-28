@@ -2047,7 +2047,7 @@ body {
   }
   .formSection .card-form h3:nth-child(1) {
     font-weight: 900;
-    font-size: 32px;
+    font-size: 24px;
   }
 
   .formSection label {
@@ -2093,6 +2093,10 @@ body {
   .formSection img.element-wave {
     top: 114%;
   }
+  .formSection .card-form h3:nth-child(1) {
+    font-weight: 900;
+    font-size: 28px;
+  }
   .formSection::after {
     height: 130px;
     border-radius: 0px 0px 70px 70px;
@@ -2119,6 +2123,10 @@ body {
 @media (min-width: 1400px) {
   .formSection {
     margin-bottom: 0vh;
+  }
+  .formSection .card-form h3:nth-child(1) {
+    font-weight: 900;
+    font-size: 32px;
   }
   .formSection img.element-wave {
     top: 113%;
