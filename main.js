@@ -1,3 +1,7 @@
+if (window.matchMedia("(max-width: 992px)").matches) {
+  $('#nav li.dropdown>a').attr('data-bs-toggle','dropdown');
+}
+
 $(document).ready(function () {
   var $win = $(window);
 
@@ -39,7 +43,6 @@ document.querySelector('#nav .first-button').addEventListener('click', function 
 
   document.querySelector('#nav .animated-icon1').classList.toggle('open');
   });
-
 
 const loopImage = gsap.timeline({repeat: -1});
 const header = gsap.timeline();
@@ -116,42 +119,42 @@ if(window.matchMedia("(min-width: 992px)").matches) {
   header
     .fromTo(
       ".desc h1",
-      { x: -500, opacity: 0 },
-      { x: 0, opacity: 1, duration: 1, delay: 0.2 },
+      { x: -500, autoAlpha: 0 },
+      { x: 0, autoAlpha: 1, duration: 0.6, delay: 0.2 },
       "first"
     )
     .fromTo(
       ".desc p",
-      { x: -500, opacity: 0 },
-      { x: 0, opacity: 1, duration: 1, delay: 0.2 },
+      { x: -500, autoAlpha: 0 },
+      { x: 0, autoAlpha: 1, duration: 0.6, delay: 0.2 },
       "first"
     )
     .fromTo(
       ".employee-img",
-      { display: "none", opacity: 0 },
-      { display: "block", opacity: 1, duration: 1.5 },
+      { display: "none", autoAlpha: 0 },
+      { display: "block", autoAlpha: 1, duration: 0.6 },
       "second"
     )
     .fromTo(
       ".title",
-      { display: "none", opacity: 0 },
-      { display: "block", opacity: 1, duration: 1.5 },
+      { display: "none", autoAlpha: 0 },
+      { display: "block", autoAlpha: 1, duration: 0.6 },
       "second"
     )
     .fromTo(
       ".rect",
       { y: 1000, display: "none" },
-      { y: 0, display: "block", duration: 1 },
+      { y: 0, display: "block", duration: 0.6, delay: 0.1 },
       "third"
     )
     .fromTo(
-      ".desc a",
-      { display: "none", opacity: 0 },
-      { display: "block", opacity: 1, duration: 1 },
+      ".desc .btn .solusiButton",
+      { display: "none", autoAlpha: 0 },
+      { display: "block", autoAlpha: 1, duration: 0.6, delay: 0.1 },
       "third"
     )
-    .fromTo("nav", { autoAlpha: 0 }, { autoAlpha: 1, duration: 1 }, "third")
-    .fromTo(".icon-scroll", {autoAlpha: 0}, {autoAlpha: 1, duration: 1}, "third");
+    .fromTo("nav", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.6, delay: 0.1 }, "third")
+    .fromTo(".icon-scroll", {autoAlpha: 0}, {autoAlpha: 1, duration: 0.6, delay: 0.1}, "third");
 }
 
 $(window).on("resize", resize);
@@ -188,5 +191,5 @@ $('#section3-4 .anim3 .btn').click(function() {
 })
 
 $('.back-button button').click(function () {
-  $("html, body").animate({ scrollTop: $('#section4').offset().top });
+  $("html, body").animate({ scrollTop: $('#section4').offset().top - 80});
 });
