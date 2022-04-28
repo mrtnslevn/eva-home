@@ -2997,6 +2997,73 @@ footer .copyright span {
   transform: rotateY(180deg);
 }
 
+#section4 .card768 .icon-button-open {
+  background-color: #2B2B29;
+  color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#section4 .card768 .icon-button-open i {
+  padding: 15px 10px;
+}
+
+
+#section4 .card768 .icon-rec {
+  top: 120px;
+  left: 43%;
+}
+
+#section4 .card768 .icon-essen {
+  top: 90px;
+  left: 43%;
+}
+
+#section4 .card768 .icon-tm {
+  top: 100px;
+  left: 43%;
+}
+
+#section4 .card375 .icon-button-open {
+  background-color: #2B2B29;
+  color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.icon-button-active {
+  transform: rotate(180deg);
+}
+
+#section4 .card375 .icon-button-open i {
+  padding: 8px 10px 10px 8px;
+}
+
+
+#section4 .card375 .icon-rec {
+  top: 170px;
+  left: 62%;
+}
+
+#section4 .card375 .icon-essen {
+  top: 140px;
+  left: 20%;
+}
+
+#section4 .card375 .icon-tm {
+  top: 148px;
+  left: 63%;
+}
+
 @media (min-width: 320px) {
   #section3-4 {
     height: 680px;
