@@ -881,19 +881,32 @@ body {
   }
   .desc h1 {
     font-size: 56px;
+<<<<<<< Updated upstream
     margin-top: 75px;
     line-height: 70px;
     font-weight: 900;
   }
   .desc p {
     font-size: 18px;
+=======
+    margin-top: 75px;  /*rd*/
+    line-height: 70px;
+    font-weight: 900; /*rd*/
+  }
+  .desc p {
+    font-size: 18px; /*rd*/
+>>>>>>> Stashed changes
     line-height: 30.6px;
   }
   .desc .btn,
   .anim3 .btn {
     font-size: 18px;
     width: 295.18px;
+<<<<<<< Updated upstream
     margin-top: 40px !important;
+=======
+    margin-top: 40px !important; /*rd*/
+>>>>>>> Stashed changes
   }
   .rect {
     width: 60px;
