@@ -1944,15 +1944,15 @@ body {
   font-weight: 800;
 }
 .formSection .card-form h3:nth-child(1) span {
-  color: #ffc42f;
+  color: #F29E01;
 }
 
 .formSection input,
 .formSection select {
   border: 1px solid #ededed;
   background-color: #f7fafc;
-  color: #212529;
-  font-size: 12px;
+  color: #4A5568;
+  font-size: 15px;
   padding: 7px 10px;
   margin-top: 5px;
 }
@@ -1968,7 +1968,7 @@ body {
 .formSection button {
   color: #2d3748;
   font-weight: 600;
-  margin-top: 15px;
+  margin-top: 40px;
 }
 @media (min-width: 576px) {
   .formSection::after {
@@ -2002,7 +2002,7 @@ body {
   }
   .formSection .card-form h3:nth-child(1) {
     font-weight: 900;
-    font-size: 24px;
+    font-size: 32px;
   }
   .formSection .back-button {
     bottom: -35px;
@@ -2066,10 +2066,10 @@ body {
   }
   .formSection input,
   .formSection select {
-    font-size: 13px;
+    font-size: 15px;
   }
   .formSection label {
-    font-size: 17px;
+    font-size: 15px;
   }
   .formSection .image-form img {
     max-height: 550px;
@@ -3366,4 +3366,30 @@ footer .copyright span {
   #section4 .btn {
     font-size: 18px;
   }
+}
+
+html::-webkit-scrollbar {
+  width:1vw;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #454045;
+  border-radius: 20px;
+  box-shadow: var(--warna5) 0px 2px;
+}
+
+html::-webkit-scrollbar-track {
+  border: 1px solid #D6D6CC;
+  background-color: #EDF2F7;
+}
+
+.pesan {
+  border: 1px solid #ededed;
+  background-color: #f7fafc;
+  color: #4A5568;
+  font-size: 15px;
+}
+
+.pesan::placeholder {
+  color: #A0AEC0;
 }
