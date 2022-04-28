@@ -981,20 +981,19 @@ body {
     font-size: 18px; 
     line-height: 30.6px;
   }
-<<<<<<< HEAD
+
   .desc .btn,
   .anim3 .btn {
     font-size: 18px;
     width: 295.18px;
-<<<<<<< Updated upstream
+
     margin-top: 40px !important;
-=======
+
     margin-top: 40px !important;
->>>>>>> Stashed changes
-=======
+
   .desc .btn {
     margin-top: 26px;
->>>>>>> main
+
   }
   .rect {
     width: 60px;
