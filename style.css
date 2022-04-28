@@ -973,12 +973,12 @@ body {
   }
   .desc h1 {
     font-size: 56px;
-    margin-top: 75px;  /*rd*/
+    margin-top: 75px;  
     line-height: 70px;
-    font-weight: 900; /*rd*/
+    font-weight: 900; 
   }
   .desc p {
-    font-size: 18px; /*rd*/
+    font-size: 18px; 
     line-height: 30.6px;
   }
 <<<<<<< HEAD
