@@ -3171,7 +3171,7 @@ footer .copyright span {
     width: 800px;
   } */
   #section4 {
-    min-height: 130vh;
+    height: 130vh;
   }
   #section4 .judul {
     margin: 0 20px 0 20px;
@@ -3332,7 +3332,7 @@ footer .copyright span {
     white-space: nowrap;
   }
   #section4 {
-    height: 700px;
+    height: 100vh;
   }
   #section4 .judul {
     font-size: 38px !important;
@@ -3367,7 +3367,7 @@ footer .copyright span {
     margin: 32px 0 32px 0;
   }
   #section4 {
-    height: 800px;
+    height: 100vh;
   }
   #section4 .judul {
     font-size: 48px !important;
@@ -3414,7 +3414,7 @@ footer .copyright span {
     font-size: 56px;
   }
   #section4 {
-    height: 900px;
+    height: 80vh;
   }
   #section4 .judul {
     font-size: 56px !important;
