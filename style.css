@@ -2325,7 +2325,7 @@ footer .copyright span {
 #section4 {
   position: relative;
   background-color: #e2e8f0;
-  height: 700px;
+  height: 850px;
   overflow: hidden;
   z-index: 1;
   box-shadow: #e2e8f0 0px 10px;
@@ -2347,9 +2347,6 @@ footer .copyright span {
 
 #section4 .card768 {
   display: block;
-  height: 550px;
-  overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 .tm768,
@@ -2523,9 +2520,6 @@ footer .copyright span {
   }
   #section4 .judul {
     margin: 0 20px 0 20px;
-  }
-  #section4 .card768 {
-    height: 670px;
   }
   #section4 .accordion-768 {
     display: block;
