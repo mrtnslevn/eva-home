@@ -1304,7 +1304,7 @@ footer .copyright span {
 #section4 {
   position: relative;
   background-color: #e2e8f0;
-  height: 1400px;
+  height: 750px;
   overflow: hidden;
   z-index: 1;
   box-shadow: #e2e8f0 0px 10px;
@@ -1314,6 +1314,12 @@ footer .copyright span {
   font-weight: 900;
   font-size: 28px !important;
   line-height: 35px;
+}
+
+#section4 .card375 {
+  height: 550px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .tm375,
@@ -1429,7 +1435,7 @@ footer .copyright span {
     margin-top: 20px;
   }
   #section4 {
-    height: 1550px;
+    height: 850px;
   }
   #section4 .judul {
     margin: 0 20px 0 20px;
@@ -1437,6 +1443,7 @@ footer .copyright span {
   #section4 .card375 {
     display: block;
     z-index: 1;
+    height: 720px;
   }
   #section4 .accordion-375 {
     padding: 0 70px 0 70px;
