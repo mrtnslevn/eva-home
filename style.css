@@ -2325,7 +2325,7 @@ footer .copyright span {
 #section4 {
   position: relative;
   background-color: #e2e8f0;
-  height: 125vh;
+  height: 1450px;
   overflow: hidden;
   z-index: 1;
   box-shadow: #e2e8f0 0px 10px;
@@ -2516,7 +2516,7 @@ footer .copyright span {
     margin: 12px 0 12px 0;
   }
   #section4 {
-    height: 125vh;
+    height: 1350px;
   }
   #section4 .judul {
     margin: 0 20px 0 20px;
