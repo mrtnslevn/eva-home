@@ -3,11 +3,11 @@ const accordion = document.getElementsByClassName('contentBox');
 for (i = 0; i< accordion.length; i++){
     accordion[i].addEventListener('click', function(){
         if($(this).hasClass('active')) {
-            $('#section4').height(function(n,c){
+            $('#flip-card').height(function(n,c){
                 return c-250;
             })
         } else {
-            $('#section4').height(function(n,c){
+            $('#flip-card').height(function(n,c){
                 return c+250;
             })
         }

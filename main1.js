@@ -110,7 +110,7 @@ if(window.matchMedia("(min-width: 992px)").matches) {
 }
 
 $('.scroll-down-icon').click(function() {
-  $('html, body').animate({ scrollTop: $('#section3-4').offset().top});
+  $('html, body').animate({ scrollTop: $('#bagianEVA').offset().top});
 })
 
 $('.section1 .desc .btn').click(function() {
@@ -122,5 +122,5 @@ $('#section3-4 .anim3 .btn').click(function() {
 })
 
 $('.back-button button').click(function () {
-  $("html, body").animate({ scrollTop: $('#section4').offset().top - 80});
+  $("html, body").animate({ scrollTop: $('#flip-card').offset().top - 80});
 });

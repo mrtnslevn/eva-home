@@ -1210,7 +1210,7 @@ footer .copyright span {
 /* -------------------------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------------------------------- */
 
-#section3-4 {
+#bagianEVA {
   position: relative;
   height: 680px;
   overflow: hidden;
@@ -1219,7 +1219,7 @@ footer .copyright span {
   box-shadow: #edf2f7 0px 10px;
 }
 
-#section3-4 .judul {
+#bagianEVA .judul {
   font-size: 32px;
   font-weight: 800 !important;
   margin: 0 15px 0 15px;
@@ -1227,16 +1227,16 @@ footer .copyright span {
   letter-spacing: 0.05em;
 }
 
-#section3-4 .row {
+#bagianEVA .row {
   --bs-gutter-x: 0rem;
 }
 
-#section3-4 .anim2 {
+#bagianEVA .anim2 {
   font-size: 18px;
   margin: 0 15px 0 15px;
 }
 
-#section3-4 .slider {
+#bagianEVA .slider {
   overflow: hidden;
   position: relative;
   display: flex;
@@ -1244,11 +1244,11 @@ footer .copyright span {
   margin-top: 40px;
 }
 
-#section3-4 .slider img {
+#bagianEVA .slider img {
   width: 900px;
 }
 
-#section3-4 .slider .slide-track {
+#bagianEVA .slider .slide-track {
   margin-top: -100px;
   -webkit-animation: marquee3 36s linear infinite;
   animation: marquee3 36s linear infinite;
@@ -1265,7 +1265,7 @@ footer .copyright span {
   }
 }
 
-#section3-4 .rectangle {
+#bagianEVA .rectangle {
   position: absolute;
   width: 100vw;
   height: 20%;
@@ -1294,7 +1294,7 @@ footer .copyright span {
   background-color: #ffa600 !important;
 }
 
-#section3-4 .back-circle {
+#bagianEVA .back-circle {
   width: 100%;
   border-radius: 0 0 100% 100%;
   background-color: #e2e8f0;
@@ -1302,10 +1302,10 @@ footer .copyright span {
 }
 
 @media (min-width: 375px) {
-  #section3-4 {
+  #bagianEVA {
     height: 630px;
   }
-  #section3-4 .slider {
+  #bagianEVA .slider {
     margin-top: 20px;
   }
  

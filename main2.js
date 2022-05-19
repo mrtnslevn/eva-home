@@ -16,7 +16,7 @@ if(window.matchMedia("(min-width: 992px)").matches) {
   
   ScrollTrigger.create({
     animation: tl3,
-    trigger: "#section3-4",
+    trigger: "#bagianEVA",
     start: "0% 10%",
     end: "90% center",
     toggleActions: "play none none none",
@@ -34,7 +34,7 @@ if(window.matchMedia("(min-width: 992px)").matches) {
   
   ScrollTrigger.create({
     animation: tl4,
-    trigger: "#section4",
+    trigger: "#flip-card",
     start:"0% 10%",
     end: "90% center",
     toggleActions: "play none none none",
