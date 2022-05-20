@@ -1,5 +1,6 @@
 body {
   font-family: "Inter", sans-serif;
+  background-color: #2b2b29;
 }
 
 :root {
@@ -1308,7 +1309,6 @@ footer .copyright span {
   #bagianEVA .slider {
     margin-top: 20px;
   }
- 
 }
 
 html::-webkit-scrollbar {
@@ -1344,12 +1344,11 @@ html::-webkit-scrollbar-track {
   /* height: 100vh; */
   /* min-width: 100vw; */
   padding-bottom: 150px;
-  z-index: 2; 
-  position: relative; 
+  z-index: 2;
+  position: relative;
   background-color: #e2e8f0;
   font-family: "Inter", sans-serif;
 }
-
 
 #flip-card p.judul {
   font-weight: 900;
@@ -1359,13 +1358,12 @@ html::-webkit-scrollbar-track {
   display: none;
 }
 
-.recruit786, 
-
+.recruit786,
 .card768 {
   display: none;
 }
 
-.card375{
+.card375 {
   display: block;
 }
 
@@ -1517,13 +1515,16 @@ html::-webkit-scrollbar-track {
   left: 63%;
 }
 
-.recruit768, .essen768, .tm768, .recruit375, .essen375, .tm375 {
+.recruit768,
+.essen768,
+.tm768,
+.recruit375,
+.essen375,
+.tm375 {
   transform: translateX(15px);
   position: relative;
   z-index: 1;
-} 
-
-
+}
 
 #flip-card .accordion768 .contentBox .content768 {
   position: relative;
@@ -1539,8 +1540,8 @@ html::-webkit-scrollbar-track {
   position: absolute;
   top: 50%;
   right: 50%;
-  transform: translate(50.4%,-50%);
-  max-width:100%;
+  transform: translate(50.4%, -50%);
+  max-width: 100%;
 }
 .content768 h5 {
   font-size: 18px;
@@ -1548,7 +1549,8 @@ html::-webkit-scrollbar-track {
 .content768 p {
   font-size: 14px;
 }
-.content-accordion-768, .content-accordion-375{
+.content-accordion-768,
+.content-accordion-375 {
   background-color: var(--warna2);
   border-radius: 0 0 20px 20px;
 }
@@ -1573,14 +1575,13 @@ html::-webkit-scrollbar-track {
   position: absolute;
   top: 50%;
   right: 50%;
-  transform: translate(49.4%,-50%);
+  transform: translate(49.4%, -50%);
   min-width: 77.3%;
 }
 
 #flip-card .accordion375 .contentBox.active .content375 {
   height: 250px;
   transform: translateY(-15%);
-  
 }
 
 #flip-card .content-accordion-375 {
@@ -1598,11 +1599,11 @@ html::-webkit-scrollbar-track {
 }
 
 .content375 .btn-acc {
-background-color: var(--warna6);
-color: white;
-font-size: 14px;
-padding: 5px 30px 5px 30px;
-border-radius: 11px;
+  background-color: var(--warna6);
+  color: white;
+  font-size: 14px;
+  padding: 5px 30px 5px 30px;
+  border-radius: 11px;
 }
 
 /* media 375 for flip-card */
@@ -1610,10 +1611,10 @@ border-radius: 11px;
   #flip-card p.judul {
     font-size: 28px;
   }
-  .card375{
+  .card375 {
     display: block;
   }
-  .card678{
+  .card678 {
     display: none;
   }
   #flip-card {
@@ -1635,14 +1636,13 @@ border-radius: 11px;
     position: absolute;
     top: 50%;
     right: 50%;
-    transform: translate(49.4%,-50%);
+    transform: translate(49.4%, -50%);
     min-width: 76%;
-}
+  }
 
   #flip-card .accordion375 .contentBox.active .content375 {
     height: 250px;
     transform: translateY(-15%);
-    
   }
 
   #flip-card .content-accordion-375 {
@@ -1660,26 +1660,25 @@ border-radius: 11px;
   }
 
   .content375 .btn-acc {
-  background-color: var(--warna6);
-  color: white;
-  font-size: 14px;
-  padding: 5px 30px 5px 30px;
-  border-radius: 11px;
+    background-color: var(--warna6);
+    color: white;
+    font-size: 14px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 11px;
   }
-
 }
 
 /* media 375 for flip-card */
-@media screen and (min-width: 576px){
+@media screen and (min-width: 576px) {
   #flip-card p.judul {
     font-size: 40px;
     letter-spacing: 5px;
   }
 
-  .card768{
+  .card768 {
     display: block;
   }
-  .card375{
+  .card375 {
     display: none;
   }
 
@@ -1705,7 +1704,6 @@ border-radius: 11px;
     padding: 40px 20px 10px 20px;
   }
 
-  
   #flip-card .accordion768 .contentBox .content768 {
     position: relative;
     /* padding: 0 60px 0 60px; */
@@ -1722,11 +1720,11 @@ border-radius: 11px;
 }
 
 /* media 768 for flip-card */
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   #flip-card .row {
     display: none;
   }
-  .card375{
+  .card375 {
     display: none;
   }
   .card758 {
@@ -1766,10 +1764,9 @@ border-radius: 11px;
 }
 
 /* media 992 for flip-card */
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
   #flip-card {
-   padding-bottom: 200px;
-    
+    padding-bottom: 200px;
   }
   #flip-card .judul {
     font-size: 38px !important;
@@ -1778,7 +1775,8 @@ border-radius: 11px;
   #flip-card .row {
     display: flex;
   }
-   .card768, .card375 {
+  .card768,
+  .card375 {
     display: none;
   }
 
@@ -1790,8 +1788,9 @@ border-radius: 11px;
 }
 
 /* media 1200 for flip-card */
-@media screen and (min-width: 1200px){
-   .card768,  .card375 {
+@media screen and (min-width: 1200px) {
+  .card768,
+  .card375 {
     display: none;
   }
   /* #flip-card {
@@ -1804,7 +1803,7 @@ border-radius: 11px;
     font-size: 48px !important;
     letter-spacing: normal !important;
   }
-  
+
   .back-judul {
     font-size: 1.3rem;
     padding-left: 8%;
@@ -1826,7 +1825,7 @@ border-radius: 11px;
 }
 
 /* media 1400 for flip-card */
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1400px) {
   .card768 .card375 {
     display: none;
   }
