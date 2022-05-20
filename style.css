@@ -339,7 +339,7 @@ body {
   line-height: 27.2px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 1rem !important;
+  /* margin-top: 1rem !important; */
   margin-bottom: 1rem;
   margin-left: 20px;
   margin-right: 20px;
@@ -782,6 +782,7 @@ body {
   .desc p {
     font-size: 18px;
     line-height: 30.6px;
+    /* margin-top: 40px !important; */
   }
 
   .desc .btn,
